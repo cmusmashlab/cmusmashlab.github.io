@@ -19,7 +19,7 @@ code {
 }
 
 .publication-badge {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   .glyphicon-file {
     color: #980000;
   }
@@ -49,20 +49,27 @@ code {
     }
     
   }
+  .authors {
+  font-weight: lighter;
+  }
   .authors a {
     color: $darkGray;
     text-decoration: underline;
+    font-weight: lighter;
   }
+
   h2 {
     margin-top: 0px;
     margin-bottom: 2px;
     font-size: 15px;
-    font-family: $avenirHeavy;
+    font-family: $avenir;
+    font-weight: lighter !important;
+    color:rgb(155,0,0) !important;
   }
 
   .btn {
     //width: 70px;
-    //margin-top: 5px;
+    margin-top: 7px;
     //text-align:left;
   }
 
