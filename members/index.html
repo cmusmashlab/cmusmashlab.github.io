@@ -11,9 +11,9 @@ redirect_from: /people
 {% assign master_alumni = sorted_members | where:"status","master_alumni" %}
 {% assign ugrad_alumni = sorted_members | where:"status","ugrad_alumni" %}
 {% assign faculty = sorted_members | where:"status","shifu" %}
-{% assign shwetak = faculty | first %}
+{% assign goel = faculty | first %}
 
-{% assign member = shwetak %}
+{% assign member = goel %}
 <h1>Faculty</h1>
 <div class="row">
   <div class="member-badge col-md-2 col-sm-3 col-xs-4">
@@ -22,7 +22,7 @@ redirect_from: /people
   <div class="member-badge col-md-10 col-sm-9 col-xs-8">
     <div class="details">
       <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
-      <div class="affiliation">Shwetak N. Patel is the Washington Research Foundation Entrepreneurship Endowed Professor in Computer Science & Engineering and Electrical Engineering. His research interests are in the areas of Human-Computer Interaction, Ubiquitous Computing, Sensor-enabled Embedded Systems, and User Interface Software and Technology. Shwetak was a co-founder of Zensi, Inc., a residential energy monitoring company, which was acquired by Belkin, Inc in 2010. He was also a co-founder of a low-power wireless sensor platform company called SNUPI Technologies and a consumer home sensing product called WallyHome, which was acquired by Sears in 2015. He received his Ph.D. in Computer Science from the Georgia Institute of Technology in 2008 and B.S. in Computer Science in 2003. Shwetak is a recipient of a MacArthur Fellowship (2011), Microsoft Research Faculty Fellowship (2011), Sloan Fellowship (2012), MIT TR-35 Award (2009), NSF Career Award (2013), and the Presidential PECASE Award (2016).
+      <div class="affiliation">Mayank Goel is an Assistant Professor in the Institute of Software Research and Human-Computer Interaction Institute in the School of Computer Science. His research interests are in the areas of Human-Computer Interaction, Ubiquitous Computing, Sensing, Signal Processing, and Applications of Machine Learning. He regularly collaborates with mechanical and biomedical engineers as well as doctors, nurses, and community health workers. Some of his inventions are deployed in clinics around the world and licensed to many companies, including Alphabet Inc. and Tandem Launch, Inc. He received his Ph.D. in Computer Science and Engineering from the University of Washington, M.S. in Computer Science from the Georgia Institute of Technology, and B.Tech. in Computer Science and Engineering from GGS Indraprastha University. As a Ph.D. student, Mayank was a recipient of a Donald C Whitworth Fellowship and a Microsoft Research Ph.D. Fellowship.
 </div>
 <!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
     </div>
@@ -61,7 +61,8 @@ redirect_from: /people
 </div>
 
 <br/>
-<h1>Former PhD Students</h1>
+
+<!-- <h1>Former PhD Students</h1>
 <div class="row">
 {% for member in alumni %}
 
@@ -70,11 +71,10 @@ redirect_from: /people
     <div class="details">
       <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
       <div class="affiliation">{% if member.affiliation != nil %}{{ member.affiliation }}{% endif %}</div>
-<!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
     </div>
   </div>
 {% endfor %}
-</div>
+</div> -->
 
 
 <h1>Former Masters Students</h1>
