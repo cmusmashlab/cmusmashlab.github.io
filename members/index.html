@@ -59,8 +59,7 @@ redirect_from: /people
       <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
             <div class="degree">{% if member.degree != nil %}{{ member.degree }}{% endif %}</div>
       <div class="affiliation">{% if member.affiliation != nil %}{{ member.affiliation }}{% endif %}</div>
-
-<!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
+      <div class="email">{% if member.email != nil %}<span><a href="mailto::{{ member.email }}">{{ member.email }}</a></span>{% endif %} </div>
     </div>
   </div>
 {% endfor %}
