@@ -33,9 +33,9 @@ citation: |-
 conference: ACM International Joint Conference on Pervasive and Ubiquitous Computing
   (UbiComp), 2012
 date: '2012-09-05'
-image: ''
+image: '/images/pubs/spirosmart.jpg'
 pdf: /pdfs/spirosmart.pdf
-thumbnail: ''
+thumbnail: '/images/pubs/spirosmart.jpg'
 title: 'SpiroSmart: Using a Microphone to Measure Lung Function on a Mobile Phone'
 video: ''
 video_embed: ''

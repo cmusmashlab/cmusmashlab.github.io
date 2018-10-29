@@ -29,9 +29,9 @@ citation: |-
   Mayank Goel, Jacob Wobbrock, and Shwetak Patel. 2012. GripSense: using built-in sensors to detect hand posture and pressure on commodity mobile phones.  In Proceedings of the 25th annual ACM symposium on User interface software and technology (UIST '12). ACM, New York, NY, USA,  545-554. DOI=http://dx.doi.org/10.1145/2380116.2380184
 conference: ACM symposium on User Interface Software and Technology (UIST), 2012
 date: '2012-10-07'
-image: ''
+image: '/images/pubs/gripsense.jpg'
 pdf: /pdfs/gripsense.pdf
-thumbnail: ''
+thumbnail: '/images/pubs/gripsense.jpg'
 title: 'GripSense: Using Built-in Sensors to Detect Hand Posture and Pressure on Commodity
   Mobile Phones'
 video: ''

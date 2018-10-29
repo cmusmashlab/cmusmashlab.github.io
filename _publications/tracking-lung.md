@@ -32,9 +32,9 @@ citation: |-
   Eric C. Larson, Mayank Goel, Morgan Redfield, Gaetano Boriello, Margaret Rosenfeld, and Shwetak N. Patel. 2013. Tracking lung function on any phone.  In Proceedings of the 3rd ACM Symposium on Computing for Development (ACM DEV '13). ACM, New York, NY, USA, , Article 29 , 2 pages. DOI=http://dx.doi.org/10.1145/2442882.2442917
 conference: ACM DEV '13
 date: '2013-01-11'
-image: ''
+image: '/images/pubs/trackinglungfunction.jpg'
 pdf: /pdfs/tracking-lung.pdf
-thumbnail: ''
+thumbnail: '/images/pubs/trackinglungfunction.jpg'
 title: Tracking Lung Function on Any Phone
 video: ''
 video_embed: ''
