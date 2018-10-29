@@ -23,7 +23,9 @@ redirect_from: /people
     <div class="details">
       <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
       <div class="affiliation">Mayank Goel is an Assistant Professor in the Institute of Software Research and Human-Computer Interaction Institute in the School of Computer Science. His research interests are in the areas of Human-Computer Interaction, Ubiquitous Computing, Sensing, Signal Processing, and Applications of Machine Learning. He regularly collaborates with mechanical and biomedical engineers as well as doctors, nurses, and community health workers. Some of his inventions are deployed in clinics around the world and licensed to many companies, including Alphabet Inc. and Tandem Launch, Inc. He received his Ph.D. in Computer Science and Engineering from the University of Washington, M.S. in Computer Science from the Georgia Institute of Technology, and B.Tech. in CSE from GGS Indraprastha University. As a Ph.D. student, Mayank was a recipient of a Donald C Whitworth Fellowship and a Microsoft Research Ph.D. Fellowship.
+
 </div>
+<div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %} </div>
 <!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
     </div>
   </div>
