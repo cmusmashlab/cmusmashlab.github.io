@@ -21,7 +21,7 @@ Fields:
 Images should be uploaded to `images/members/`. Images should be square and (ideally) 165x165px. If you upload something else, it will be cropped.
 
 ## Adding Publication
-Create a new file in `_publications/`. I recommend copying an existing file (such as `eyecontact.md`).
+Create a new file in `_publications/`. I recommend copying an existing file (such as `spirocall.md`).
 
 - `authors`: This should be a list of full names. If an author is a lab member (or former lab member), use the member's `id` instead of their name to link it to their website.
 - `award`: Should be either '', 'Best Paper Award', or 'Honorable Mention Award'.
@@ -30,7 +30,7 @@ Create a new file in `_publications/`. I recommend copying an existing file (suc
 - `citation`: Copy from the ACM DL, not from Google.
 - `conference`: This should be in the format: ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp), 2011
 - `date`: Publication/presentation date
-- `image`: Hi res image for the project detail page (accompanies `caption`). Add to `images/pubs/`.
+- `image`: Hi res image for the project detail page (accompanies `caption`). Add to `images/pubs/`. Try to keep the image to a 3:2 aspect ratio
 - `news`: (optional) List of different press releases, which contains
 	- `name`: the name of the news entity
 	- `url`: the url to the article
@@ -41,6 +41,8 @@ Create a new file in `_publications/`. I recommend copying an existing file (suc
 - `title`: Verbatim paper title
 - `video`: (optional) Link to external video, such as YouTube or Vimeo.
 - `video_embed`: (optional) HTML embed code for video player
+- `onhomepage` : true if want to showcase on homepage
+- `name` : short name (e.g., SpiroCall or EarBit)
 
 
 ## Scraping the ACM DL
@@ -53,4 +55,5 @@ If your paper is published by the ACM, you can create most of this metadata auto
 3. Clone down your fork `git clone git@gitlab.cs.washington.edu:ubicomplab/ubicomplab.github.io.git`
 4. Serve the site and watch for markup/sass changes `jekyll serve`
 5. View your website at http://127.0.0.1:4000/
-6. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+6. Install bibtexparser (if you want to populate your pubs automatically)
+7. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.

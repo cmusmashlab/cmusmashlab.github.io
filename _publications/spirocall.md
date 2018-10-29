@@ -37,7 +37,9 @@ date: '2016-05-07'
 image: '/images/pubs/spirocall.jpg'
 pdf: /pdfs/spirocall.pdf
 thumbnail: '/images/pubs/spirocall_thumb.jpg'
+name: 'SpiroCall'
 title: 'SpiroCall: Measuring Lung Function over a Phone Call'
 video: 'https://www.youtube.com/watch?v=e62ZL3dCQWM'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e62ZL3dCQWM" frameborder="0" allowfullscreen></iframe>'
+onhomepage: true
 ---

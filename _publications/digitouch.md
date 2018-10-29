@@ -36,4 +36,6 @@ bibtex: |
      address = {New York, NY, USA},
      keywords = {Wearable computing, eyes-free input, glove, head-mounted displays, thumb-to-finger},
     }
+name: 'DigiTouch'
+onhomepage: true
 ---

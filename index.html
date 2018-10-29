@@ -3,7 +3,14 @@ layout: default
 
 ---
 
-{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+{% assign sorted_members = site.data.members | sort: 'id' %}
+{% assign current_members = sorted_members | where:"status","current" %}
+{% assign visiting = sorted_members | where:"status","visiting" %}
+{% assign alumni = sorted_members | where:"status","alumni" %}
+{% assign master_alumni = sorted_members | where:"status","master_alumni" %}
+{% assign ugrad_alumni = sorted_members | where:"status","ugrad_alumni" %}
+{% assign faculty = sorted_members | where:"status","shifu" %}
+{% assign goel = faculty | first %}
 
 <div class="row">
   <div class="col-sm-12">
@@ -14,22 +21,23 @@ layout: default
   
 </div>
 
-<div class="row">
-  <div class="col-md-8">
+<h1> Recent Projects</h1>
 
-    <ul class="bxslider">
-      <li><a href="{{site.base_url}}/pdfs/lab/ubicomplab-flyer.pdf"><img src="{{site.base_url}}/images/slider/poster_banner.png" title=""/></a></li>
-      <li><a href="{{site.base_url}}/publications/hemaapp"><img src="{{site.base_url}}/images/slider/hemaapp.png" title="HemaApp screens for anemia and other blood conditions using the camera on a smartphone. "/></a></li>
-      <li><a href="{{site.base_url}}/publications/bilicam"><img src="{{site.base_url}}/images/slider/bilicam.jpg" title="BiliCam uses a smartphone to screen newborns for jaundice."/></a></li>
-      <li><a href="{{site.base_url}}/publications/spirocall"><img src="{{site.base_url}}/images/slider/spirocall.jpg" title="SpiroCall enables lung function estimation using the microphone on any mobile phone."/></a></li>
-      <li><a href="{{site.base_url}}/pdfs/lab/ubicomplab-health.pdf"><img src="{{site.base_url}}/images/slider/health_banner.png" title=""/></a></li>
-      
-    </ul>
-  </div>
+{% assign sorted_pubs = site.publications | sort: 'date'%}
+<div class="row">
+
+{% for pub in sorted_pubs reversed%}
+{% if pub.onhomepage==true %}
+    <div class="project-badge col-md-3 col-sm-3 col-xs-4">
+      <div class="image"><a href="{{ pub.url }}"><img src="{{pub.image}}"/></a></div>
+      <div class="details">
+      <div class="name">{{pub.name}}</div>
+      </div>
+    </div>
+      {% endif %}
+{% endfor %}
   
   
-  
-</div>
 
 
 <script>

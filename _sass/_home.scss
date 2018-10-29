@@ -1,3 +1,60 @@
 .bx-wrapper img {
   width: 100%;
 }
+
+
+@media (min-width: $screen-md-min){
+.project-badge.col-md-2:nth-child(4n+1) {
+    clear: both;
+}
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
+.project-badge.col-sm-3:nth-child(4n+1) {
+    clear: both;
+}
+}
+@media (max-width: $screen-xs-max){
+.project-badge.col-xs-4:nth-child(3n+1) {
+    clear: both;
+}
+}
+
+.project-badge {
+  display: block;
+  margin-bottom: 40px;
+  text-align: center;
+  .image {
+    img {
+      width:300px;
+      height:200px;
+      object-fit: contain;
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      border: 3px solid #fff; 
+      &:hover {
+        border-bottom: 3px solid rgb(191,0,0); 
+      }
+    }
+  }
+  .details {
+    font-size: 11pt;
+    word-break: break-word;
+    .name {
+      font-size: 16pt;
+      display: block;
+    }
+    
+  
+  }
+
+  a {
+    color: $darkGray;
+    text-decoration: none;
+    &:hover {
+      color: #666;
+    }
+  }
+  
+  
+}

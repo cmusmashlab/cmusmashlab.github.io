@@ -1,20 +1,6 @@
-- name: National Science Foundation Graduate Research Fellows
-  people: [mariakakis, wang, degreef, cohn]
-
-- name: National Defense in Science and Engineering Fellows
-  people: [whitmire]
-
-- name: Microsoft Research Fellowship
-  people: [goel, degreef, cohn]
-
-- name: Adobe Research Fellowship
-  people: [whitmire]
-
-- name: Microsoft Women's Graduate Research Fellowship
-  people: [degreef]
+- name: Center for Machine Learning and Health
+  people: [chikersal]
 
 - name: Qualcomm Innovation Fellowship
-  people: [li, mariakakis]
+  people: [bedri]
 
-- name: UW College of Engineering’s Kumar and Robert A. Bhasin Endowed Fellowship
-  people: [gupta]

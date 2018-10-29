@@ -29,4 +29,6 @@ thumbnail: /images/pubs/wibreathe_pub.png
 title: 'Wibreathe: Estimating respiration rate using wireless signals in natural settings in the home'
 video: 'https://www.youtube.com/watch?v=d7ttEyUXUwk'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/d7ttEyUXUwk" frameborder="0" allowfullscreen></iframe>'
+name: 'WiBreathe'
+onhomepage: false
 ---

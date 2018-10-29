@@ -9,23 +9,6 @@ title: Awards
 {% assign sorted_pubs = site.publications | sort: 'date' | where_exp:"pub","pub.award.size > 0 " %}
 
 
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="awardsH">
-    <h4 class="panel-title">
-      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#awards" aria-expanded="true" aria-controls="awards">
-        <h2>Awards and Distinctions</h2>
-      </a>
-    </h4>
-  </div>
-  <div id="awards" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="awardsH">
-    <div class="panel-body">
-      {% for award in site.data.awards %}
-      {% if award.url.size > 0 %}<a href="{{ award.url }}">{% endif %}<h3>{{ award.name }}</h3>{% if award.url.size > 0 %}</a>{% endif %}
-      {% include author_list.html authors=award.people %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
 
 
 <div class="panel panel-default">

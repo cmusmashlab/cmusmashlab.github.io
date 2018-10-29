@@ -40,4 +40,6 @@ bibtex: |
     address = {New York, NY, USA},
     keywords = {computer vision, multispectral imaging, sensing},
     }
+name: 'HyperCam'
+onhomepage: true
 ---

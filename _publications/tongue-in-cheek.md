@@ -35,6 +35,8 @@ pdf: /pdfs/tongue-in-cheek.pdf
 thumbnail: '/images/pubs/tongueincheek_thumbnail.jpg'
 title: 'Tongue-in-Cheek: Using Wireless Signals to Enable Non-Intrusive and Flexible
   Facial Gestures Detection'
+name: 'Tongue-in-Cheek'
+onhomepage: false
 video: 'https://www.youtube.com/watch?v=CAehjSYkEt8'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CAehjSYkEt8" frameborder="0" allowfullscreen></iframe>'
 ---
