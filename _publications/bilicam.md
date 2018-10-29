@@ -2,13 +2,13 @@
 abstract: |-
   Health sensing through smartphones has received considerable attention in recent years because of the devices' ubiquity and promise to lower the barrier for tracking medical conditions. In this paper, we focus on using smartphones to monitor newborn jaundice, which manifests as a yellow discoloration of the skin. Although a degree of jaundice is common in healthy newborns, early detection of extreme jaundice is essential to prevent permanent brain damage or death. Current detection techniques, however, require clinical tests with blood samples or other specialized equipment. Consequently, newborns often depend on visual assessments of their skin color at home, which is known to be unreliable. To this end, we present BiliCam, a low-cost system that uses smartphone cameras to assess newborn jaundice. We evaluated BiliCam on 100 newborns, yielding a 0.85 rank order correlation with the gold standard blood test. We also discuss usability challenges and design solutions to make the system practical.
 authors:
-- degreef
+- Lilian de Greef
 - goel
 - Min Joon Seo
-- larson
+- Eric Larson
 - James W. Stout
 - James A. Taylor
-- patel
+- Shwetak Patel
 award: 'Honorable Mention Award'
 bibtex: |-
   @inproceedings{deGreef:2014:BUM:2632048.2632076,

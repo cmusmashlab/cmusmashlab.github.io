@@ -32,9 +32,9 @@ citation: |-
 conference: ACM International Joint Conference on Pervasive and Ubiquitous Computing
   (UbiComp), 2013
 date: '2013-09-08'
-image: ''
+image: '/images/pubs/doplink.jpg'
 pdf: /pdfs/doplink.pdf
-thumbnail: ''
+thumbnail: '/images/pubs/doplink.jpg'
 title: 'DopLink: Using the Doppler Effect for Multi-device Interaction'
 video: ''
 video_embed: ''

@@ -43,6 +43,7 @@ Create a new file in `_publications/`. I recommend copying an existing file (suc
 - `video_embed`: (optional) HTML embed code for video player
 - `onhomepage` : true if want to showcase on homepage
 - `name` : short name (e.g., SpiroCall or EarBit)
+- `blurb` : one sentence summary of the project
 
 
 ## Scraping the ACM DL

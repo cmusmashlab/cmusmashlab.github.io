@@ -2,11 +2,11 @@
 abstract: |-
   We introduce AirLink, a novel technique for sharing files between multiple devices. By waving a hand from one device towards another, users can directly transfer files between them. The system utilizes the devices' built-in speakers and microphones to enable easy file sharing between phones, tablets and laptops. We evaluate our system in an 11-participant study with 96.8% accuracy, showing the feasibility of using AirLink in a multiple-device environment. We also implemented a real-time system and demonstrate the capability of AirLink in various applications.
 authors:
-- chen
+- Ke-Yu Chen
 - Daniel Ashbrook
 - goel
 - Sung-Hyuck Lee
-- patel
+- Shwetak Patel
 award: ''
 bibtex: |-
   @inproceedings{Chen:2014:ASF:2632048.2632090,

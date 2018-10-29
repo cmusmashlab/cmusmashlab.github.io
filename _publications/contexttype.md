@@ -5,7 +5,7 @@ authors:
 - goel
 - Alex Jansen
 - Travis Mandel
-- patel
+- Shwetak Patel
 - Jacob O. Wobbrock
 award: ''
 bibtex: |-
@@ -31,9 +31,9 @@ citation: |-
   Mayank Goel, Alex Jansen, Travis Mandel, Shwetak N. Patel, and Jacob O. Wobbrock. 2013. ContextType: using hand posture information to improve mobile touch screen text entry.  In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '13). ACM, New York, NY, USA,  2795-2798. DOI: http://dx.doi.org/10.1145/2470654.2481386
 conference: Conference on Human Factors in Computing Systems (CHI), 2013
 date: '2013-04-27'
-image: ''
+image: '/images/pubs/contexttype.png'
 pdf: /pdfs/contexttype.pdf
-thumbnail: ''
+thumbnail: '/images/pubs/contexttype.png'
 title: 'ContextType: Using Hand Posture Information to Improve Mobile Touch Screen
   Text Entry'
 video: ''

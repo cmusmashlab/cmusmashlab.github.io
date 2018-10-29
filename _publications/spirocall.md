@@ -34,12 +34,13 @@ citation: |-
   Mayank Goel, Elliot Saba, Maia Stiber, Eric Whitmire, Josh Fromm, Eric C. Larson, Gaetano Borriello, and Shwetak N. Patel. 2016. SpiroCall: Measuring Lung Function over a Phone Call.  In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA,  5675-5685. DOI: http://dx.doi.org/10.1145/2858036.2858401
 conference: Conference on Human Factors in Computing Systems (CHI), 2016
 date: '2016-05-07'
-image: '/images/pubs/spirocall.jpg'
+image: '/images/pubs/spirocall.png'
 pdf: /pdfs/spirocall.pdf
-thumbnail: '/images/pubs/spirocall_thumb.jpg'
+thumbnail: '/images/pubs/spirocall.png'
 name: 'SpiroCall'
 title: 'SpiroCall: Measuring Lung Function over a Phone Call'
 video: 'https://www.youtube.com/watch?v=e62ZL3dCQWM'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e62ZL3dCQWM" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
+blurb: Enabling spirometry using microphones on all phones using phone calls
 ---
