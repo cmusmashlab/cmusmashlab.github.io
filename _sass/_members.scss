@@ -17,17 +17,17 @@
 
 .member-badge {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   .image {
     img {
       width:100%;
       &:hover {
-        border: black 5px solid;
+        border: black 2px solid;
       }
     }
   }
   .details {
-    font-size: 10pt;
+    font-size: 11pt;
     word-break: break-word;
     .name {
       font-size: 16pt;
