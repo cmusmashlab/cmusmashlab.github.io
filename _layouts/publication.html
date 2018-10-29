@@ -1,0 +1,104 @@
+---
+layout: default
+---
+<script src="{{site.baseurl}}/bower_components/jquery.fitvids/jquery.fitvids.js"></script>
+<article class="page publication">
+  <h1>{{ page.title }}</h1>
+  <span class="author_list">{% include author_list.html authors=page.authors %}</span>
+    <section>
+    {% if page.date <= site.time %}
+    <div class="materials">
+      {% if page.pdf %}<a href="{{ site.baseurl }}{{ page.pdf }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+        <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF
+      </a>{% endif %}
+      {% if page.video.size > 0 %}<a href="{{ page.video }}" class="btn btn-default btn-xs" aria-label="Video" target="_blank">
+        <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Video
+      </a> {% endif %}
+      {% if page.citation %}<button type="button" class="btn btn-default btn-xs" aria-label="Citation" data-toggle="modal" data-target="#{{page.title | slugify}}_citation">
+        <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citation
+      </button>{% endif %}
+      {% if page.bibtex %}<button type="button" class="btn btn-default btn-xs" aria-label="BibTeX" data-toggle="modal" data-target="#{{page.title | slugify}}_bibtex">
+        <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
+      </button>{% endif %}
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="{{page.title | slugify}}_bibtex">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">{{ page.title }}</h4>
+          </div>
+          <div class="modal-body">
+            <code>{{ page.bibtex }}</code>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="{{page.title | slugify}}_citation">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">{{ page.title }}</h4>
+          </div>
+          <div class="modal-body">
+            <code>{{ page.citation }}</code>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+  {% endif %}
+
+  </section>
+  <section>
+    <div class="row">
+      <div class="image col-xs-12 col-md-6">
+        <div class="image-holder">
+          <img src="{{ site.baseurl }}{{ page.image }}"/>
+        </div>
+        {{page.caption}}
+      </div>
+
+      <div class="image col-xs-12 col-md-6">
+        <div class="video-holder">
+          {{page.video_embed}}
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <h3>Abstract</h3>
+    {{ page.abstract }}
+  </section>
+  <section>
+    {{ content }}
+  </section>
+  <section>
+    {% if page.press.size > 0 %}
+    <h3>Press</h3>
+      {% assign sorted_articles = page.press | sort: 'name' %}
+      {% for article in sorted_articles %}      
+        <u><a href="{{article.url}}">{{ article.name }}</a></u>: {{ article.headline }}<br/>
+      {% endfor %}
+    {% endif %}
+  </section>
+
+
+
+</article>
+
+<script>
+  $(document).ready(function(){
+    $(".video-holder").fitVids();
+  });
+</script>

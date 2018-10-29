@@ -1,0 +1,19 @@
+---
+layout: page
+title: News
+---
+
+{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+
+<ul class="news">
+{% for news in sorted_news %}
+  <li><div class="date">{{ news.date | date: '%B %d, %Y' }}:</div>
+    <div class="blurb">
+      {% if news.url == nil %}
+      {{ news.blurb }}
+      {% else %}
+      <a href="{{ news.url }}">{{ news.blurb }}</a>
+      {% endif %}
+      </div></li>
+{% endfor %}
+</ul>

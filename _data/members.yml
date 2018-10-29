@@ -1,0 +1,457 @@
+# Shwetak
+
+- id: patel
+  name: Shwetak Patel
+  image: /images/members/shwetak.jpg
+  website: https://homes.cs.washington.edu/~shwetak/
+  status: shifu
+  affiliation: Washington Research Foundation Entrepreneurship Endowed Professor in Computer Science & Engineering and Electrical Engineering at the University of Washington
+
+# Grad Students
+
+- id: fromm
+  name: Josh Fromm
+  image: /images/members/joshfromm.jpg
+  email: jwfromm@uw.edu
+  website: http://jwfromm.com
+  affiliation: EE
+  status: current
+
+- id: jain
+  name: Mohit Jain
+  image: /images/members/mohitjain.jpg
+  email: mohitj@cs.washington.edu
+  website: http://www.dgp.toronto.edu/~mjain/
+  affiliation: CSE
+  status: current
+
+
+- id: wang
+  name: Edward Wang
+  image: /images/members/edwardjaywang.jpg
+  email: ejaywang@uw.edu
+  website: http://www.ejaywang.com
+  affiliation: EE
+  status: current
+
+- id: degreef
+  name: Lilian de Greef
+  image: /images/members/liliandegreef.jpg
+  affiliation: CSE
+  email: ldegreef@cs.washington.edu
+  website: http://www.ldegreef.com
+  status: current
+
+- id: ravichandran
+  name: Ruth Ravichandran
+  image: /images/members/ruth_profile.png
+  affiliation: EE
+  email: vinisha@uw.edu
+  website: http://vinisha7.wixsite.com/mysite
+  status: current
+
+- id: whitmire
+  name: Eric Whitmire
+  image: /images/members/whitmire.jpg
+  affiliation: CSE
+  email: emwhit@cs.washington.edu
+  website: http://www.ericwhitmire.com
+  status: current
+
+- id: mariakakis
+  name: Alex Mariakakis
+  image: /images/members/alexmariakakis.jpg
+  affiliation: CSE
+  email: atm15@cs.washington.edu
+  website: http://atm15.github.io
+  status: current
+
+- id: arian
+  name: Morelle Arian
+  image: /images/members/morelle_square.jpg
+  affiliation: CSE
+  email: morellea@uw.edu
+  website: http://homes.cs.washington.edu/~morellea/
+  status: current
+
+- id: parizi
+  name: Farshid Salemi Parizi
+  image: /images/members/farshid.jpg
+  affiliation: EE
+  email: farshid@uw.edu
+  website: http://homes.cs.washington.edu/~farshid/
+  status: current
+
+- id: parkcj
+  name: Chunjong Park
+  image: /images/members/cjpark.jpg
+  affiliation: CSE
+  email: cjparkuw@cs.washington.edu
+  status: current
+
+- id: sharma
+  name: Manuja Sharma
+  image: /images/members/sharma.jpg
+  affiliation: EE
+  email: manuja21@uw.edu
+  status: current
+
+
+# Visiting Researchers
+
+- id: gulati
+  name: Manoj Gulati
+  image: /images/members/gulati.jpg
+  affiliation: PhD student at IIIT-Delhi
+  website: https://manojgulati.wordpress.com/
+  status: visiting
+
+- id: wong
+  name: Dorothy Wong
+  image: /images/members/wong.jpg
+  affiliation: Masters student at the University of Washington in HCDE
+  status: visiting
+
+
+# Masters
+
+- id: cao
+  name: Alvin Cao
+  image: /images/members/alvin.jpg
+  affiliation: EE
+  email: asc228@uw.edu
+  status: current
+
+# Alumni
+
+- id: goel
+  name: Mayank Goel
+  image: /images/members/goel.jpg
+  website: http://www.mayankgoel.com
+  status: alumni
+  affiliation: Assistant Professor at Carnegie Mellon University
+
+- id: chen
+  name: Keyu Chen
+  image: /images/members/keyu.jpg
+  website: http://www.keyuc.com
+  status: alumni
+  affiliation: UX Researcher at Google ATAP
+
+- id: cohn
+  name: Gabe Cohn
+  image: /images/members/cohn.jpg
+  website: http://www.gabeacohn.com
+  status: alumni
+  affiliation: Researcher at Microsoft Research
+
+- id: gupta
+  name: Sidhant Gupta
+  image: /images/members/gupta.jpg
+  website: http://sidhantgupta.com/
+  status: alumni
+  affiliation: Researcher at Microsoft Research
+
+- id: froehlich
+  name: Jon Froehlich
+  image: /images/members/froehlich.png
+  website: http://www.cs.umd.edu/~jonf/
+  status: alumni
+  affiliation: Assistant Professor at the University of Washington
+
+- id: larson
+  name: Eric Larson
+  image: /images/members/larson.jpg
+  website: http://www.eclarson.com
+  status: alumni
+  affiliation: Assistant Professor at Southern Methodist University
+
+- id: lee
+  name: Tien-jui Lee
+  image: /images/members/tien.jpg
+  status: alumni
+  affiliation: Engineer at Senosis Health
+
+- id: kay
+  name: Matthew Kay
+  image: /images/members/kay.jpg
+  status: alumni
+  affiliation: Assistant Professor at the University of Michigan
+
+- id: li
+  name: Hanchuan Li
+  image: /images/members/Hanchuan.jpg
+  email: hanchuan@cs.washington.edu
+  website: http://www.hanchuanli.com
+  affiliation: Researcher at Microsoft Research
+  status: alumni
+
+- id: saba
+  name: Elliot Saba
+  image: /images/members/saba.png
+  affiliation: EE
+  email: sabae@uw.edu
+  website: http://staticfloat.github.io
+  status: alumni
+
+# Past masters
+
+- id: aumi
+  name: Md Tanvir Islam Aumi
+  image: /images/members/dummy.png
+  status: master_alumni
+
+- id: lindsay
+  name: Jack Lindsay
+  image: /images/members/dummy.png
+  status: master_alumni
+
+- id: swanson
+  name: Eric Swanson
+  image: /images/members/dummy.png
+  status: master_alumni
+
+- id: ianacci
+  name: Fran Iannacci
+  image: /images/members/dummy.png
+  status: master_alumni
+
+- id: liu
+  name: Sean Liu
+  image: /images/members/dummy.png
+  status: master_alumni
+
+- id: garrison
+  name: Jake Garrison
+  image: /images/members/garrison.jpg
+  status: master_alumni
+
+
+# Past undergrad
+
+- id: alcaide
+  name: Ramses Alcaide
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: alekhnovich
+  name: Sergey Alekhnovich
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: campbell
+  name: Tim Campbell
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: chou
+  name: Michael Chou
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: garg
+  name: Sunil Garg
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: horton
+  name: Alex Horton
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: kim
+  name: Han Kim
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: kristjansson
+  name: Stefan Kristjansson
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: michel
+  name: Jonas Michel
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: peterson
+  name: Josh Peterson
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: schwarz
+  name: Julia Schwarz
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: sommerville
+  name: Tom Sommerville
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: turnquist
+  name: Erik Turnquist
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: zizyte
+  name: Milda Zizyte
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: tseng
+  name: Clint Tseng
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: agashe
+  name: Rajas Agashe
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: banks
+  name: Megan Banks
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: benaloh
+  name: Steven Benaloh
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: chen_yuxiang
+  name: Yuxiang Chen
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: dorsett
+  name: Matt Dorsett
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: fadaie
+  name: Michael Fadaie
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: guh
+  name: Ka Ho Guh
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: jiang
+  name: Siju Jiang
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: johanson
+  name: Brandon Johanson
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: johnson
+  name: Michael Johnson
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: kathuria
+  name: Mayank Kathuria
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: mandyam
+  name: Aishwarya Mandyam
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: mehta
+  name: Vardhman Mehta
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: pickett
+  name: Cameron Pickett
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: smoots
+  name: Ryan Smoots
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: wang_ying
+  name: Ying Wang
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: wu_meiling
+  name: Meiling Wu
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: yisrael
+  name: Samuel Yisrael
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: li_william
+  name: William Li
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: zhu_junyi
+  name: Junyi Zhu
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: luo_andrew
+  name: Andrew Luo
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: jain_divye
+  name: Divye Jain
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: yi_michael
+  name: Michael Yi
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: lu_clara
+  name: Clara Lu
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: kotalik_justin
+  name: Justin Kotalik
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: rana_rajneil
+  name: Rajneil Rana
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: viswanath_varun
+  name: Varun Viswanath
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: liu_frank
+  name: Frank Liu
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: ruth_parker
+  name: Parker Ruth
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+# Past summer
+
+- id: badshah
+  name: Akash Badshah
+  image: /images/members/dummy.png
+  status: summer_alumni

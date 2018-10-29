@@ -1,0 +1,8 @@
+{
+    "name": "ubicomplab.github.io",
+    "dependencies": {
+        "bootstrap": "3.3.7",
+        "jquery": "3.1.0",
+        "jquery-migrate": "3.0.0"
+    }
+}

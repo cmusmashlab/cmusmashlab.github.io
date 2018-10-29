@@ -1,0 +1,107 @@
+---
+layout: page
+title: 
+redirect_from: /people
+---
+
+{% assign sorted_members = site.data.members | sort: 'id' %}
+{% assign current_members = sorted_members | where:"status","current" %}
+{% assign visiting = sorted_members | where:"status","visiting" %}
+{% assign alumni = sorted_members | where:"status","alumni" %}
+{% assign master_alumni = sorted_members | where:"status","master_alumni" %}
+{% assign ugrad_alumni = sorted_members | where:"status","ugrad_alumni" %}
+{% assign faculty = sorted_members | where:"status","shifu" %}
+{% assign shwetak = faculty | first %}
+
+{% assign member = shwetak %}
+<h1>Faculty</h1>
+<div class="row">
+  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
+    <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
+  </div>
+  <div class="member-badge col-md-10 col-sm-9 col-xs-8">
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+      <div class="affiliation">Shwetak N. Patel is the Washington Research Foundation Entrepreneurship Endowed Professor in Computer Science & Engineering and Electrical Engineering. His research interests are in the areas of Human-Computer Interaction, Ubiquitous Computing, Sensor-enabled Embedded Systems, and User Interface Software and Technology. Shwetak was a co-founder of Zensi, Inc., a residential energy monitoring company, which was acquired by Belkin, Inc in 2010. He was also a co-founder of a low-power wireless sensor platform company called SNUPI Technologies and a consumer home sensing product called WallyHome, which was acquired by Sears in 2015. He received his Ph.D. in Computer Science from the Georgia Institute of Technology in 2008 and B.S. in Computer Science in 2003. Shwetak is a recipient of a MacArthur Fellowship (2011), Microsoft Research Faculty Fellowship (2011), Sloan Fellowship (2012), MIT TR-35 Award (2009), NSF Career Award (2013), and the Presidential PECASE Award (2016).
+</div>
+<!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
+    </div>
+  </div>
+</div>
+
+<h1>Current Members</h1>
+<div class="row">
+{% for member in current_members %}
+  {% assign affiliation = site.data.affiliations[member.affiliation] %}
+
+  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
+    <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+      <div class="affiliation">{% if member.affiliation != nil %}{{ affiliation }}{% endif %}</div>
+<!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<h1>Visiting Researchers</h1>
+<div class="row">
+{% for member in visiting %}
+
+  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
+    <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+      <div class="affiliation">{% if member.affiliation != nil %}{{ member.affiliation }}{% endif %}</div>
+<!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<br/>
+<h1>Former PhD Students</h1>
+<div class="row">
+{% for member in alumni %}
+
+  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
+    <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+      <div class="affiliation">{% if member.affiliation != nil %}{{ member.affiliation }}{% endif %}</div>
+<!--      <div class="email">{% if member.email != nil %}<a href="mailto::{{ member.email }}">{{ member.email }}</a>{% endif %}</div>-->
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+
+<h1>Former Masters Students</h1>
+
+<div class="row">
+{% for member in master_alumni %}
+  {% assign affiliation = site.data.affiliations[member.affiliation] %}
+
+  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+      <div class="affiliation">{% if member.affiliation != nil %}{{ affiliation }}{% endif %}</div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<h1>Current and Former Undergraduate Students</h1>
+<div class="row">
+{% for member in ugrad_alumni %}
+  {% assign affiliation = site.data.affiliations[member.affiliation] %}
+
+  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+      <div class="affiliation">{% if member.affiliation != nil %}{{ affiliation }}{% endif %}</div>
+    </div>
+  </div>
+{% endfor %}
+</div>

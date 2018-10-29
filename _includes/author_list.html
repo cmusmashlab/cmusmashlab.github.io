@@ -1,0 +1,18 @@
+{% capture author_list %}
+{% for author_id in include.authors %}
+{% assign author_match = site.data.members | where: "id",author_id %}
+{% if author_match.size >= 1 %}
+{% assign author = author_match | first %}
+{% if author.website == nil %}
+{{ author.name }}
+{% else %}
+<a href="{{author.website}}">{{ author.name }}</a>
+{% endif %}
+{% else %}
+{{ author_id }}
+{% endif %}
+{% if forloop.last %}{% else %}, {% endif %}
+{% endfor %}
+{% endcapture %}
+  
+{{ author_list | strip_newlines }}

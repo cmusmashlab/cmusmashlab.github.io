@@ -1,0 +1,13 @@
+image: staticfloat/github-pages-builder
+
+pages:
+  script:
+  - jekyll build -d public
+  artifacts:
+    paths:
+    - public
+    expire_in: 1 day
+  only:
+  - master
+  tags:
+   - Pages

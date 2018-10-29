@@ -1,0 +1,51 @@
+
+@media (min-width: $screen-md-min){
+.member-badge.col-md-2:nth-child(6n+1) {
+    clear: both;
+}
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
+.member-badge.col-sm-3:nth-child(4n+1) {
+    clear: both;
+}
+}
+@media (max-width: $screen-xs-max){
+.member-badge.col-xs-4:nth-child(3n+1) {
+    clear: both;
+}
+}
+
+.member-badge {
+  display: block;
+  margin-bottom: 20px;
+  .image {
+    img {
+      width:100%;
+      &:hover {
+        border: black 5px solid;
+      }
+    }
+  }
+  .details {
+    font-size: 10pt;
+    word-break: break-word;
+    .name {
+      font-size: 16pt;
+      display: block;
+    }
+    .email {
+    }
+    .affiliation {
+    }
+  
+  }
+  a {
+    color: $darkGray;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  
+}

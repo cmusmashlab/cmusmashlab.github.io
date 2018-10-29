@@ -1,0 +1,124 @@
+.citation {
+  padding: 10px;
+  h4 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  display: block;
+  small {
+    p {
+    line-height: 1.2;
+    }
+  }
+}
+
+code {
+  font-size: 12px;
+  color: $darkGray;
+  background-color: white;
+}
+
+.publication-badge {
+  margin-bottom: 5px;
+  .glyphicon-file {
+    color: #980000;
+  }
+
+  font-size: 15px;
+  .publication-pic {
+    max-width: 300px;
+    a {
+      display: block;
+      position: relative;
+      padding-bottom: 56.25%;
+      //border-radius: 10px;
+      overflow: hidden;
+      @media (min-width: 768px){
+      }
+      img {
+
+        width: 100%;
+        vertical-align: middle;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        @media (min-width: 768px){
+          //max-width: 150px;
+        }
+      }
+    }
+  }
+  .authors a {
+    color: $darkGray;
+    text-decoration: underline;
+  }
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-family: $avenirHeavy;
+  }
+
+  .btn {
+    //width: 70px;
+    //margin-top: 5px;
+    //text-align:left;
+  }
+
+  .award {
+    color: #c70000;
+    font-family: $avenirHeavy;
+  }
+  .to-appear {
+    color: rgb(13, 95, 180);
+  }
+
+}
+
+.publication {
+
+  .glyphicon-file {
+    color: #980000;
+  }
+
+  h1 {
+    margin-bottom: 0px;
+  }
+
+  .materials {
+    margin-bottom: 10px;
+  }
+  .author_list {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .image-holder {
+    max-height: 300px;
+    img {
+      max-height: inherit;
+    }
+  }
+  .video-holder {
+  }
+}
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0; padding-top: 0;
+}
+
+code {
+  white-space: pre-wrap;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+.flyer-thumbs {
+  img {
+    max-height: 200px;
+  }
+}
