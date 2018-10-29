@@ -20,7 +20,7 @@ html {
 
 body {
   background: $white;
-  font: 16px/1.2 $avenir;
+  font: 16px/1.2 lato;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $avenir;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: lighter;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -202,7 +202,8 @@ img {
   font-family: $avenir;
   font-size: 18px;
   line-height: 32px;
-  background-color: black;
+  background-color: white;
+  color: yellow;
   border-bottom: 0px solid $darkGray;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -246,7 +247,7 @@ img {
         li {
           a {
             padding: 5px;
-            color: $lightGray;
+            color: black;
           }
         }
       }
@@ -266,18 +267,18 @@ img {
     font-weight: 300;
     letter-spacing: 1px;
     &:hover, &:active {
-      color: $blue!important;
+      color: rgb(220,0,0)!important;
     }
   }
   
   .navbar-brand {
     height: auto;
-    padding: 0px;
+    padding: 10px;
     img {
-      height: 80px;
+      height: 120px;
       .fix-nav & {
         @media (min-width: 992px){
-          height: 40px;
+          height: 30px;
         }
       }
     }
@@ -357,7 +358,7 @@ footer {
   padding: 20px 0;
   text-align: center;
   img {
-    max-height: 35px;
+    max-height: 70px;
   }
 }
 

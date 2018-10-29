@@ -7,7 +7,9 @@ layout: default
 
 <div class="row">
   <div class="col-sm-12">
-    <h3>The Ubiquitous Computing Lab develops innovative sensing systems for real world applications in <b>health</b>, <b>sustainability</b>, and <b>novel interactions</b>.</h3>
+    <h3>The Smart Sensing for Humans (Smash) Lab develops innovative sensing systems to develop solutions with immediate impact in the field of health, accessbility, novel interactions, ctivity recognition, and technologies for the developing world. We are an interdisciplinary team of students and tackle challenging research problems and develop impactful solutions using out expertise in hardware development, signal processing, computer vision, and machine learning. We focus on building solutions that are deployable and evaluate their usefulness by testing them in real-world settings. 
+
+    </h3>
   </div>
   
 </div>
@@ -25,32 +27,10 @@ layout: default
     </ul>
   </div>
   
-  <div class="col-md-4 news">
-    <h2>News</h2>
-    <ul>
-    {% for news in sorted_news limit:5 %}
-      <li><div class="date">{{ news.date | date: '%B %d, %Y' }}:</div>
-        <div class="blurb">
-          {% if news.url == nil %}
-          {{ news.blurb }}
-          {% else %}
-          <a href="{{ news.url }}">{{ news.blurb }}</a>
-          {% endif %}
-          </div></li>
-    {% endfor %}
-    </ul>
-    <a href="{{site.base_url}}/news/">(More news...)</a>
-  </div>
   
   
 </div>
 
-<div class="row">
-  <div class="col-xs-12">
-The ubiquitous computing (UbiComp) research lab, led by Prof. Shwetak Patel, focuses on many areas of ubiquitous computing including novel user interface technology, energy sensing, low-power sensing, health sensing, and activity recognition by applying expertise in sensing, signal processing, embedded systems, circuits, and human-computer interaction.
-The UbiComp lab consists of an interdisciplinary team of students (CSE, EE, ME, Medicine, etc) to tackle challenging research problems both from building the enabling hardware and software systems to the deployment and evaluation of these technologies in real-world settings. We collaborate very closely with UW Professors: Matt Reynolds (EE, CSE), Josh Smith (EE, CSE), Yoshi Kohno (CSE), James Fogarty (CSE), and Les Atlas (EE). In addition, we have close collaborations with Microsoft Research, Oculus Research, Intel, Google, and many other companies.
-    </div>
-</div>
 
 <script>
 $(document).ready(function(){
