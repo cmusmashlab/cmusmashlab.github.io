@@ -22,10 +22,10 @@ redirect_from:
 
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
-    {% if pub.thumbnail.size > 0 %}<a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}"/></a>{% endif %}&nbsp;
+    {% if pub.thumbnail.size > 0 %} {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %} <img src="{{ pub.thumbnail }}"/> </a>{% endif %}&nbsp;
   </div>
   <div class="publication-info col-md-10 col-sm-9 col-xs-12">
-    <a href="{{ pub.url }}"><h2>{{ pub.title }}</h2></a>
+    {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %}<h2>{{ pub.title }}</h2></a>
 
     <p><span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
       <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
