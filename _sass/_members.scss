@@ -1,6 +1,6 @@
 
 @media (min-width: $screen-md-min){
-.member-badge.col-md-2:nth-child(6n+1) {
+.member-badge.col-md-2:nth-child(4n+1) {
     clear: both;
 }
 }
@@ -17,12 +17,16 @@
 
 .member-badge {
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   .image {
     img {
       width:100%;
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      border-bottom: 3px solid #eee; 
       &:hover {
-        border: black 2px solid;
+        border-bottom: 3px solid rgb(191,0,0); 
       }
     }
   }
@@ -33,9 +37,13 @@
       font-size: 16pt;
       display: block;
     }
-    .email {
+    .email{
+    margin-top:5px;
+    font-size: 10pt;
+    font-color: gray;
     }
-    .affiliation {
+    .affiliation,.degree {
+    font-size: 10pt;
     }
   
   }
@@ -43,7 +51,7 @@
     color: $darkGray;
     text-decoration: none;
     &:hover {
-      text-decoration: underline;
+      color: #666;
     }
   }
   

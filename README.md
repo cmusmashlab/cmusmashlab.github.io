@@ -13,8 +13,9 @@ Fields:
 - `name`: Full name
 - `image`: Path to your profile picture. Images should be square and ideally 165x165px.
 - `website`: Full link to your personal website
-- `affiliation`: Either EE or CSE. See _data/affiliations.yml.
+- `affiliation`: Either HCII, ISR or SCS. See _data/affiliations.yml for details and to make modifications.
 - `status`: One of `current`, `alumni`, `master_alumni`, `ugrad_alumni`, or `summer_alumni`
+- `degree`: Free text. Suggested values: 'Ph.D. Student', 'Masters Student', 'Undergraduate'
 
 #### Upload image
 Images should be uploaded to `images/members/`. Images should be square and (ideally) 165x165px. If you upload something else, it will be cropped.
