@@ -2,13 +2,13 @@
 abstract: |-
   Sensing respiration rate has many applications in monitoring various health conditions, such as sleep apnea and chronic obstructive pulmonary disease. In this paper, we present WiBreathe, a wireless, high fidelity and non-invasive breathing monitor that leverages wireless signals at 2.4 GHz to estimate an individual’s respiration rate. Our work extends past approaches of using wireless signals for respiratory monitoring by using only a single transmitter-receiver pair at the same frequency range of commodity Wi-Fi signals to estimate the respiratory rate of an individual. This is done irrespective of whether they are in line of sight or not (e.g., through walls). Furthermore, we demonstrate the capability of WiBreathe in detecting multiple people and by extension, their respiration rates. We evaluate our approach in various natural environments and show that we can track breathing with the accuracy of 1.54 breaths per minute when compared to a clinical respiratory chest band.
 authors:
-- ravichandran
-- saba
-- chen
+- Ruth Vinisha Ravichandran
+- Elliot Saba
+- Ke-Yu Chen
 - goel
-- gupta
-- patel
-award: 'Honorable Mention Award'
+- Sidhant Gupta
+- Shwetak Patel
+award: 'Best Paper Runner-up'
 bibtex: |-
   @inproceedings{ravichandran2015wibreathe,
     title={Wibreathe: Estimating respiration rate using wireless signals in natural settings in the home},
@@ -27,8 +27,6 @@ image: /images/pubs/WiBreathe_diag.png
 pdf: /pdfs/wibreathe.pdf
 thumbnail: /images/pubs/wibreathe_pub.png
 title: 'Wibreathe: Estimating respiration rate using wireless signals in natural settings in the home'
-video: 'https://www.youtube.com/watch?v=d7ttEyUXUwk'
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/d7ttEyUXUwk" frameborder="0" allowfullscreen></iframe>'
 name: 'WiBreathe'
 onhomepage: false
 ---

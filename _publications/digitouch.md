@@ -1,14 +1,12 @@
 ---
 title: 'DigiTouch: Reconfigurable Thumb-to-Finger Input and Text Entry on Head-mounted Displays'
-authors: [whitmire, jain, Divye Jain, Greg Nelson, Ravi Karkar, patel, goel]
+authors: [Eric Whitmire, Mohit Jain, Divye Jain, Greg Nelson, Ravi Karkar, Shwetak Patel, goel]
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2017
 date: 2017-09-15
-# award: Best Paper Award
 pdf: /pdfs/digitouch.pdf
-# video: https://www.youtube.com/watch?v=R8DG0aIZymg
-# video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/R8DG0aIZymg" frameborder="0" allowfullscreen></iframe>'
 image: /images/pubs/digitouch.png
-video: https://youtu.be/4d_RMTVn9eQ
+video: 'https://youtu.be/4d_RMTVn9eQ'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/4d_RMTVn9eQ" frameborder="0" allowfullscreen></iframe>'
 thumbnail: /images/pubs/digitouch_thumb.png
 caption: DigiTouch is a reconfigurable glove that senses thumb-to-finger touches. It enables general input as well as text entry on head-mounted displays.
 citation: |

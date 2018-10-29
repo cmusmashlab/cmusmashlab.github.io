@@ -2,12 +2,12 @@
 abstract: |-
   Home spirometry is gaining acceptance in the medical community because of its ability to detect pulmonary exacerbations and improve outcomes of chronic lung ailments. However, cost and usability are significant barriers to its widespread adoption. To this end, we present SpiroSmart, a low-cost mobile phone application that performs spirometry sensing using the built-in microphone. We evaluate SpiroSmart on 52 subjects, showing that the mean error when compared to a clinical spirometer is 5.1% for common measures of lung function. Finally, we show that pulmonologists can use SpiroSmart to diagnose varying degrees of obstructive lung ailments.
 authors:
-- larson
 - goel
+- Eric Larson
 - Gaetano Boriello
 - Sonya Heltshe
 - Margaret Rosenfeld
-- patel
+- Shwetak Patel
 award: 'Honorable Mention Award'
 bibtex: |-
   @inproceedings{Larson:2012:SUM:2370216.2370261,

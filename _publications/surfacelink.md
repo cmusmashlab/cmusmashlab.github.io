@@ -4,12 +4,11 @@ abstract: |-
 authors:
 - goel
 - Brendan Lee
-- aumi
-- patel
+- Md. Tanvir Islam Aumi
+- Shwetak Patel
 - Gaetano Borriello
 - Stacie Hibino
 - Bo Begole
-award: ''
 bibtex: |-
   @inproceedings{Goel:2014:SUI:2611105.2557120,
    author = {Goel, Mayank and Lee, Brendan and Islam Aumi, Md. Tanvir and Patel, Shwetak and Borriello, Gaetano and Hibino, Stacie and Begole, Bo},

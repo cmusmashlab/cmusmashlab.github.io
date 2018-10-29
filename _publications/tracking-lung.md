@@ -2,13 +2,12 @@
 abstract: |-
   Spirometry is the most widely employed objective measure of lung function. It is central to the diagnosis and management of lung ailments like asthma, chronic obstructive pulmonary disease, and cystic fibrosis. Spirometry is generally performed in medical clinics using clinical spirometers---devices that measure the instantaneous exhaled flow (liters/sec.). High-end clinical spirometers can cost upwards of $5,000 USD. Portable spirometers generally cost between $1,000-$4,000 USD. Apart from being costly, these devices are not readily available in developing countries. Most developing regions have low cost peak flow meters in prevalence. These devices ($10-$50 USD) only sense a subset of lung function measures and are generally considered inadequate for managing and diagnosing lung ailments [2]. SpiroSmart [1] is a smartphone-based approach that measures many common lung function measures using the phone's built-in microphone. It does not require any additional hardware or adapter to be attached to the phone. The low cost of smartphones as compared to spirometers allows lowering of access barriers to full-fledged lung function measurement in the developing world.
 authors:
-- larson
+- Eric Larson
 - goel
 - Morgan Redfield
 - Gaetano Boriello
 - Margaret Rosenfeld
-- patel
-award: ''
+- Shwetak Patel
 bibtex: |-
   @inproceedings{Larson:2013:TLF:2442882.2442917,
    author = {Larson, Eric C. and Goel, Mayank and Redfield, Morgan and Boriello, Gaetano and Rosenfeld, Margaret and Patel, Shwetak N.},

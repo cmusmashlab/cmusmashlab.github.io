@@ -7,7 +7,6 @@ authors:
 - goel
 - Sung-Hyuck Lee
 - Shwetak Patel
-award: ''
 bibtex: |-
   @inproceedings{Chen:2014:ASF:2632048.2632090,
    author = {Chen, Ke-Yu and Ashbrook, Daniel and Goel, Mayank and Lee, Sung-Hyuck and Patel, Shwetak},
@@ -29,8 +28,7 @@ bibtex: |-
 caption: 'AirLink allows file sharing between multiple devices by using in-air gestures and without adding new sensors.'
 citation: |-
   Ke-Yu Chen, Daniel Ashbrook, Mayank Goel, Sung-Hyuck Lee, and Shwetak Patel. 2014. AirLink: sharing files between multiple devices using in-air gestures.  In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '14). ACM, New York, NY, USA,  565-569. DOI=http://dx.doi.org/10.1145/2632048.2632090
-conference: ACM International Joint Conference on Pervasive and Ubiquitous Computing
-  (UbiComp), 2014
+conference: ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) 2014
 date: '2014-09-13'
 image: '/images/pubs/AirLink.jpg'
 pdf: /pdfs/airlink.pdf

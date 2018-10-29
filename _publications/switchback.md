@@ -1,12 +1,12 @@
 ---
 title: 'SwitchBack: Using Focus and Saccade Tracking to Guide Users’ Attention for Mobile Task Resumption'
 authors: 
-- mariakakis
+- Alex Mariakakis
 - goel
 - Md. Tanvir Islam Aumi
-- patel
+- Shwetak Patel
 - Jacob Wobbrock
-conference: CHI '15
+conference: Conference on Human Factors in Computing Systems (CHI), 2015
 award:
 date: 2015-04-01
 pdf: /pdfs/switchback.pdf

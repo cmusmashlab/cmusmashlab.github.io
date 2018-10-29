@@ -38,9 +38,15 @@
       display: block;
     }
     .email{
-    margin-top:5px;
     font-size: 10pt;
     font-color: gray;
+    margin-top: 2px;
+    }
+    .email span {
+        background: rgb(200,200,200);
+        border-radius: 2px;
+        padding-left: 3px;
+        padding-right: 3px;
     }
     .affiliation,.degree {
     font-size: 10pt;

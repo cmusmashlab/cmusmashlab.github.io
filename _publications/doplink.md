@@ -2,12 +2,11 @@
 abstract: |-
   Mobile and embedded electronics are pervasive in today's environment. As such, it is necessary to have a natural and intuitive way for users to indicate the intent to connect to these devices from a distance. We present DopLink, an ultrasonic-based device selection approach. It utilizes the already embedded audio hardware in smart devices to determine if a particular device is being pointed at by another device (i.e., the user waves their mobile phone at a target in a pointing motion). We evaluate the accuracy of DopLink in a controlled user study, showing that, within 3 meters, it has an average accuracy of 95% for device selection and 97% for finding relative device position. Finally, we show three applications of DopLink: rapid device pairing, home automation, and multi-display synchronization.
 authors:
-- aumi
-- gupta
+- Md. Tanvir Islam Aumi
+- Sidhant Gupta
 - goel
-- larson
-- patel
-award: ''
+- Eric Larson
+- Shwetak Patel
 bibtex: |-
   @inproceedings{Aumi:2013:DUD:2493432.2493515,
    author = {Aumi, Md Tanvir Islam and Gupta, Sidhant and Goel, Mayank and Larson, Eric and Patel, Shwetak},
@@ -36,7 +35,7 @@ image: '/images/pubs/doplink.jpg'
 pdf: /pdfs/doplink.pdf
 thumbnail: '/images/pubs/doplink.jpg'
 title: 'DopLink: Using the Doppler Effect for Multi-device Interaction'
-video: ''
-video_embed: ''
+video: 'https://www.youtube.com/watch?v=HUAH69RuVBM'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/HUAH69RuVBM" frameborder="0" allowfullscreen></iframe>'
 redirect_from: /projects/DopLink/
 ---

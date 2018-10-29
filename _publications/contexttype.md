@@ -7,7 +7,6 @@ authors:
 - Travis Mandel
 - Shwetak Patel
 - Jacob O. Wobbrock
-award: ''
 bibtex: |-
   @inproceedings{Goel:2013:CUH:2470654.2481386,
    author = {Goel, Mayank and Jansen, Alex and Mandel, Travis and Patel, Shwetak N. and Wobbrock, Jacob O.},

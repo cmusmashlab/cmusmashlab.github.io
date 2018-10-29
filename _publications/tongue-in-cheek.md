@@ -5,7 +5,7 @@ authors:
 - goel
 - Chen Zhao
 - Ruth Vinisha
-- patel
+- Shwetak Patel
 award: 'Honorable Mention Award'
 bibtex: |-
   @inproceedings{Goel:2015:TUW:2702123.2702591,
