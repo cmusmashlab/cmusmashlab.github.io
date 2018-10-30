@@ -5,7 +5,6 @@ redirect_from:
 - /projects/
 - /wiki/Projects/
 ---
-
 {% capture last_year %}0{% endcapture %}
 
 {% assign sorted_pubs = site.publications | sort: 'date' %}
@@ -14,7 +13,7 @@ redirect_from:
 {% capture this_year %}{{ pub.date | date: "%Y" }}{% endcapture %}
 
 {% if this_year != nil and this_year != last_year%}
-<h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+<h2 id="{{ this_year }}-ref" style="padding-top: 15px">{{this_year}}</h2>
 <hr/>
 {% endif %}
 

@@ -3,7 +3,7 @@ layout: default
 ---
 <script src="{{site.baseurl}}/bower_components/jquery.fitvids/jquery.fitvids.js"></script>
 <article class="page publication">
-  <div class="paper_title">{{ page.title }}</div>
+  <div class="paper_title" style="padding-top: 15px">{{ page.title }}</div>
   <span class="author_list">{% include author_list.html authors=page.authors %}</span>
     <section>
     {% if page.date <= site.time %}
