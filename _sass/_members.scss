@@ -17,14 +17,15 @@
 
 .member-badge {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   .image {
     img {
       width:100%;
       transition: all 0.3s ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
-      border-bottom: 3px solid #eee; 
+      border: 1px solid #999; 
+      border-bottom: 3px solid #999;
       &:hover {
         border-bottom: 3px solid rgb(191,0,0); 
       }
@@ -43,8 +44,8 @@
     margin-top: 2px;
     }
     .email span {
-        background: rgb(200,200,200);
         border-radius: 2px;
+        border: 1px solid #bbb;
         padding-left: 3px;
         padding-right: 3px;
     }

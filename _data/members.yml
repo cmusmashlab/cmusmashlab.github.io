@@ -12,7 +12,7 @@
 
 - id: bedri
   name: Abdelkareem Bedri
-  image: /images/members/dummy.png
+  image: /images/members/bedri.png
   email: bedri@cmu.edu
   website: http://abdelkareembedri.com
   degree: Ph.D. Student
@@ -21,7 +21,7 @@
 
 - id: khurana
   name: Rushil Khurana
-  image: /images/members/dummy.png
+  image: /images/members/khurana.png
   email: rushil@cmu.edu
   website: https://www.cs.cmu.edu/directory/rkhurana
   degree: Ph.D. Student
@@ -30,7 +30,7 @@
 
 - id: chikersal
   name: Prerna Chikersal
-  image: /images/members/dummy.png
+  image: /images/members/chikersal.png
   email: prerna@cmu.edu
   website: http://prernac.com
   degree: Ph.D. Student
@@ -40,7 +40,7 @@
 
 - id: ysi
   name: Yasha Iravantchi
-  image: /images/members/dummy.png
+  image: /images/members/iravantchi.png
   email: ysi@cs.cmu.edu
   website: https://yasha.xyz/
   degree: Ph.D. Student
@@ -49,7 +49,7 @@
 
 - id: ahuja
   name: Karan Ahuja
-  image: /images/members/dummy.png
+  image: /images/members/ahuja.png
   email: kahuja@cs.cmu.edu
   website: https://sites.google.com/view/karan-ahuja/
   degree: Ph.D. Student
