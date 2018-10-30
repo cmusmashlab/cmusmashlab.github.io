@@ -1,6 +1,6 @@
 ---
 abstract: |-
-  Cost and accessibility have impeded the adoption of spirometers (devices that measure lung function) outside clinical settings, especially in low-resource environments. Prior work, called SpiroSmart, used a smartphone's built-in microphone as a spirometer. However, individuals in low- or middle-income countries do not typically have access to the latest smartphones. In this paper, we investigate how spirometry can be performed from any phone-using the standard telephony voice channel to transmit the sound of the spirometry effort. We also investigate how using a 3D printed vortex whistle can affect the accuracy of common spirometry measures and mitigate usability challenges. Our system, coined SpiroCall, was evaluated with 50 participants against two gold standard medical spirometers. We conclude that SpiroCall has an acceptable mean error with or without a whistle for performing spirometry, and advantages of each are discussed.
+  Chronic and widespread diseases such as obesity, diabetes, and hypercholesterolemia require patients to monitor their food intake, and food journaling is currently the most common method for doing so. However, food journaling is subject to self-bias and recall errors, and is poorly adhered to by patients. In this paper, we propose an alternative by introducing EarBit, a wearable system that detects eating moments. We evaluate the performance of inertial, optical, and acoustic sensing modalities and focus on inertial sensing, by virtue of its recognition and usability performance. Using data collected in a simulated home setting with minimum restrictions on participants’ behavior, we build our models and evaluate them with an unconstrained outside-the-lab study. For both studies, we obtained video footage as ground truth for participants activities. Using leave-one-user-out validation, EarBit recognized all the eating episodes in the semi-controlled lab study, and achieved an accuracy of 90.1% and an F1-score of 90.9% in detecting chewing instances. In the unconstrained, outside-the-lab evaluation, EarBit obtained an accuracy of 93% and an F1-score of 80.1% in detecting chewing instances. It also accurately recognized all but one recorded eating episodes. These episodes ranged from a 2 minute snack to a 30 minute meal.
 authors:
 - bedri
 - Richard Li
@@ -30,7 +30,7 @@ citation: |-
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2017
 date: '2017-9-22'
 image: '/images/pubs/earbit.png'
-pdf: /pdfs/spirocall.pdf
+pdf: /pdfs/earbit.pdf
 thumbnail: '/images/pubs/earbit.png'
 name: 'EarBit'
 title: 'EarBit: using wearable sensors to detect eating episodes in unconstrained environments'
