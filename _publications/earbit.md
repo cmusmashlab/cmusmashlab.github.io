@@ -26,7 +26,7 @@ bibtex: |-
    }
 caption: ''
 citation: |-
-  Mayank Goel, Elliot Saba, Maia Stiber, Eric Whitmire, Josh Fromm, Eric C. Larson, Gaetano Borriello, and Shwetak N. Patel. 2016. SpiroCall: Measuring Lung Function over a Phone Call.  In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA,  5675-5685. DOI: http://dx.doi.org/10.1145/2858036.2858401
+  Abdelkareem Bedri, Richard Li, Malcolm Haynes, Raj Prateek Kosaraju, Ishaan Grover, Temiloluwa Prioleau, Min Yan Beh, Mayank Goel, Thad Starner, and Gregory Abowd. 2017. EarBit: Using Wearable Sensors to Detect Eating Episodes in Unconstrained Environments. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 1, 3, Article 37 (September 2017), 20 pages. DOI: https://doi.org/10.1145/3130902
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2017
 date: '2017-9-22'
 image: '/images/pubs/earbit.png'
