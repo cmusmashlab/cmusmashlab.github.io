@@ -3,7 +3,7 @@ layout: default
 ---
 <script src="{{site.baseurl}}/bower_components/jquery.fitvids/jquery.fitvids.js"></script>
 <article class="page publication">
-  <h1>{{ page.title }}</h1>
+  <div class="paper_title">{{ page.title }}</div>
   <span class="author_list">{% include author_list.html authors=page.authors %}</span>
     <section>
     {% if page.date <= site.time %}
@@ -60,25 +60,32 @@ layout: default
 
   </section>
   <section>
-    <div class="row">
-      <div class="image col-xs-12 col-md-6">
-        <div class="image-holder">
-          <img src="{{ site.baseurl }}{{ page.image }}"/>
-        </div>
-        {{page.caption}}
-      </div>
+    <div class="row" style="padding-top: 15px">
+      {% if page.video_embed %} 
 
-      <div class="image col-xs-12 col-md-6">
+<div class="image col-md-8">
         <div class="video-holder">
           {{page.video_embed}}
         </div>
+      </div>
+     
+        {% else %}
+      
+       <div class="image col-md-8">
+        <div class="image-holder">
+          <img src="{{ site.baseurl }}{{ page.image }}"/>
+        </div>
+      </div>
+
+        {% endif %}
+      <div class="abstract col-md-4">
+        {{ page.abstract }}
       </div>
     </div>
 
   </section>
   <section>
-    <h3>Abstract</h3>
-    {{ page.abstract }}
+
   </section>
   <section>
     {{ content }}

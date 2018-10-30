@@ -57,7 +57,6 @@ code {
     text-decoration: underline;
     font-weight: lighter;
   }
-
   h2 {
     margin-top: 0px;
     margin-bottom: 2px;
@@ -101,7 +100,7 @@ code {
     display: block;
   }
   .image-holder {
-    max-height: 300px;
+    
     img {
       max-height: inherit;
     }
@@ -129,4 +128,22 @@ code {
   img {
     max-height: 200px;
   }
+}
+
+.abstract {
+font-weight: lighter;
+}
+
+.paper_title {
+margin-top: 30px;
+display:block;
+  font-size: 14pt;
+  font-weight:lighter;
+}
+
+.author_list{
+  font-size: 12pt;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-weight: lighter;
 }
