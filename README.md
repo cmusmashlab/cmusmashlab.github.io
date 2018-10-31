@@ -7,7 +7,7 @@ Thumbnail pictures should be 16x9, at least 300 px wide.
 
 ## Updating profile
 #### Edit Metadata
-Modify `_data/members.yml`. 
+Modify `_data/members.yml`.
 Fields:
 - `id`: This should be your last name. This is what you'll use throughout the site to refer to you. If you have a website listed, it will replace references of your name with a link to your website.
 - `name`: Full name
@@ -53,7 +53,7 @@ If your paper is published by the ACM, you can create most of this metadata auto
 
 1. Install Ruby if not already installed (installed by default on OS X). On Windows, use http://rubyinstaller.org/. On Linux, run `sudo apt-get install ruby-full`. This should come with the gem package manager.
 2. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` (OS X users may need to `sudo gem install github-pages`) This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-3. Clone down your fork `git clone git@gitlab.cs.washington.edu:ubicomplab/ubicomplab.github.io.git`
+3. Clone down your fork `git clone git@github.com:cmusmashlab/cmusmashlab.github.io.git`
 4. Serve the site and watch for markup/sass changes `jekyll serve`
 5. View your website at http://127.0.0.1:4000/
 6. Install bibtexparser (if you want to populate your pubs automatically)
