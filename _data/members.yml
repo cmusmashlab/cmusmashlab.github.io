@@ -68,7 +68,7 @@
   name: Saksham Chitkara
   image: /images/members/dummy.png
   affiliation: SCS
-  email: schitkar@andrew.cmu.edu 
+  email: schitkar@andrew.cmu.edu
   degree: Masters Student
   status: current
 
@@ -77,9 +77,10 @@
 
 - id: zac
   name: Zac Yu
-  image: /images/members/dummy.png
+  image: /images/members/zac.png
   affiliation: University of Pittsburgh
-  email: me@zacyu.com 
+  email: me@zacyu.com
+  website: https://zacyu.com
   degree: Undergraduate
   status: visiting
 
@@ -134,4 +135,3 @@
   name: Vivek Shankar
   image: /images/members/dummy.png
   status: ugrad_alumni
-
