@@ -11,7 +11,7 @@ authors:
 - Marcel Gavriliu
 - Gaetano Borriello
 - Shwetak Patel
-conference: UbiComp '15
+conference: Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '15)
 date: 2015-09-01
 award: Honorable Mention Award
 pdf: /pdfs/hypercam.pdf
