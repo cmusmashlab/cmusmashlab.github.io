@@ -16,7 +16,7 @@ redirect_from: /people
 {% assign member = goel %}
 <h1>Faculty</h1>
 <div class="row">
-  <div class="member-badge col-md-4 col-sm-4 col-xs-4">
+  <div class="member-badge col-md-4 col-md-4 col-md-4">
     <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
   </div>
   <div class="member-badge col-md-9 col-sm-9 col-xs-8">
@@ -37,7 +37,7 @@ redirect_from: /people
   {% assign affiliation = site.data.affiliations[member.affiliation] %}
   {% assign degree = member.degree %}
 
-  <div class="member-badge col-md-4 col-sm-4 col-xs-4">
+  <div class="member-badge col-sm-3 col-sm-3 col-xs-3">
     <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
     <div class="details">
       <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
