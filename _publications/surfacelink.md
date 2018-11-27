@@ -32,12 +32,7 @@ citation: "Mayank Goel, Brendan Lee, Md. Tanvir Islam Aumi, Shwetak Patel, Gaeta
   \ Borriello, Stacie Hibino, and Bo Begole. 2014. SurfaceLink: using inertial and\
   \ acoustic sensing to enable multi-device interaction on a surface.  In Proceedings\
   \ of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). ACM,\
-  \ New York, NY, USA,  1387-1396. DOI=http://dx.doi.org/10.1145/2556288.2557120 \r\
-  \n\r\nMayank Goel, Brendan Lee, Md. Tanvir Islam Aumi, Shwetak Patel, Gaetano Borriello,\
-  \ Stacie Hibino, and Bo Begole. 2014. SurfaceLink: using inertial and acoustic sensing\
-  \ to enable multi-device interaction on a surface.  In Proceedings of the SIGCHI\
-  \ Conference on Human Factors in Computing Systems (CHI '14). ACM, New York, NY,\
-  \ USA,  1387-1396. DOI: http://dx.doi.org/10.1145/2556288.2557120"
+  \ New York, NY, USA,  1387-1396. DOI=http://dx.doi.org/10.1145/2556288.2557120 \r\"
 conference: Conference on Human Factors in Computing Systems (CHI), 2014
 date: '2014-04-26'
 image: '/images/pubs/surfacelink.jpg'
