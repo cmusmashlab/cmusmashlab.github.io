@@ -5,37 +5,34 @@ authors:
 - khurana
 - Nikola Banovic
 - Kent Lyons
-award: 'Honorable Mention Award'
 bibtex: |-
-  @inproceedings{Goel:2016:SML:2858036.2858401,
-   author = {Goel, Mayank and Saba, Elliot and Stiber, Maia and Whitmire, Eric and Fromm, Josh and Larson, Eric C. and Borriello, Gaetano and Patel, Shwetak N.},
-   title = {SpiroCall: Measuring Lung Function over a Phone Call},
-   booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
-   series = {CHI '16},
-   year = {2016},
-   isbn = {978-1-4503-3362-7},
-   location = {Santa Clara, California, USA},
-   pages = {5675--5685},
-   numpages = {11},
-   url = {http://doi.acm.org/10.1145/2858036.2858401},
-   doi = {10.1145/2858036.2858401},
-   acmid = {2858401},
-   publisher = {ACM},
-   address = {New York, NY, USA},
-   keywords = {health sensing, machine learning, mobile phone sensing, signal processing, spirometry},
-  }
+  @inproceedings{Khurana:2018:OMP:3267242.3267285,
+ author = {Khurana, Rushil and Banovic, Nikola and Lyons, Kent},
+ title = {In Only 3 Minutes: Perceived Exertion Limits of Smartwatch Use},
+ booktitle = {Proceedings of the 2018 ACM International Symposium on Wearable Computers},
+ series = {ISWC '18},
+ year = {2018},
+ isbn = {978-1-4503-5967-2},
+ location = {Singapore, Singapore},
+ pages = {208--211},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/3267242.3267285},
+ doi = {10.1145/3267242.3267285},
+ acmid = {3267285},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {perceived exertion, smartwatches, sustained use},
+} 
 caption: ''
 citation: |-
-  Mayank Goel, Elliot Saba, Maia Stiber, Eric Whitmire, Josh Fromm, Eric C. Larson, Gaetano Borriello, and Shwetak N. Patel. 2016. SpiroCall: Measuring Lung Function over a Phone Call.  In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA,  5675-5685. DOI: http://dx.doi.org/10.1145/2858036.2858401
-conference: Conference on Human Factors in Computing Systems (CHI), 2016
-date: '2016-05-07'
+  Rushil Khurana, Nikola Banovic, and Kent Lyons. 2018. In only 3 minutes: perceived exertion limits of smartwatch use. In Proceedings of the 2018 ACM International Symposium on Wearable Computers (ISWC '18). ACM, New York, NY, USA, 208-211. DOI: https://doi.org/10.1145/3267242.3267285
+conference: International Symposium on Wearable Computers (ISWC), 2018
+date: '2018-10-05'
 image: '/images/pubs/spirocall.png'
-pdf: /pdfs/spirocall.pdf
+pdf: /pdfs/exertion.pdf
 thumbnail: '/images/pubs/spirocall.png'
-name: 'SpiroCall'
-title: 'SpiroCall: Measuring Lung Function over a Phone Call'
-video: 'https://www.youtube.com/watch?v=e62ZL3dCQWM'
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e62ZL3dCQWM" frameborder="0" allowfullscreen></iframe>'
+name: 'Smartwatch Exertion'
+title: 'In only 3 minutes: perceived exertion limits of smartwatch use'
 onhomepage: true
-blurb: Enabling spirometry using microphones on all phones using phone calls
+blurb: study to measure smartwatch exertion for continuous interactions
 ---
