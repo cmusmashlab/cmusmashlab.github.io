@@ -1,15 +1,10 @@
 ---
 abstract: |-
-  Cost and accessibility have impeded the adoption of spirometers (devices that measure lung function) outside clinical settings, especially in low-resource environments. Prior work, called SpiroSmart, used a smartphone's built-in microphone as a spirometer. However, individuals in low- or middle-income countries do not typically have access to the latest smartphones. In this paper, we investigate how spirometry can be performed from any phone-using the standard telephony voice channel to transmit the sound of the spirometry effort. We also investigate how using a 3D printed vortex whistle can affect the accuracy of common spirometry measures and mitigate usability challenges. Our system, coined SpiroCall, was evaluated with 50 participants against two gold standard medical spirometers. We conclude that SpiroCall has an acceptable mean error with or without a whistle for performing spirometry, and advantages of each are discussed.
+  Glanceability and low access time are arguably the key assets of a smartwatch. Smartwatches are designed for, and excel at micro-interactions-simple tasks that only take seconds to complete. However, if a user desires to transition to a task requiring sustained usage, we show that there are additional factors that prevent possible longer usage of the smartwatch. In this paper, we conduct a study with 18 participants to empirically demonstrate that interacting with the smartwatch on the wrist leads to fatigue after only a few minutes. In our study, users performed three tasks in two different poses while using a smartwatch. We demonstrate that only after three minutes of use, the change in perceived exertion of the user was anchored as" somewhat strong" on the Borg CR10 survey scale. These results place an upper bound for smartwatch usage that needs to be considered in application and interaction design.
 authors:
-- goel
-- Elliot Saba
-- Maia Stiber
-- Eric Whitmire
-- Josh Fromm
-- Eric Larson
-- Gaetano Borriello
-- Shwetak Patel
+- khurana
+- Nikola Banovic
+- Kent Lyons
 award: 'Honorable Mention Award'
 bibtex: |-
   @inproceedings{Goel:2016:SML:2858036.2858401,
