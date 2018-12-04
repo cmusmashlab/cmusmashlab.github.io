@@ -6,23 +6,23 @@ authors:
 - Nikola Banovic
 - Kent Lyons
 bibtex: |-
-  @inproceedings{Khurana:2018:OMP:3267242.3267285,
- author = {Khurana, Rushil and Banovic, Nikola and Lyons, Kent},
- title = {In Only 3 Minutes: Perceived Exertion Limits of Smartwatch Use},
- booktitle = {Proceedings of the 2018 ACM International Symposium on Wearable Computers},
- series = {ISWC '18},
- year = {2018},
- isbn = {978-1-4503-5967-2},
- location = {Singapore, Singapore},
- pages = {208--211},
- numpages = {4},
- url = {http://doi.acm.org/10.1145/3267242.3267285},
- doi = {10.1145/3267242.3267285},
- acmid = {3267285},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {perceived exertion, smartwatches, sustained use},
-}
+   @inproceedings{Khurana:2018:OMP:3267242.3267285,
+    author = {Khurana, Rushil and Banovic, Nikola and Lyons, Kent},
+    title = {In Only 3 Minutes: Perceived Exertion Limits of Smartwatch Use},
+    booktitle = {Proceedings of the 2018 ACM International Symposium on Wearable Computers},
+    series = {ISWC '18},
+    year = {2018},
+    isbn = {978-1-4503-5967-2},
+    location = {Singapore, Singapore},
+    pages = {208--211},
+    numpages = {4},
+    url = {http://doi.acm.org/10.1145/3267242.3267285},
+    doi = {10.1145/3267242.3267285},
+    acmid = {3267285},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {perceived exertion, smartwatches, sustained use},
+    }
 caption: ''
 citation: |-
   Rushil Khurana, Nikola Banovic, and Kent Lyons. 2018. In only 3 minutes: perceived exertion limits of smartwatch use. In Proceedings of the 2018 ACM International Symposium on Wearable Computers (ISWC '18). ACM, New York, NY, USA, 208-211. DOI: https://doi.org/10.1145/3267242.3267285
