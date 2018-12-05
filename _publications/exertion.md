@@ -28,9 +28,9 @@ citation: |-
   Rushil Khurana, Nikola Banovic, and Kent Lyons. 2018. In only 3 minutes: perceived exertion limits of smartwatch use. In Proceedings of the 2018 ACM International Symposium on Wearable Computers (ISWC '18). ACM, New York, NY, USA, 208-211. DOI: https://doi.org/10.1145/3267242.3267285
 conference: International Symposium on Wearable Computers (ISWC), 2018
 date: '2018-10-07'
-image: '/images/pubs/spirocall.png'
+image: '/images/pubs/exertion.jpeg'
 pdf: /pdfs/exertion.pdf
-thumbnail: '/images/pubs/spirocall.png'
+thumbnail: '/images/pubs/exertion.jpeg'
 name: 'Smartwatch Exertion'
 title: '
 In only 3 minutes: perceived exertion limits of smartwatch use'
