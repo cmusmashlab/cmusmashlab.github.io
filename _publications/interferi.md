@@ -1,6 +1,6 @@
 ---
 abstract: |-
-  Cost and accessibility have impeded the adoption of spirometers (devices that measure lung function) outside clinical settings, especially in low-resource environments. Prior work, called SpiroSmart, used a smartphone's built-in microphone as a spirometer. However, individuals in low- or middle-income countries do not typically have access to the latest smartphones. In this paper, we investigate how spirometry can be performed from any phone-using the standard telephony voice channel to transmit the sound of the spirometry effort. We also investigate how using a 3D printed vortex whistle can affect the accuracy of common spirometry measures and mitigate usability challenges. Our system, coined SpiroCall, was evaluated with 50 participants against two gold standard medical spirometers. We conclude that SpiroCall has an acceptable mean error with or without a whistle for performing spirometry, and advantages of each are discussed.
+  Interferi is an on-body gesture sensing technique using acoustic interferometry. We use ultrasonic transducers resting on the skin to create acoustic interference patterns inside the wearer’s body, which interact with anatomical features in complex, yet characteristic ways. We focus on two areas of the body with great expressive power: the hands and face. For each, we built and tested a series of worn sensor configurations, which we used to identify useful transducer arrangements and machine learning fea-tures. We created final prototypes for the hand and face, which our study results show can support eleven- and nine-class gestures sets at 93.4% and 89.0% accuracy, re-spectively. We also evaluated our system in four continu-ous tracking tasks, including smile intensity and weight estimation, which never exceed 9.5% error. We believe these results show great promise and illuminate an inter-esting sensing technique for HCI applications.
 authors:
 - ysi
 - Yang Zhang
@@ -20,6 +20,6 @@ title: 'Interferi: Gesture Sensing using On-Body Acoustic Interferometry'
 video: ''
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e62ZL3dCQWM" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
-blurb: Tracking exercises in real world situations with just one camera
+blurb: Gesture Sensing using On-Body Acoustic Interferometry
 comingsoon: true
 ---

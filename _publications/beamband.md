@@ -1,6 +1,6 @@
 ---
 abstract: |-
-  Cost and accessibility have impeded the adoption of spirometers (devices that measure lung function) outside clinical settings, especially in low-resource environments. Prior work, called SpiroSmart, used a smartphone's built-in microphone as a spirometer. However, individuals in low- or middle-income countries do not typically have access to the latest smartphones. In this paper, we investigate how spirometry can be performed from any phone-using the standard telephony voice channel to transmit the sound of the spirometry effort. We also investigate how using a 3D printed vortex whistle can affect the accuracy of common spirometry measures and mitigate usability challenges. Our system, coined SpiroCall, was evaluated with 50 participants against two gold standard medical spirometers. We conclude that SpiroCall has an acceptable mean error with or without a whistle for performing spirometry, and advantages of each are discussed.
+  BeamBand is a wrist-worn system that uses ultrasonic beamforming for hand gesture sensing. Using an array of small transducers, arranged on the wrist, we can ensem-ble acoustic wavefronts to project acoustic energy at spec-ified angles and focal lengths. This allows us to interro-gate the surface geometry of the hand with inaudible sound in a raster-scan-like manner, from multiple view-points. We use the resulting, characteristic reflections to recognize hand pose at 8 FPS. In our user study, we found that BeamBand supports a six-class hand gesture set at 94.6% accuracy. Even across sessions, when the sensor is removed and reworn later, accuracy remains high: 89.4%. We describe our software and hardware, and future ave-nues for integration into devices such as smartwatches and VR controllers. 
 authors:
 - ysi
 - Chris Harrison
@@ -18,6 +18,6 @@ title: 'BeamBand: Hand Gesture Sensing with Ultrasonic Beamforming'
 video: ''
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e62ZL3dCQWM" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
-blurb: Tracking exercises in real world situations with just one camera
+blurb: Hand Gesture Sensing with Ultrasonic Beamforming
 comingsoon: true
 ---
