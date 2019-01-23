@@ -14,7 +14,7 @@ citation: |-
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2018
 date: '2018-12-07'
 image: '/images/pubs/gymcam.png'
-pdf: /pdfs/spirocall.pdf
+pdf: /pdfs/gymcam.pdf
 thumbnail: '/images/pubs/gymcam.png'
 name: 'GymCam'
 title: 'GymCam: Detecting, recognizing, and tracking simultaneous exercises in unconstrained scenes'
