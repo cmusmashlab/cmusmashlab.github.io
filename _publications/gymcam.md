@@ -1,6 +1,6 @@
 ---
 abstract: |-
-  Cost and accessibility have impeded the adoption of spirometers (devices that measure lung function) outside clinical settings, especially in low-resource environments. Prior work, called SpiroSmart, used a smartphone's built-in microphone as a spirometer. However, individuals in low- or middle-income countries do not typically have access to the latest smartphones. In this paper, we investigate how spirometry can be performed from any phone-using the standard telephony voice channel to transmit the sound of the spirometry effort. We also investigate how using a 3D printed vortex whistle can affect the accuracy of common spirometry measures and mitigate usability challenges. Our system, coined SpiroCall, was evaluated with 50 participants against two gold standard medical spirometers. We conclude that SpiroCall has an acceptable mean error with or without a whistle for performing spirometry, and advantages of each are discussed.
+  Worn sensors are popular for automatically tracking exercises. However, a wearable is usually attached to one part of the body, tracks only that location, and thus is inadequate for capturing a wide range of exercises, especially when other limbs are involved. Cameras, on the other hand, can fully track a user's body, but suffer from noise and occlusion. We present GymCam, a camera-based system for automatically detecting, recognizing and tracking multiple people and exercises simultaneously in unconstrained environments without any user intervention. We collected data in a varsity gym, correctly segmenting exercises from other activities with an accuracy of 84.6%, recognizing the type of exercise at 93.6% accuracy, and counting the number of repetitions to within +-1.7 on average. GymCam advances the field of real-time exercise tracking by filling some crucial gaps, such as tracking whole body motion, handling occlusion, and enabling single-point sensing for a multitude of users.
 authors:
 - khurana
 - ahuja
@@ -10,17 +10,15 @@ authors:
 - goel
 caption: ''
 citation: |-
-  Mayank Goel, Elliot Saba, Maia Stiber, Eric Whitmire, Josh Fromm, Eric C. Larson, Gaetano Borriello, and Shwetak N. Patel. 2016. SpiroCall: Measuring Lung Function over a Phone Call.  In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (CHI '16). ACM, New York, NY, USA,  5675-5685. DOI: http://dx.doi.org/10.1145/2858036.2858401
-conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2019
+  Rushil Khurana, Karan Ahuja, Zac Yu, Jennifer Mankoff, Chris Harrison, and Mayank Goel. 2018. GymCam: Detecting, Recognizing and Tracking Simultaneous Exercises in Unconstrained Scenes. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 4, Article 185 (December 2018), 17 pages. DOI: https://doi.org/10.1145/3287063
+conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2018
 date: '2018-12-07'
 image: '/images/pubs/gymcam.png'
 pdf: /pdfs/spirocall.pdf
 thumbnail: '/images/pubs/gymcam.png'
 name: 'GymCam'
 title: 'GymCam: Detecting, recognizing, and tracking simultaneous exercises in unconstrained scenes'
-video: 'https://www.youtube.com/watch?v=e62ZL3dCQWM'
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e62ZL3dCQWM" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
 blurb: Tracking exercises in real world situations with just one camera
-comingsoon: true
+
 ---
