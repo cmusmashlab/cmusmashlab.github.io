@@ -63,14 +63,12 @@
 
 
 # Masters
-
 - id: chitkara
   name: Saksham Chitkara
   image: /images/members/dummy.png
-  affiliation: SCS
   email: schitkar@andrew.cmu.edu
   degree: Masters Student
-  status: current
+  status: master_alumni
 
 
 # Visiting
