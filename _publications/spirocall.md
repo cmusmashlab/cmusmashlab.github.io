@@ -41,6 +41,6 @@ name: 'SpiroCall'
 title: 'SpiroCall: Measuring Lung Function over a Phone Call'
 video: 'https://www.youtube.com/watch?v=e62ZL3dCQWM'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/e62ZL3dCQWM" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Enabling spirometry using microphones on all phones using phone calls
 ---

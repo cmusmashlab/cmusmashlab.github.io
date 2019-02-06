@@ -40,7 +40,7 @@ bibtex: |
     keywords = {computer vision, multispectral imaging, sensing},
     }
 name: 'HyperCam'
-onhomepage: true
+onhomepage: false
 blurb: Low-cost hyperspectral camera using off-the-shelf components
 video: 'https://www.youtube.com/watch?v=0b283zc7fQ4'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/0b283zc7fQ4" frameborder="0" allowfullscreen></iframe>'
