@@ -56,6 +56,16 @@
   affiliation: HCII
   status: current
 
+- id: ramos
+  name: Julian Ramos
+  image: /images/members/dummy.png
+  email: julianramos@cmu.edu
+  website: http://www.andrew.cmu.edu/user/ingenia/
+  degree: Ph.D. Student
+  affiliation: HCII
+  status: current
+
+
 
 # Visiting Researchers
 
