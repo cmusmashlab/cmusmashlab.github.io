@@ -20,7 +20,7 @@ html {
 
 body {
   background: $white;
-  font: 16px/1.2 $awesome;
+  font: 16px/1.2 $avenir;
   color: $darkGray;
 }
 
@@ -30,7 +30,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $awesome;
+  font-family: $avenir;
   color: $darkerGray;
   font-weight: lighter;
 
@@ -200,7 +200,7 @@ img {
 }
 
 .navbar {
-  font-family: $awesome;
+  font-family: $avenir;
   font-size: 18px;
   line-height: 32px;
   background-color: white;
