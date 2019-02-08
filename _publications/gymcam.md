@@ -10,9 +10,9 @@ authors:
 - goel
 caption: ''
 citation: |-
-  Rushil Khurana, Karan Ahuja, Zac Yu, Jennifer Mankoff, Chris Harrison, and Mayank Goel. 2018. GymCam: Detecting, Recognizing and Tracking Simultaneous Exercises in Unconstrained Scenes. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 4, Article 185 (December 2018), 17 pages. DOI: https://doi.org/10.1145/3287063
-conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2018
-date: '2018-12-07'
+  Rushil Khurana, Karan Ahuja, Zac Yu, Jennifer Mankoff, Chris Harrison, and Mayank Goel. 2019. GymCam: Detecting, Recognizing and Tracking Simultaneous Exercises in Unconstrained Scenes. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 4, Article 185 (December 2018), 17 pages. DOI: https://doi.org/10.1145/3287063
+conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2019
+date: '2019-2-07'
 image: '/images/pubs/gymcam.png'
 pdf: /pdfs/gymcam.pdf
 thumbnail: '/images/pubs/gymcam.png'
