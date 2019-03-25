@@ -9,7 +9,7 @@ caption: ''
 citation: |-
   Yasha Iravantchi, Mayank Goel, Chris Harrison. BeamBand: Hand Gesture Sensing with Ultrasonic Beamforming. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19), 2019
 conference: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19), 2019
-date: '2019-4-28'
+date: '2019-3-25'
 image: '/images/pubs/beamband.png'
 pdf: /pdfs/beamband.pdf
 thumbnail: '/images/pubs/beamband.png'
