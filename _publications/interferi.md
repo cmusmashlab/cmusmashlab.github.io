@@ -11,7 +11,7 @@ caption: ''
 citation: |-
   Yasha Iravantchi, Yang Zhang, Evi Bernitsas, Mayank Goel, Chris Harrison. Interferi: Gesture Sensing using On-Body Acoustic Interferometry. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19), 2019
 conference: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19), 2019
-date: '2019-3-25'
+date: '2019-5-1'
 image: '/images/pubs/interferi.png'
 pdf: /pdfs/interferi.pdf
 thumbnail: '/images/pubs/interferi.png'
