@@ -15,7 +15,8 @@ pdf: /pdfs/beamband.pdf
 thumbnail: '/images/pubs/beamband.png'
 name: 'BeamBand'
 title: 'BeamBand: Hand Gesture Sensing with Ultrasonic Beamforming'
-video: ''
+video: 'https://youtu.be/jhY4NsIW2kQ'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jhY4NsIW2kQ" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
 blurb: Hand Gesture Sensing with Ultrasonic Beamforming
 ---
