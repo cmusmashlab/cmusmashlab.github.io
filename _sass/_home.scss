@@ -25,8 +25,8 @@
   text-align: center;
   .image {
     img {
-      width: 20em;
-      height: auto;
+      width: 15em;
+      height: 15em;
       object-fit: contain;
       transition: all 0.3s ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
@@ -48,7 +48,7 @@
   }
   .coming_soon_text {
   color: white;
-  font-size: 20pt;
+  font-size: 1.5rem;
   margin-top:13px;
   display: block;
   }

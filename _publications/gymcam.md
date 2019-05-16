@@ -16,6 +16,8 @@ date: '2019-2-07'
 image: '/images/pubs/gymcam.png'
 pdf: /pdfs/gymcam.pdf
 thumbnail: '/images/pubs/gymcam.png'
+video: 'https://youtu.be/33kXm8-SSJY'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/33kXm8-SSJY" frameborder="0" allowfullscreen></iframe>'
 name: 'GymCam'
 title: 'GymCam: Detecting, recognizing, and tracking simultaneous exercises in unconstrained scenes'
 onhomepage: true
