@@ -70,12 +70,6 @@
   affiliation: Currently a Ph.D. student at University of Michigan
   status: past_collab
 
-
-
-
-
-# Visiting
-
 - id: zac
   name: Zac Yu
   image: /images/members/zac.png
@@ -83,7 +77,13 @@
   email: me@zacyu.com
   website: https://zacyu.com
   degree: Undergraduate
-  status: visiting
+  status: past_collab
+
+
+
+# Visiting
+
+
 
 # Alumni
 
