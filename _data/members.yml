@@ -67,13 +67,13 @@
   image: /images/members/iravantchi.png
   email: yasha@yasha.xyz
   website: https://yasha.xyz/
-  affiliation: Currently a Ph.D. student at University of Michigan
+  affiliation: Ph.D. student at University of Michigan
   status: past_collab
 
 - id: zac
   name: Zac Yu
   image: /images/members/zac.png
-  affiliation: University of Pittsburgh
+  affiliation: Engineer at Google
   email: me@zacyu.com
   website: https://zacyu.com
   degree: Undergraduate
