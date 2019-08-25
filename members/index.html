@@ -7,6 +7,7 @@ redirect_from: /people
 {% assign sorted_members = site.data.members | sort: 'id' %}
 {% assign current_members = sorted_members | where:"status","current" %}
 {% assign visiting = sorted_members | where:"status","visiting" %}
+{% assign past_collab = sorted_members | where:"status","past_collab" %}
 {% assign alumni = sorted_members | where:"status","alumni" %}
 {% assign master_alumni = sorted_members | where:"status","master_alumni" %}
 {% assign ugrad_alumni = sorted_members | where:"status","ugrad_alumni" %}
@@ -52,6 +53,22 @@ redirect_from: /people
 <h1>Visiting Researchers</h1>
 <div class="row">
 {% for member in visiting %}
+
+  <div class="member-badge col-md-3 col-sm-3 col-xs-4">
+    <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+            <div class="degree">{% if member.degree != nil %}{{ member.degree }}{% endif %}</div>
+      <div class="affiliation">{% if member.affiliation != nil %}{{ member.affiliation }}{% endif %}</div>
+      <div class="email">{% if member.email != nil %}<span><a href="mailto::{{ member.email }}">{{ member.email }}</a></span>{% endif %} </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<h1>Former Ph.D. Students</h1>
+<div class="row">
+{% for member in past_collab %}
 
   <div class="member-badge col-md-3 col-sm-3 col-xs-4">
     <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>

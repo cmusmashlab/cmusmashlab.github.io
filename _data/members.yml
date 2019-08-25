@@ -38,15 +38,6 @@
   status: current
 
 
-- id: ysi
-  name: Yasha Iravantchi
-  image: /images/members/iravantchi.png
-  email: ysi@cs.cmu.edu
-  website: https://yasha.xyz/
-  degree: Ph.D. Student
-  affiliation: HCII
-  status: current
-
 - id: ahuja
   name: Karan Ahuja
   image: /images/members/ahuja.png
@@ -67,18 +58,20 @@
 
 
 
-# Visiting Researchers
+
+
+# Past Collaborators
+
+- id: ysi
+  name: Yasha Iravantchi
+  image: /images/members/iravantchi.png
+  email: yasha@yasha.xyz
+  website: https://yasha.xyz/
+  affiliation: Currently a Ph.D. student at University of Michigan
+  status: past_collab
 
 
 
-
-# Masters
-- id: chitkara
-  name: Saksham Chitkara
-  image: /images/members/dummy.png
-  email: schitkar@andrew.cmu.edu
-  degree: Masters Student
-  status: master_alumni
 
 
 # Visiting
@@ -103,6 +96,13 @@
 
 
 # Past masters
+
+- id: chitkara
+  name: Saksham Chitkara
+  image: /images/members/dummy.png
+  email: schitkar@andrew.cmu.edu
+  degree: Masters Student
+  status: master_alumni
 
 - id: min
   name: Min Yan Beh
@@ -143,3 +143,5 @@
   name: Vivek Shankar
   image: /images/members/dummy.png
   status: ugrad_alumni
+
+#
