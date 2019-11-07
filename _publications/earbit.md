@@ -34,6 +34,6 @@ pdf: /pdfs/earbit.pdf
 thumbnail: '/images/pubs/earbit.png'
 name: 'EarBit'
 title: 'EarBit: using wearable sensors to detect eating episodes in unconstrained environments'
-onhomepage: true
+onhomepage: false
 blurb: A non-intrusive earpiece for monitoring diet
 ---

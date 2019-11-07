@@ -12,7 +12,7 @@ citation: |
 video: 'https://youtu.be/v7hFJGhtokc'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v7hFJGhtokc" frameborder="0" allowfullscreen></iframe>'
 name: 'Carpacio'
-onhomepage: true
+onhomepage: false
 bibtex: |
     @inproceedings{Wang:2017:CRC:3126594.3126623,
      author = {Wang, Edward Jay and Garrison, Jake and Whitmire, Eric and Goel, Mayank and Patel, Shwetak},
