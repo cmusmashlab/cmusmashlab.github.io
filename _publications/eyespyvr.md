@@ -30,6 +30,6 @@ name: 'EyeSpyVR'
 title: 'EyeSpyVR: Interactive Eye Sensing Using Off-the-Shelf, Smartphone-Based VR Headsets'
 video: 'https://youtu.be/2ec-9yR1KQw'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2ec-9yR1KQw" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Sensing gaze characteristics and enabling immersive VR applications using built-in sensors
 ---
