@@ -41,6 +41,12 @@ redirect_from:
         {% if pub.bibtex %}<button type="button" class="btn btn-default btn-xs" aria-label="BibTeX" data-toggle="modal" data-target="#{{pub.title | slugify}}_bibtex">
           <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
         </button>{% endif %}
+        {% if pub.dataset %}<a href="{{ pub.dataset }}" class="btn btn-default btn-xs" aria-label="Dataset" target="_blank">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Dataset
+        </a> {% endif %}
+        {% if pub.code %}<a href="{{ pub.code }}" class="btn btn-default btn-xs" aria-label="Code" target="_blank">
+          <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Code
+        </a> {% endif %}
       {% endif %}
     </p>
   </div>

@@ -15,14 +15,11 @@ pub_data = {}
 # stream.write('---')
 # stream.close()
 
-#abstract: input string or read from a file
-#blurb: input string
-#homepage: true/false
-#pdf: filename (append path)
-#video: youtube video id
-#award: string 
+
 #bibtex: create
 #citation: create
+#change options for all fields
+#make changes to existing mds
 
 def editPaperTitle():
 	return raw_input ('Enter full paper title: ')
@@ -132,6 +129,7 @@ def editAuthorNames():
 def editPDFLink():
 	pdflink = raw_input('Enter the filename for the paper PDF (including extension).\nMake sure to also add the PDF file to /pdfs/ folder: ')
 	pub_data['pdf'] = '/pdfs/'+pdflink
+	return pdflink
 
 def editVideoID():
 	videoID = raw_input('Enter the video ID from YouTube. \nFor example, for BeamBand, the YouTube link is: https://www.youtube.com/embed/jhY4NsIW2kQ, \nbut all we need here is the suffix code (e.g., jhY4NsIW2kQ in this case).\nIf no video, press <Enter>: ')
@@ -245,7 +243,7 @@ editMainImg()
 
 #link to paper
 print('-------\nPDF\n-------')
-editPDFLink()
+pdfname = editPDFLink()
 
 #video id on youtube
 print('-------\nYouTube Link\n-------')
@@ -274,7 +272,8 @@ isAllFine = raw_input('Does everything look good here? (y/n): ')
 if isAllFine == 'n':
 	showChangeInterface()
 
-stream = file('../_publications/test2.md','w')
+mdFilePath = '../_publications/'+pdfname.split('.')[0]+'.md'
+stream = file(mdFilePath,'w')
 stream.write('---\n')
 yaml.dump(pub_data,stream)
 stream.write('---')

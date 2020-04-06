@@ -25,7 +25,9 @@ image: '/images/pubs/fitbyte.png'
 pdf: /pdfs/fitbyte.pdf
 thumbnail: '/images/pubs/fitbyte.png'
 name: 'FitByte'
-title: 'FitByte: Automatic Diet Monitoring in UnconstrainedSituations Using Multimodal Sensing on Eyeglasses.'
+title: 'FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Multimodal Sensing on Eyeglasses.'
 onhomepage: true
 blurb: Eyeglasses for monitoring diet
+dataset: 'https://smashlab.io'
+code: 'https://smashlab.io'
 ---
