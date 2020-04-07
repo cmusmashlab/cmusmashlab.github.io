@@ -20,10 +20,10 @@ layout: default
       {% if page.bibtex %}<button type="button" class="btn btn-default btn-xs" aria-label="BibTeX" data-toggle="modal" data-target="#{{page.title | slugify}}_bibtex">
         <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
       </button>{% endif %}
-            {% if page.dataset %}<a href="{{ pub.dataset }}" class="btn btn-default btn-xs" aria-label="Dataset" target="_blank">
+            {% if page.dataset %}<a href="{{ page.dataset }}" class="btn btn-default btn-xs" aria-label="Dataset" target="_blank">
           <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Dataset
         </a> {% endif %}
-        {% if page.code %}<a href="{{ pub.code }}" class="btn btn-default btn-xs" aria-label="Code" target="_blank">
+        {% if page.code %}<a href="{{ page.code }}" class="btn btn-default btn-xs" aria-label="Code" target="_blank">
           <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Code
         </a> {% endif %}
     </div>
