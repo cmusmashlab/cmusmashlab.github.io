@@ -21,8 +21,37 @@ pub_data = {}
 #change options for all fields
 #make changes to existing mds
 
+def genBib():
+	bibString = '@inproceedings{'+authorNames[0].split(' ')[1]+pub_data['year']+',\ntitle={'+pub_data['title']+'},\nauthor={'
+	for author in authorNames:
+		bibString = bibString+author+', '
+	bibString = bibString+'},\n'
+	bibString = bibString+'booktitle={'+pub_data['conference']+'},\n'
+	bibString = bibString + 'year={'+pub_data['year']+'}\n}'
+
+	return bibString
+
+def genCite():
+	citeString = ''
+	count = 0
+	ipdb.set_trace()
+
+	for author in authorNames:
+		citeString = citeString+author
+		if count==len(authorNames)-1:
+			citeString = citeString+'. '
+		else:
+			citeString = citeString+','
+
+		count=count+1
+	
+	citeString = citeString + pub_data['year'] + '. '+pub_data['title']+'. '+pub_data['conference']+'.'
+	print citeString
+	return citeString
+
 def editPaperTitle():
 	return raw_input ('Enter full paper title: ')
+
 def editPaperVenue():
 	conferences = {"IMWUT": "Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies (IMWUT)",
                "ISWC": "Proceedings of the ACM International Symposium on Wearable Computers",
@@ -95,7 +124,7 @@ def editAuthorNames():
 		print('{:<10}{:<20}'.format('id','name'))
 		print (dash)
 		for member in membersData:
-			if member['status'] == 'current':
+			if member['status'] == 'current' or member['status'] == 'shifu':
 				print('{:<10}{:<20}'.format(member['id'],member['name']))
 		
 		authorMsg = '\nIf the author ' + str(authorCount) + ' is a member of Smash Lab and is in this list, enter their id, otherwise enter \'n\'?\nWhen done, press <enter> '
@@ -114,7 +143,7 @@ def editAuthorNames():
 				continue
 		if name == 'n':
 			name = raw_input('Enter full name: ')
-			currentAuthorIDList.append('\''+name+'\'')
+			currentAuthorIDList.append(name)
 			currentAuthorNameList.append(name)
 
 		if name == '':
@@ -265,12 +294,21 @@ editAwardStatus()
 '-------\nAbstract\n-------'
 editAbstract()
 
+
 showAllInfo()
+
+
 
 isAllFine = raw_input('Does everything look good here? (y/n): ')
 
 if isAllFine == 'n':
 	showChangeInterface()
+
+genBib()
+genCite()
+
+pub_data['bibtex'] = genBib()
+pub_data['citation'] = genCite()
 
 mdFilePath = '../_publications/'+pdfname.split('.')[0]+'.md'
 stream = file(mdFilePath,'w')

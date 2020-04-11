@@ -34,6 +34,6 @@ thumbnail: '/images/pubs/exertion.jpeg'
 name: 'Smartwatch Exertion'
 title: '
 In only 3 minutes: perceived exertion limits of smartwatch use'
-onhomepage: true
+onhomepage: false
 blurb: study to determine smartwatch exertion for sustained interactions
 ---

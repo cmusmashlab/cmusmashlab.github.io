@@ -122,6 +122,20 @@
 
 
 # past undergrads
+- id: phoebe
+  name: Phoebe Song
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: christine
+  name: Christine Wu
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+
+- id: kusha
+  name: Kusha Maharaj
+  image: /images/members/dummy.png
+  status: ugrad_alumni
 
 - id: nelson
   name: Nelson Wong
