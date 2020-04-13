@@ -21,7 +21,7 @@ citation: 'Rushil Khurana,Mayank Goel. 2020. Eyes on the Road: Detecting Phone U
   Factors in Computing Systems.'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
   Systems
-date: '2020-05-01'
+date: '2020-04-13'
 image: /images/pubs/eyesroad.png
 name: Eyes on the Road
 onhomepage: true
