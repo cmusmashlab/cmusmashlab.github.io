@@ -21,7 +21,7 @@ citation: 'Rushil Khurana, and Steve Hodges. 2020. Beyond the Prototype: Underst
   Factors in Computing Systems.'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
   Systems
-date: '2020-04-30'
+date: '2020-04-12'
 image: /images/pubs/btp.png
 name: Beyond the Prototype
 onhomepage: true
