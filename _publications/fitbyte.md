@@ -29,5 +29,6 @@ title: 'FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Mul
 onhomepage: true
 blurb: Eyeglasses for monitoring diet
 dataset: 'https://smashlab.io'
-code: 'https://smashlab.io'
+video: 'https://youtu.be/2JG0COcsFmc'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2JG0COcsFmc" frameborder="0" allowfullscreen></iframe>'
 ---
