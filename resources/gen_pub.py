@@ -54,9 +54,9 @@ def editPaperTitle():
 
 def editPaperVenue():
 	conferences = {"IMWUT": "Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies (IMWUT)",
-               "ISWC": "Proceedings of the ACM International Symposium on Wearable Computers",
-               "CHI": "Proceedings of the Annual ACM Conference on Human Factors in Computing Systems",
-               "UIST": "Proceedings of the Annual ACM Symposium on User Interface Software and Technology",
+               "ISWC": "Proceedings of the ACM International Symposium on Wearable Computers (ISWC)",
+               "CHI": "Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)",
+               "UIST": "Proceedings of the Annual ACM Symposium on User Interface Software and Technology (UIST)",
                }
 	print ('Enter the name of the conference or journal below. If it is one of the places in this list, then you can use the short name too. No need to add the year right now.\n')
 	for conference in conferences:

@@ -30,7 +30,7 @@ citation: Prerna Chikersal,Danielle Belgrave,Gavin Doherty,Angel Enrique,Jorge E
   to Improve Clinical Outcomes in an Online Mental Health Intervention. Proceedings
   of the Annual ACM Conference on Human Factors in Computing Systems.
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
-  Systems
+  Systems (CHI)
 date: '2020-04-13'
 image: /images/pubs/mh_supporter_full.png
 name: Understanding Client Support Strategies to Improve Clinical Outcomes in an Online

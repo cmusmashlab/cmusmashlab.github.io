@@ -19,7 +19,7 @@ bibtex: |-
 caption: ''
 citation: |-
   Abdelkareem Bedri, Diana Li, Rushil Khurana, Kunal Bhuwalka, Mayank Goel. 2020. FitByte: Automatic Diet Monitoring in UnconstrainedSituations Using Multimodal Sensing on Eyeglasses. Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (2020).
-conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems, 2020
+conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)
 date: '2020-3-25'
 image: '/images/pubs/fitbyte.png'
 pdf: /pdfs/fitbyte.pdf
