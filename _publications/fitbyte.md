@@ -28,7 +28,7 @@ name: 'FitByte'
 title: 'FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Multimodal Sensing on Eyeglasses.'
 onhomepage: true
 blurb: Eyeglasses for monitoring diet
-dataset: 'https://smashlab.io'
+dataset: 'https://github.com/akareembedri/datasets'
 video: 'https://youtu.be/2JG0COcsFmc'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2JG0COcsFmc" frameborder="0" allowfullscreen></iframe>'
 ---
