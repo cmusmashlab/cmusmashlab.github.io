@@ -4,22 +4,22 @@ abstract: |-
 authors:
 - Alex Mariakakis
 - Edward J. Wang
-- goel
 - Shwetak Patel
+- goel
 
 
 
 bibtex: |-
  @article{mariakakis2019challenges,
   title={Challenges in Realizing Smartphone-based Health Sensing},
-  author={Mariakakis, Alex and Wang, Edward J and Goel, Mayank and Patel, Shwetak N},
-  journal={To appear in IEEE Pervasive},
+  author={Mariakakis, Alex and Wang, Edward J and Patel, Shwetak N, and Goel, Mayank},
+  journal={IEEE Pervasive},
   year={2019},
   publisher={IEEE}
  }
 caption: ''
 citation: |-
-  Alex Mariakakis, Edward J. Wang, Mayank Goel & Shwetak N. Patel. (2019). Challenges in Realizing Smartphone-based Health Sensing. To appear in IEEE Pervasive 2019.
+  Alex Mariakakis, Edward J. Wang, Shwetak N. Patel, & Mayank Goel. (2019). Challenges in Realizing Smartphone-based Health Sensing. To appear in IEEE Pervasive 2019.
 conference: IEEE Pervasive 2019
 date: '2019-02-01'
 image: '/images/pubs/mhealth_challenges.png'
@@ -30,4 +30,5 @@ name: 'mHealth Challenges'
 redirect_from: /projects/mhealthchallenges/
 blurb: Smartphone-based health sensing promises a world where everyone has easy access to medical screening, but how far away are we from that vision?
 onhomepage: false
+award: Best Paper Award Runner-Up
 ---
