@@ -19,7 +19,7 @@ name: 'Interferi'
 title: 'Interferi: Gesture Sensing using On-Body Acoustic Interferometry'
 video: 'https://youtu.be/_nMauMXDqf8'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_nMauMXDqf8" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Gesture Sensing using On-Body Acoustic Interferometry
 award: Honorable Mention Award
 ---
