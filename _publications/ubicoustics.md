@@ -26,7 +26,7 @@ name: 'Ubicoustics'
 title: 'Ubicoustics: Plug-and-Play Acoustic Activity Recognition'
 video: 'https://youtu.be/N5ZaBeB07u4'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/N5ZaBeB07u4" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Immediately deployable activity recognition using microphones and deep learning models trained on existing datasets
 code: https://github.com/FIGLAB/ubicoustics
 ---
