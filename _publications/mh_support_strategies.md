@@ -41,4 +41,5 @@ thumbnail: /images/pubs/mh_supporter_thumb.png
 title: Understanding Client Support Strategies to Improve Clinical Outcomes in an Online Mental Health Intervention
 name: Supporting Mental Health
 year: '2020'
+video: 'https://www.youtube.com/watch?v=SXN33drYUlA'
 ---
