@@ -17,7 +17,7 @@ video: 'https://youtu.be/gLEP-CgYMa8'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gLEP-CgYMa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 name: 'Detachable Smartwatch'
 title: 'Detachable Smartwatch: More Than A Wearable'
-onhomepage: true
+onhomepage: false
 blurb: What if the smartwatch was not tied to your wrist?
 
 ---
