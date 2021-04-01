@@ -56,6 +56,30 @@
   affiliation: HCII
   status: current
 
+- id: dhruv
+  name: Dhruv Verma
+  image: /images/members/dummy.png
+  email: dhruv17046@iiitd.ac.in 
+  degree: Undergraduate Student
+  affiliation: IIIT Delhi
+  status: current
+
+- id: sejal
+  name: Sejal Bhalla
+  image: /images/members/dummy.png
+  email: sejal17100@iiitd.ac.in
+  degree: Undergraduate Student
+  affiliation: IIIT Delhi
+  status: current  
+
+- id: katelyn
+  name: Katelyn Morrison
+  image: /images/members/dummy.png
+  email: katelyn.morrison@pitt.edu
+  degree: Undergraduate Student
+  affiliation: University of Pittsburgh
+  status: current
+# Other Collaborators
 
 
 
