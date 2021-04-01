@@ -88,13 +88,6 @@
 
 # Alumni
 
-# - id: goel
-#   name: Mayank Goel
-#   image: /images/members/goel.jpg
-#   website: http://www.mayankgoel.com
-#   status: alumni
-#   affiliation: Assistant Professor at Carnegie Mellon University
-
 
 # Past masters
 
@@ -159,7 +152,7 @@
   status: ugrad_alumni
 
 - id: kusha
-  name: Kusha Maharaj
+  name: Kusha Maharaja
   image: /images/members/dummy.png
   status: ugrad_alumni
 
