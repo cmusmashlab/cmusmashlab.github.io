@@ -130,7 +130,7 @@
   email: dhruv17046@iiitd.ac.in 
   degree: Undergraduate Student
   affiliation: IIIT Delhi
-  status: current
+  status: ugrad_alumni
 
 - id: sejal
   name: Sejal Bhalla
@@ -138,7 +138,7 @@
   email: sejal17100@iiitd.ac.in
   degree: Undergraduate Student
   affiliation: IIIT Delhi
-  status: current  
+  status: ugrad_alumni  
 
 - id: katelyn
   name: Katelyn Morrison
@@ -146,7 +146,7 @@
   email: katelyn.morrison@pitt.edu
   degree: Undergraduate Student
   affiliation: University of Pittsburgh
-  status: current
+  status: ugrad_alumni
   
 - id: phoebe
   name: Phoebe Song
