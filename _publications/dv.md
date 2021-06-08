@@ -25,7 +25,7 @@ conference: Proceedings of the Annual ACM Conference on Human Factors in Computi
 date: '2020-04-01'
 image: /images/pubs/dv.png
 name: Digital Ventriloquism
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/dv.pdf
 thumbnail: /images/pubs/dv.png
 title: 'Digital Ventriloquism: Giving Voice to Everyday Objects'
