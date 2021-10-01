@@ -47,6 +47,17 @@
   affiliation: HCII
   status: current
 
+- id: arakawa
+  name: Riku Arakawa
+  image: /images/members/AD395DC6-194D-4070-B017-0C920E4EF8AB.jpeg
+  email: rarakawa@andrew.cmu.edu
+  website: https://rikky0611.github.io/
+  degree: Ph.D. Student
+  affiliation: HCII
+  status: current
+
+
+
 - id: ramos
   name: Julian Ramos
   image: /images/members/julian.png
