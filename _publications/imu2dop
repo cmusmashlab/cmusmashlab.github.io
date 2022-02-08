@@ -7,12 +7,12 @@ authors:
 - khurana
 caption: ''
 citation: |-
-  Karan Ahuja, Yue Jiang, Mayank Goel, and Chris Harrison. 2021. Vid2Doppler: Synthesizing Doppler Radar Data from Videos for Training Privacy-Preserving Activity Recognition. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21). Association for Computing Machinery, New York, NY, USA, Article 292, 1–10. DOI:https://doi.org/10.1145/3411764.3445138
-conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)
-date: '2022-01-01'
-image: '/images/pubs/vid2dop.png'
+  Sejal Bhalla, Mayank Goel, Rushil Khurana. 2021. "IMU2Doppler: Cross-Modal Domain Adaptation for Doppler-based Activity Recognition Using IMU Data." Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5.4 (2021): 1-20.
+conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+date: '2021-21-12'
+image: '/images/pubs/imu2dop.png'
 pdf: /pdfs/imu2dop.pdf
-thumbnail: '/images/pubs/vid2dop.png'
+thumbnail: '/images/pubs/imu2dop.png'
 name: 'IMU2Doppler'
 title: 'IMU2Doppler: Cross-Modal Domain Adaptation for Doppler-based Activity Recognition Using IMU Data'
 video: 'https://youtu.be/3EbK2MT-fDk'
