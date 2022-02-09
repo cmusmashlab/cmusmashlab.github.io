@@ -18,7 +18,7 @@ name: 'Mecap'
 title: 'MeCap: Whole-Body Digitization for Low-Cost VR/AR Headsets'
 video: 'https://youtu.be/mR84i0HvzwM'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mR84i0HvzwM" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Low-cost approach to capture whole-body pose on AR/VR headsets
 award: Honorable Mention Award
 ---
