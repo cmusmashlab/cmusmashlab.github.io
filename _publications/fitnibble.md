@@ -18,8 +18,8 @@ bibtex: |-
    }
 caption: ''
 citation: |-
-  Abdelkareem Bedri, Diana Li, Rushil Khurana, Kunal Bhuwalka, Mayank Goel. 2020. FitByte: Automatic Diet Monitoring in UnconstrainedSituations Using Multimodal Sensing on Eyeglasses. Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (2020).
-conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)
+  Abdelkareem Bedri, Diana Li, Rushil Khurana, Kunal Bhuwalka, Mayank Goel. 2022. FitByte: Automatic Diet Monitoring in UnconstrainedSituations Using Multimodal Sensing on Eyeglasses. Proceedings of the Annual Conference on Intelligent User Interfaces (2022).
+conference: Proceedings of the Annual Conference on Intelligent User Interfaces (IUI)
 date: '2022-3-25'
 image: '/images/pubs/fitbyte.png'
 pdf: /pdfs/fitnibble.pdf
@@ -28,7 +28,7 @@ name: 'FitNibble'
 title: 'FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Multimodal Sensing on Eyeglasses.'
 onhomepage: true
 blurb: Eyeglasses for monitoring diet
-dataset: 'https://github.com/cmusmashlab/Datasets/tree/master/FitByte_DataSet'
+code: 'https://github.com/cmusmashlab/FitNibble'
 video: 'https://youtu.be/2JG0COcsFmc'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2JG0COcsFmc" frameborder="0" allowfullscreen></iframe>'
 ---
