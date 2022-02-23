@@ -167,6 +167,11 @@
   affiliation: University of Pittsburgh
   status: ugrad_alumni
   
+- id: yuchen
+  name: Yuchen Liang
+  image: /images/members/dummy.png
+  status: ugrad_alumni
+  
 - id: phoebe
   name: Phoebe Song
   image: /images/members/dummy.png
