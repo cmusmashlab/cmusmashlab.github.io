@@ -10,24 +10,24 @@ authors:
 
 bibtex: |-
    @article{bedri2020fitbyte,
-     title={FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Multimodal Sensing on Eyeglasses},
-     author={Bedri, Abdelkareem and Li, Diana and Khurana, Rushil and Bhuwalka, Kunal and Goel, Mayank},
+     title={FitNibble: A Field Study to Evaluate the Utility and Usability of Automatic Diet Monitoring in Food Journaling Using an Eyeglasses-based Wearable},
+     author={Bedri, Abdelkareem and Liang, Yuchen and Boovaraghavan, Sudershan and Kaufman, Geoff and Goel, Mayank},
      journal={Proceedings of the Annual ACM Conference on Human Factors in Computing Systems},
      year={2020},
      publisher={ACM}
    }
 caption: ''
 citation: |-
-  Abdelkareem Bedri, Diana Li, Rushil Khurana, Kunal Bhuwalka, Mayank Goel. 2022. FitByte: Automatic Diet Monitoring in UnconstrainedSituations Using Multimodal Sensing on Eyeglasses. Proceedings of the Annual Conference on Intelligent User Interfaces (2022).
+  Abdelkareem Bedri, Yuchen Liang, Sudershan Boovaraghavan, Geoff Kaufman, Mayank Goel. 2022. FitNibble: A Field Study to Evaluate the Utility and Usability of Automatic Diet Monitoring in Food Journaling Using an Eyeglasses-based Wearable. Proceedings of the Annual Conference on Intelligent User Interfaces (2022).
 conference: Proceedings of the Annual Conference on Intelligent User Interfaces (IUI)
 date: '2022-3-25'
 image: '/images/pubs/fitbyte.png'
 pdf: /pdfs/fitnibble.pdf
 thumbnail: '/images/pubs/fitbyte.png'
 name: 'FitNibble'
-title: 'FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Multimodal Sensing on Eyeglasses.'
+title: 'FitNibble: A Field Study to Evaluate the Utility and Usability of Automatic Diet Monitoring in Food Journaling Using an Eyeglasses-based Wearable.'
 onhomepage: true
-blurb: Eyeglasses for monitoring diet
+blurb: Field study of eyeglasses for monitoring diet
 code: 'https://github.com/cmusmashlab/FitNibble'
 video: 'https://youtu.be/2JG0COcsFmc'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2JG0COcsFmc" frameborder="0" allowfullscreen></iframe>'
