@@ -9,11 +9,11 @@ authors:
 - goel
 
 bibtex: |-
-   @article{bedri2020fitbyte,
+   @article{bedri2022fitnibble,
      title={FitNibble: A Field Study to Evaluate the Utility and Usability of Automatic Diet Monitoring in Food Journaling Using an Eyeglasses-based Wearable},
      author={Bedri, Abdelkareem and Liang, Yuchen and Boovaraghavan, Sudershan and Kaufman, Geoff and Goel, Mayank},
-     journal={Proceedings of the Annual ACM Conference on Human Factors in Computing Systems},
-     year={2020},
+     journal={Proceedings of the Annual Conference on Intelligent User Interfaces},
+     year={2022},
      publisher={ACM}
    }
 caption: ''
