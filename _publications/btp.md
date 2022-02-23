@@ -24,7 +24,7 @@ conference: Proceedings of the Annual ACM Conference on Human Factors in Computi
 date: '2020-04-12'
 image: /images/pubs/btp.png
 name: Beyond the Prototype
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/btp.pdf
 thumbnail: /images/pubs/btp.png
 title: 'Beyond the Prototype: Understanding the Challenge of Scaling Hardware Device Production'
