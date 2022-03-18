@@ -31,6 +31,6 @@ onhomepage: true
 pdf: /pdfs/lemudx_jfr.pdf
 thumbnail: /images/pubs/lemurdx_thumbnail.png
 title: "Objective Measurement of Hyperactivity Using Mobile Sensing and Machine Learning: A Pilot Study"
-name: LemurDx JFR
+name: Lemur-Dx
 year: '2022'
 ---
