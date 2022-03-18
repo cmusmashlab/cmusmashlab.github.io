@@ -35,7 +35,7 @@ date: '2020-04-13'
 image: /images/pubs/mh_supporter_full.png
 name: Understanding Client Support Strategies to Improve Clinical Outcomes in an Online
   Mental Health Intervention
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/mh_support_strategies.pdf
 thumbnail: /images/pubs/mh_supporter_thumb.png
 title: Understanding Client Support Strategies to Improve Clinical Outcomes in an Online Mental Health Intervention
