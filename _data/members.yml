@@ -199,18 +199,33 @@
 
 - id: zach
   name: Zachary Wade
-  image: /images/members/dummy.png
   status: ugrad_alumni
 
 - id: vivek
   name: Vivek Shankar
-  image: /images/members/dummy.png
   status: ugrad_alumni
 
 - id: andrewliu
   name: Andrew Liu
-  image: /images/members/dummy.png
   affiliation: UC Berkeley
   status: highschool
 
+- id: sanjay
+  name: Sanjay Seshan
+  affiliation: MIT
+  status: highschool
+  
+- id: yuchen_hs
+  name: Yuchen Liang
+  affiliation: CMU
+  status: highschool
+  
+- id: prayag
+  name: Prayag Vemulapalli
+  affiliation: Washington Univ in St. Louis
+  status: highschool
+ 
+- id: danielhuss
+  name: Daniel Huss
+  status: highschool
 #
