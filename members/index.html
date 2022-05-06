@@ -138,7 +138,6 @@ redirect_from: /people
   {% assign affiliation = site.data.affiliations[member.affiliation] %}
 
  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
-    <div class="image">{% if member.website != nil %}<a href="{{ member.website }}">{% endif %}<img src="{{site.url}}{{member.image}}"/>{% if member.website != nil %}</a>{% endif %}</div>
     <div class="details">
       <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
             <div class="degree">{% if member.degree != nil %}{{ member.degree }}{% endif %}</div>
