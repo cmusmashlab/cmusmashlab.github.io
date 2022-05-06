@@ -11,6 +11,7 @@ redirect_from: /people
 {% assign alumni = sorted_members | where:"status","alumni" %}
 {% assign master_alumni = sorted_members | where:"status","master_alumni" %}
 {% assign ugrad_alumni = sorted_members | where:"status","ugrad_alumni" %}
+{% assign hs_alumni = sorted_members | where:"status","highschool" %}
 {% assign faculty = sorted_members | where:"status","shifu" %}
 {% assign goel = faculty | first %}
 
@@ -119,6 +120,21 @@ redirect_from: /people
 <h1>Former Undergraduate Students</h1>
 <div class="row">
 {% for member in ugrad_alumni %}
+  {% assign affiliation = site.data.affiliations[member.affiliation] %}
+
+  <div class="member-badge col-md-2 col-sm-3 col-xs-4">
+    <div class="details">
+      <div class="name">{% if member.website == nil %}{{ member.name }}{% else %}<a href="{{ member.website }}">{{ member.name }}</a>{% endif %}</div>
+      <div class="affiliation">{% if member.affiliation != nil %}{{ affiliation }}{% endif %}</div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+
+<h1>Former Highschool Students</h1>
+<div class="row">
+{% for member in hs_alumni %}
   {% assign affiliation = site.data.affiliations[member.affiliation] %}
 
   <div class="member-badge col-md-2 col-sm-3 col-xs-4">
