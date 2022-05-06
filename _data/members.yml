@@ -207,4 +207,10 @@
   image: /images/members/dummy.png
   status: ugrad_alumni
 
+- id: andrewliu
+  name: Andrew Liu
+  image: /images/members/dummy.png
+  affiliation: UC Berkeley
+  status: highschool
+
 #
