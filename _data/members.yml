@@ -56,6 +56,14 @@
   affiliation: HCII
   status: current
 
+- id: zhou
+  name: Haozhe Zhou
+  image: /images/members/haozhe.jpeg
+  email: haozhezh@andrew.cmu.edu
+  website: https://haozheee.github.io
+  degree: Ph.D. Student
+  affiliation: Societal Computing
+  status: current
 
 
 - id: ramos
