@@ -1,10 +1,12 @@
-- name: Google Faculty Research Award
-  people: [goel]
-  
+- name: Masason Foundation Scholarship
+  people: [arakawa]     
 
 - name: Heidelberg Laureate Forum Young Researcher
   people: [ahuja]     
 
+- name: Google Faculty Research Award
+  people: [goel]
+  
 - name: Siebel Scholarship
   people: [ahuja]
 
