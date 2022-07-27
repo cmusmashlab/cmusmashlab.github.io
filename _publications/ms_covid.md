@@ -20,15 +20,15 @@ bibtex: '@inproceedings{chikersal2022ms_covid,
   year={2022}
 
   }'
-blurb: Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping
+blurb: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping"
 citation: "Prerna Chikersal, Shruthi Venkatesh, Karmen Masown, Elizabeth Walker, Danyal Quraishi, Anind Dey, Mayank Goel, Zongqi Xia. 2022. Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping. JMIR Mental Health. 2022"
 conference: JMIR Mental Health
 date: '2022-08-15'
 image: /images/pubs/ms_covid.png
+name: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
 onhomepage: true
 pdf: /pdfs/mh_depression_students.pdf
 thumbnail: /images/pubs/ms_covid.png
 title: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
-name: Predicting MS Outcomes during COVID-19 
 year: '2022'
 ---
