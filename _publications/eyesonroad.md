@@ -24,7 +24,7 @@ conference: Proceedings of the Annual ACM Conference on Human Factors in Computi
 date: '2020-04-13'
 image: /images/pubs/eyesroad.png
 name: Eyes on the Road
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/eyesroad.pdf
 thumbnail: /images/pubs/eyesroad.png
 title: 'Eyes on the Road: Detecting Phone Usage by Drivers Using On-Device Cameras'
