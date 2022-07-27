@@ -1,39 +1,35 @@
 ---
-abstract: 'We present a machine learning approach that uses data from smartphones and ftness trackers of 138 college students to identify students that experienced depressive symptoms at the end of the semester and students whose depressive symptoms worsened over the semester. Our novel approach is a feature extraction technique that allows us to select meaningful features indicative of depressive symptoms from longitudinal data. It allows us to detect the presence of post-semester depressive symptoms with an accuracy of 85.7% and change in symptom severity with an accuracy of 85.4%. It also predicts these outcomes with an accuracy of >80%, 11-15 weeks before the end of the semester, allowing ample time for preemptive interventions. Our work has signifcant implications for the detection of health outcomes using longitudinal behavioral data and limited ground truth. By detecting change and predicting symptoms several weeks before their onset, our work also has implications for preventing depression.'
+abstract: 'The coronavirus disease 2019 (COVID-19) pandemic has broad negative impact on physical and mental health of people with chronic neurological disorders such as multiple sclerosis (MS). We present a machine learning approach leveraging passive sensor data from smartphones and fitness trackers of people with MS to predict their health outcomes in a natural experiment during a state-mandated "stay-at-home" period due to a global pandemic. Using data collected between November 2019 and May 2020, algorithm detects depression with an accuracy of 82.5% (65% improvement over baseline; f1-score: 0.84), high global MS symptom burden with an accuracy of 90% (39% improvement over baseline; f1-score: 0.93), severe fatigue with an accuracy of 75.5% (22% improvement over baseline; f1-score: 0.80), and poor sleep quality with an accuracy of 84% (28% improvement over baseline; f1-score: 0.84). Our approach could help clinicians better triage patients with MS and potentially other chronic neurological disorders for interventions and aid patient self-monitoring in their own environment, particularly during extraordinarily stressful circumstances such as pandemics that would cause drastic behavioral changes.'
 authors:
 - chikersal
-- Afsaneh Doryab
-- Michael Tumminia
-- Daniella K. Villalba
-- Janine M. Dutcher
-- Xinwen Liu
-- Sheldon Cohen
-- Kasey G. Creswell
-- Jennifer Mankoff
-- J. David Creswell
-- goel
+- Shruthi Venkatesh
+- Karmen Masown
+- Elizabeth Walker
+- Danyal Quraishi
 - Anind Dey
-bibtex: '@inproceedings{chikersal2020detecting,
+- goel
+- Zongqi Xia
+bibtex: '@inproceedings{chikersal2022ms_covid,
 
-  title={Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection},
+  title={Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping},
 
-  author={Prerna Chikersal, Afsaneh Doryab, Michael Tumminia, Daniella K. Villalba, Janine M. Dutcher, Xinwen Liu, Sheldon Cohen, Kasey G. Creswell, Jennifer Mankoff, J. David Creswell, Mayank Goel, Anind Dey},
+  author={Prerna Chikersal, Shruthi Venkatesh, Karmen Masown, Elizabeth Walker, Danyal Quraishi, Anind Dey, Mayank Goel, Zongqi Xia},
 
-  booktitle={ACM Transactions on Computer-Human Interaction (TOCHI)},
+  booktitle={JMIR Mental Health},
 
-  year={2020}
+  year={2022}
 
   }'
-blurb: Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing.
-citation: "Prerna Chikersal, Afsaneh Doryab, Michael Tumminia, Daniella K. Villalba, Janine M. Dutcher, Xinwen Liu, Sheldon Cohen, Kasey G. Creswell, Jennifer Mankoff, J. David Creswell, Mayank Goel, Anind Dey. 2020. Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection. ACM Transactions on Computer-Human Interaction (TOCHI), 2020."
-conference: ACM Transactions on Computer-Human Interaction (TOCHI)
+blurb: Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping
+citation: "Prerna Chikersal, Shruthi Venkatesh, Karmen Masown, Elizabeth Walker, Danyal Quraishi, Anind Dey, Mayank Goel, Zongqi Xia. 2022. Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping. JMIR Mental Health. 2022"
+conference: JMIR Mental Health
 date: '2022-08-15'
-image: /images/pubs/mh_depression_students_full.png
-name: "Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection."
+image: /images/pubs/ms_covid.png
+name: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
 onhomepage: true
 pdf: /pdfs/mh_depression_students.pdf
-thumbnail: /images/pubs/mh_depression_students_thumb.png
-title: "Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection."
-name: Detecting Depression
-year: '2020'
+thumbnail: /images/pubs/ms_covid.png
+title: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
+name: Predicting MS Outcomes during COVID-19 
+year: '2022'
 ---
