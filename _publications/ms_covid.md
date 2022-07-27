@@ -25,7 +25,7 @@ citation: "Prerna Chikersal, Shruthi Venkatesh, Karmen Masown, Elizabeth Walker,
 conference: JMIR Mental Health
 date: '2022-08-15'
 image: /images/pubs/ms_covid.png
-name: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
+name: "Predicting Multiple Sclerosis Outcomes during COVID-19"
 onhomepage: true
 pdf: /pdfs/mh_depression_students.pdf
 thumbnail: /images/pubs/ms_covid.png
