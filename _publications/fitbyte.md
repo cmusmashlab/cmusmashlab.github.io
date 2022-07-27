@@ -26,7 +26,7 @@ pdf: /pdfs/fitbyte.pdf
 thumbnail: '/images/pubs/fitbyte.png'
 name: 'FitByte'
 title: 'FitByte: Automatic Diet Monitoring in Unconstrained Situations Using Multimodal Sensing on Eyeglasses.'
-onhomepage: true
+onhomepage: false
 blurb: Eyeglasses for monitoring diet
 dataset: 'https://github.com/cmusmashlab/Datasets/tree/master/FitByte_DataSet'
 video: 'https://youtu.be/2JG0COcsFmc'
