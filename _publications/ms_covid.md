@@ -25,7 +25,7 @@ citation: "Prerna Chikersal, Shruthi Venkatesh, Karmen Masown, Elizabeth Walker,
 conference: JMIR Mental Health
 date: '2022-08-15'
 image: /images/pubs/ms_covid.png
-name: "Predicting Multiple Sclerosis Outcomes"
+name: "Predicting M.S. Outcomes"
 onhomepage: true
 pdf: /pdfs/mh_depression_students.pdf
 thumbnail: /images/pubs/ms_covid.png
