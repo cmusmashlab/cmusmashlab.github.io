@@ -29,6 +29,6 @@ title: 'FitNibble: A Field Study to Evaluate the Utility and Usability of Automa
 onhomepage: true
 blurb: Field study of eyeglasses for monitoring diet
 code: 'https://github.com/cmusmashlab/FitNibble'
-video: 'https://youtu.be/2JG0COcsFmc'
+video: 'https://youtu.be/B8CLSBrJjtk'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2JG0COcsFmc" frameborder="0" allowfullscreen></iframe>'
 ---
