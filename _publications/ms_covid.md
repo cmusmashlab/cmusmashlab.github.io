@@ -27,7 +27,7 @@ date: '2022-08-15'
 image: /images/pubs/ms_covid.png
 name: "Predicting M.S. Outcomes"
 onhomepage: true
-pdf: /pdfs/mh_depression_students.pdf
+pdf: /pdfs/ms_covid.pdf
 thumbnail: /images/pubs/ms_covid.png
 title: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
 year: '2022'
