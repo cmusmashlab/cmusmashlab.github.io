@@ -78,14 +78,6 @@
 
 # Other Collaborators
 
-- id: yu
-  name: Catherine Tianhong Yu
-  image: /images/members/catherine.png
-  email: tianhony@andrew.cmu.edu
-  website: https://catherineyu.com
-  degree: Masters Student
-  affiliation: SCS
-  status: alumni
 
 - id: mollyn
   name: Vimal Mollyn
@@ -96,7 +88,25 @@
   affiliation: IIT_Madras
   status: current
 
+  - id: rishiraj
+  name: Rishiraj Adhikary
+  image: /images/members/rishiraj.jpg
+  email: rishiraj.a@iitgn.ac.in
+  website: https://rishi-a.github.io
+  degree: Ph.D. Student
+  affiliation: IIT Gandhinagar
+  status: current
+
 # Past Collaborators
+
+- id: yu
+  name: Catherine Tianhong Yu
+  image: /images/members/catherine.png
+  email: tianhony@andrew.cmu.edu
+  website: https://catherineyu.com
+  degree: Masters Student
+  affiliation: SCS
+  status: past_collab
 
 - id: ysi
   name: Yasha Iravantchi
