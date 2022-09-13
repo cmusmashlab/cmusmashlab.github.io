@@ -11,7 +11,7 @@ caption: ''
 citation: |-
   Vimal Mollyn, Karan Ahuja, Dhruv Verma, Chris Harrison, Mayank Goel. 2022. SAMoSA: Sensing Activities with Motion and Subsampled Audio. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT). 2022"
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
-date: '2022-09-20'
+date: '2022-09-10'
 image: '/images/pubs/samosa.png'
 pdf: /pdfs/samosa.pdf
 thumbnail: '/images/pubs/samosa.png'
