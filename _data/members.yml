@@ -18,7 +18,7 @@
   degree: Ph.D. Student
   affiliation: Apple
   status: alumni
-  dissertation: TEST
+  dissertation: /pdfs/bedri_dissertation.pdf
 
 - id: khurana
   name: Rushil Khurana
@@ -28,6 +28,8 @@
   degree: Ph.D. Student
   affiliation: Allen Institute (AI2)
   status: alumni
+  dissertation: /pdfs/khurana_dissertation.pdf
+
 
 - id: chikersal
   name: Prerna Chikersal
@@ -75,6 +77,7 @@
   degree: Ph.D. Student
   affiliation: Meta Reality Labs
   status: alumni
+  dissertation: /pdfs/ramos_dissertation.pdf
 
 
 # Other Collaborators
