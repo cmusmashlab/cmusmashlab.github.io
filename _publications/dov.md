@@ -18,6 +18,6 @@ name: 'Direction-of-Voice'
 title: 'Direction-of-Voice (DoV) Estimation for Intuitive Speech Interaction with Smart Devices Ecosystems'
 video: 'https://youtu.be/sdgnX49ZXig'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/TLl-N61LBMg" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Using speech as a directional communication channel
 ---
