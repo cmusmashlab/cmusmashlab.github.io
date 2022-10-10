@@ -27,6 +27,7 @@ redirect_from:
     {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %}<h2>{{ pub.title }}</h2></a>
 
     <p><span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
+      <i>{% if pub.category == "interaction" %}<span class="to-appear">Interaction </span>{% endif %}{{ pub.conference }}
       <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
       {% if pub.date <= site.time %}
         {% if pub.pdf %}<a href="{{ site.url }}{{ pub.pdf }}" class="btn btn-default btn-xs" aria-label="Download PDF">
