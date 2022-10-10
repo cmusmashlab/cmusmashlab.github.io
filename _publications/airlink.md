@@ -37,4 +37,5 @@ title: 'AirLink: Sharing Files Between Multiple Devices Using In-air Gestures'
 video: 'https://www.youtube.com/watch?v=fnFUv2v7Gbg'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fnFUv2v7Gbg" frameborder="0" allowfullscreen></iframe>'
 redirect_from: /projects/airlink/
+category: interaction
 ---
