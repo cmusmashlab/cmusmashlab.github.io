@@ -19,4 +19,5 @@ name: 'CoolMoves'
 title: 'CoolMoves: User Motion Accentuation in Virtual Reality'
 onhomepage: false
 blurb: User Motion Accentuation and Stylization in Virtual Reality
+category: interaction
 ---

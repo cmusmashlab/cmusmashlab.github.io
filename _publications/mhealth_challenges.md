@@ -31,4 +31,5 @@ redirect_from: /projects/mhealthchallenges/
 blurb: Smartphone-based health sensing promises a world where everyone has easy access to medical screening, but how far away are we from that vision?
 onhomepage: false
 award: Best Paper Award Runner-Up
+category: health
 ---

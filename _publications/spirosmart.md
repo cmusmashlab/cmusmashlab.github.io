@@ -40,4 +40,5 @@ title: 'SpiroSmart: Using a Microphone to Measure Lung Function on a Mobile Phon
 video: ''
 video_embed: ''
 redirect_from: /projects/SpiroSmart/
+category: health
 ---

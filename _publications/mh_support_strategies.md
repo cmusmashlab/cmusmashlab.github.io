@@ -42,4 +42,5 @@ title: Understanding Client Support Strategies to Improve Clinical Outcomes in a
 name: Supporting Mental Health
 year: '2020'
 video: 'https://www.youtube.com/watch?v=SXN33drYUlA'
+category: health
 ---

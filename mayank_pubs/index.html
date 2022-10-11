@@ -1,9 +1,5 @@
 ---
-layout: page
-title:
-redirect_from:
-- /projects/
-- /wiki/Projects/
+layout: personal
 ---
 {% capture last_year %}0{% endcapture %}
 
@@ -30,6 +26,7 @@ redirect_from:
 
 {% capture last_year %}{{ this_year }}{% endcapture %}
 
+{% if pub.authors contains "goel" %}
 
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
@@ -40,9 +37,7 @@ redirect_from:
 
     <p><span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
       <ul>
-<!-- {% for item in pub.authors %}
-<li>{{item}}</li>
-{% endfor %} -->
+
 </ul>
       <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
       {% if pub.date <= site.time %}
@@ -104,6 +99,7 @@ redirect_from:
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+{% endif %}
 {% endfor %}
 
 </div>

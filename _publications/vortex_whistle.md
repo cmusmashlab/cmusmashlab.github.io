@@ -38,4 +38,5 @@ name: 'Vortex Whistle'
 title: 'Design and Learnability of Vortex Whistles for Managing Chronic Lung Function via Smartphones'
 onhomepage: false
 blurb: Exploring various 3D-printed whistles to aid in spirometry
+category: health
 ---

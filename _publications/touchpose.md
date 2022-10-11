@@ -19,4 +19,5 @@ video: 'https://youtu.be/Lv7POLbZxcs'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Lv7POLbZxcs" frameborder="0" allowfullscreen></iframe>'
 onhomepage: false
 blurb: Hand Pose Prediction, Depth Estimation, and Touch Classification from Capacitive Images
+category: interaction
 ---

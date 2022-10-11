@@ -29,4 +29,5 @@ video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embe
 onhomepage: false
 blurb: Immediately deployable activity recognition using microphones and deep learning models trained on existing datasets
 code: https://github.com/FIGLAB/ubicoustics
+category: activity
 ---

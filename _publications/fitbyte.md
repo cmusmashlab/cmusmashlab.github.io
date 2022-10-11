@@ -31,4 +31,6 @@ blurb: Eyeglasses for monitoring diet
 dataset: 'https://github.com/cmusmashlab/Datasets/tree/master/FitByte_DataSet'
 video: 'https://youtu.be/2JG0COcsFmc'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2JG0COcsFmc" frameborder="0" allowfullscreen></iframe>'
+category: activity,health
+
 ---

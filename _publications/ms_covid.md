@@ -31,4 +31,5 @@ pdf: /pdfs/ms_covid.pdf
 thumbnail: /images/pubs/ms_covid.png
 title: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
 year: '2022'
+category: health
 ---

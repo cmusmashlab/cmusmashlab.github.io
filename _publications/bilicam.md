@@ -42,4 +42,5 @@ name: 'BiliCam'
 video: 'https://www.youtube.com/watch?v=ZL0KQrzkE5g'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZL0KQrzkE5g" frameborder="0" allowfullscreen></iframe>'
 redirect_from: /projects/BiliCam/
+category: health
 ---

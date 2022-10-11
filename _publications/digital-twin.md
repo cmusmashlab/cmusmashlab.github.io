@@ -23,4 +23,5 @@ video: 'https://youtu.be/N2nW7sHL2Ng'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/N2nW7sHL2Ng" frameborder="0" allowfullscreen></iframe>'
 onhomepage: false
 blurb: Classroom Digital Twins with Instrumentation-Free Gaze Tracking
+category: interaction
 ---

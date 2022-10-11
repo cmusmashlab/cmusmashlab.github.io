@@ -19,5 +19,5 @@ name: 'Detachable Smartwatch'
 title: 'Detachable Smartwatch: More Than A Wearable'
 onhomepage: false
 blurb: What if the smartwatch was not tied to your wrist?
-
+category: interaction,accessibility
 ---

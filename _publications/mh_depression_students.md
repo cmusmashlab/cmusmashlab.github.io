@@ -36,4 +36,5 @@ thumbnail: /images/pubs/mh_depression_students_thumb.png
 title: "Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection."
 name: Detecting Depression
 year: '2020'
+category: health
 ---

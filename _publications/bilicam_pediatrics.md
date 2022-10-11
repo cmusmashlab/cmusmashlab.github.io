@@ -40,4 +40,5 @@ video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embe
 redirect_from: /projects/BiliCam/
 blurb: Sensing neonatal jaundice on smartphones
 onhomepage: false
+category: health
 ---

@@ -38,4 +38,5 @@ title: 'DopLink: Using the Doppler Effect for Multi-device Interaction'
 video: 'https://www.youtube.com/watch?v=HUAH69RuVBM'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/HUAH69RuVBM" frameborder="0" allowfullscreen></iframe>'
 redirect_from: /projects/DopLink/
+category: interaction
 ---

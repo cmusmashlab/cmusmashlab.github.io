@@ -37,4 +37,5 @@ title: 'ContextType: Using Hand Posture Information to Improve Mobile Touch Scre
   Text Entry'
 video: ''
 video_embed: ''
+category: accessibility
 ---

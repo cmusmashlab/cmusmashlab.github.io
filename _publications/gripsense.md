@@ -36,4 +36,5 @@ title: 'GripSense: Using Built-in Sensors to Detect Hand Posture and Pressure on
 video: 'https://www.youtube.com/watch?v=0wQWCOutehM'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0wQWCOutehM" frameborder="0" allowfullscreen></iframe>'
 redirect_from: /projects/GripSense/
+category: interaction,accessibility
 ---

@@ -37,4 +37,5 @@ thumbnail: '/images/pubs/trackinglungfunction.jpg'
 title: Tracking Lung Function on Any Phone
 video: ''
 video_embed: ''
+category: health
 ---

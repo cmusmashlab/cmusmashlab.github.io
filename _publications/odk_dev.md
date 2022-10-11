@@ -36,4 +36,5 @@ image: '/images/pubs/odk_dev_thumbnail.jpg'
 pdf: /pdfs/ODK_DEV.pdf
 thumbnail: '/images/pubs/odk_dev_thumbnail.jpg'
 title: 'Open Data Kit Sensors: Mobile Data Collection with Wired and Wireless Sensors'
+category: health
 ---

@@ -23,4 +23,5 @@ image: '/images/pubs/walktype_thumbnail.jpg'
 pdf: /pdfs/WalkType.pdf
 thumbnail: '/images/pubs/walktype_thumbnail.jpg'
 title: 'WalkType: using accelerometer data to accomodate situational impairments in mobile touch screen text entry'
+category: accessibility
 ---

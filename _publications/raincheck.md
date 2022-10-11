@@ -30,4 +30,5 @@ thumbnail: '/images/pubs/raincheck.png'
 name: 'RainCheck'
 title: 'RainCheck: Overcoming Capacitive Interference Caused by Rainwater on Smartphones'
 onhomepage: false
+category: accessibility,interaction
 ---

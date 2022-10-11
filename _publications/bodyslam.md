@@ -19,4 +19,5 @@ video: 'https://youtu.be/reSqz3H7yP8'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/reSqz3H7yP8" frameborder="0" allowfullscreen></iframe>'
 onhomepage: false
 blurb: Opportunistic User Digitization in Multi-User Mixed Reality Experiences
+category: interaction
 ---

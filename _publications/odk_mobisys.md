@@ -26,4 +26,5 @@ image: '/images/pubs/odk_mobisys_thumbnail.jpg'
 pdf: /pdfs/ODK_MobiSys.pdf
 thumbnail: '/images/pubs/odk_mobisys_thumbnail.jpg'
 title: 'Open data kit sensors: a sensor integration framework for android at the application-level'
+category: health
 ---

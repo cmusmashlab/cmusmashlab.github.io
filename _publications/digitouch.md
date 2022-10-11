@@ -36,4 +36,5 @@ bibtex: |
     }
 name: 'DigiTouch'
 onhomepage: false
+category: interaction
 ---

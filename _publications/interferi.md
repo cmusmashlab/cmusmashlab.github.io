@@ -22,4 +22,5 @@ video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embe
 onhomepage: false
 blurb: Gesture Sensing using On-Body Acoustic Interferometry
 award: Honorable Mention Award
+category: interaction
 ---

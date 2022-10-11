@@ -36,4 +36,5 @@ title: '
 In only 3 minutes: perceived exertion limits of smartwatch use'
 onhomepage: false
 blurb: study to determine smartwatch exertion for sustained interactions
+category: interaction
 ---

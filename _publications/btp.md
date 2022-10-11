@@ -30,4 +30,5 @@ thumbnail: /images/pubs/btp.png
 title: 'Beyond the Prototype: Understanding the Challenge of Scaling Hardware Device Production'
 year: '2020'
 award: Best Paper Award
+category: interaction
 ---

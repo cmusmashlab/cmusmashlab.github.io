@@ -20,4 +20,5 @@ video: 'https://youtu.be/-HwcmWRAsaA'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/-HwcmWRAsaA" frameborder="0" allowfullscreen></iframe>'
 onhomepage: false
 blurb: Using and gaze and IMU Gestures on mobile devices for interactions
+category: interaction
 ---

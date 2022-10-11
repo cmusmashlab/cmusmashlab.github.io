@@ -39,4 +39,5 @@ name: 'Tongue-in-Cheek'
 onhomepage: false
 video: 'https://www.youtube.com/watch?v=CAehjSYkEt8'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/CAehjSYkEt8" frameborder="0" allowfullscreen></iframe>'
+category: interaction,accessibility
 ---

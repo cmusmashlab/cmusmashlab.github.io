@@ -20,4 +20,5 @@ video: 'https://youtu.be/-HwcmWRAsaA'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/-HwcmWRAsaA" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
 blurb: Gaze tracking with RGB and Depth Data
+category: interaction
 ---

@@ -22,5 +22,5 @@ name: 'GymCam'
 title: 'GymCam: Detecting, recognizing, and tracking simultaneous exercises in unconstrained scenes'
 onhomepage: false
 blurb: Tracking exercises in real world situations with just one camera
-
+category: activity,health
 ---

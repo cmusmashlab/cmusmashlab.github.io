@@ -20,4 +20,5 @@ video: 'https://youtu.be/msU1M8Z3mTU'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/msU1M8Z3mTU" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
 blurb: Approximating User Pose with Smartphone Sensor Fusion and Inverse Kinematics
+category: interaction
 ---

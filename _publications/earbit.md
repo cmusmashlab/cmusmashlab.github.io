@@ -36,4 +36,5 @@ name: 'EarBit'
 title: 'EarBit: using wearable sensors to detect eating episodes in unconstrained environments'
 onhomepage: false
 blurb: A non-intrusive earpiece for monitoring diet
+category: activity
 ---

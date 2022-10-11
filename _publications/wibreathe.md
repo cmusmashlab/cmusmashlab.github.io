@@ -29,4 +29,5 @@ thumbnail: /images/pubs/wibreathe_pub.png
 title: 'Wibreathe: Estimating respiration rate using wireless signals in natural settings in the home'
 name: 'WiBreathe'
 onhomepage: false
+category: health
 ---

@@ -21,4 +21,5 @@ video: 'https://youtu.be/sdgnX49ZXig'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sdgnX49ZXig" frameborder="0" allowfullscreen></iframe>'
 onhomepage: false
 blurb: Converting existing LEDs into smart markers for augmented reality applications
+category: interaction
 ---
