@@ -17,8 +17,6 @@ pdf: /pdfs/samosa.pdf
 thumbnail: '/images/pubs/samosa.png'
 name: 'SAMoSA'
 title: 'SAMoSA: Sensing Activities with Motion and Subsampled Audio'
-video: 'https://youtu.be/v6fj7OL8gp0'
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v6fj7OL8gp0" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
 blurb: Practical and deployable activity recognition using motion and sound sensed on watches
 category: activity
