@@ -117,7 +117,8 @@
   image: /images/members/iravantchi.png
   email: yasha@yasha.xyz
   website: https://yasha.xyz/
-  affiliation: Ph.D. student at University of Michigan
+  degree: Ph.D. student
+  affiliation: University of Michigan
   status: past_collab
 
 - id: zac
@@ -128,8 +129,21 @@
   website: https://zacyu.com
   status: past_collab
 
+- id: dhruv
+  name: Dhruv Verma
+  image: /images/members/verma.jpeg
+  email: dhruv17046@iiitd.ac.in 
+  degree: Ph.D. Student
+  affiliation: Univ. of Toronto
+  status: past_collab
 
-
+- id: sejal
+  name: Sejal Bhalla
+  image: /images/members/bhalla.jpeg
+  email: sejal17100@iiitd.ac.in
+  degree: Ph.D. Student
+  affiliation: Univ. of Toronto
+  status: past_collab  
 # Visiting
 
 
@@ -165,21 +179,7 @@
 
 
 # past undergrads
-- id: dhruv
-  name: Dhruv Verma
-  image: /images/members/dummy.png
-  email: dhruv17046@iiitd.ac.in 
-  degree: Undergraduate Student
-  affiliation: IIIT Delhi
-  status: ugrad_alumni
 
-- id: sejal
-  name: Sejal Bhalla
-  image: /images/members/dummy.png
-  email: sejal17100@iiitd.ac.in
-  degree: Undergraduate Student
-  affiliation: IIIT Delhi
-  status: ugrad_alumni  
 
 - id: katelyn
   name: Katelyn Morrison
