@@ -115,7 +115,7 @@ layout: personal
 <!-- <hr/> -->
 
 
-{% if pub.category contains "health" %}
+{% if pub.category contains "health" and pub.authors contains "goel" %}
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
     {% if pub.thumbnail.size > 0 %} {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %} <img src="{{ pub.thumbnail }}"/> </a>{% endif %}&nbsp;
@@ -206,7 +206,7 @@ layout: personal
 <!-- <hr/> -->
 
 
-{% if pub.category contains "activity" %}
+{% if pub.category contains "activity" and pub.authors contains "goel"  %}
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
     {% if pub.thumbnail.size > 0 %} {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %} <img src="{{ pub.thumbnail }}"/> </a>{% endif %}&nbsp;
@@ -297,7 +297,7 @@ layout: personal
 <!-- <hr/> -->
 
 
-{% if pub.category contains "interaction" %}
+{% if pub.category contains "interaction" and pub.authors contains "goel" %}
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
     {% if pub.thumbnail.size > 0 %} {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %} <img src="{{ pub.thumbnail }}"/> </a>{% endif %}&nbsp;
@@ -386,7 +386,7 @@ layout: personal
 <!-- <hr/> -->
 
 
-{% if pub.category contains "accessibility" %}
+{% if pub.category contains "accessibility" and pub.authors contains "goel"  %}
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
     {% if pub.thumbnail.size > 0 %} {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %} <img src="{{ pub.thumbnail }}"/> </a>{% endif %}&nbsp;
