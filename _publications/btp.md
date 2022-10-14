@@ -20,7 +20,7 @@ blurb: Understanding the Challenge of Scaling Hardware Device Production
 citation: 'Rushil Khurana, and Steve Hodges. 2020. Beyond the Prototype: Understanding the Challenge of Scaling Hardware Device Production. Proceedings of the Annual ACM Conference on Human
   Factors in Computing Systems.'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
-  Systems (CHI)
+  Systems (CHI) 2020
 date: '2020-04-12'
 image: /images/pubs/btp.png
 name: Beyond the Prototype

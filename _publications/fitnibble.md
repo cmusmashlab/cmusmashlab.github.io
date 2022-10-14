@@ -19,7 +19,7 @@ bibtex: |-
 caption: ''
 citation: |-
   Abdelkareem Bedri, Yuchen Liang, Sudershan Boovaraghavan, Geoff Kaufman, Mayank Goel. 2022. FitNibble: A Field Study to Evaluate the Utility and Usability of Automatic Diet Monitoring in Food Journaling Using an Eyeglasses-based Wearable. Proceedings of the Annual Conference on Intelligent User Interfaces (2022).
-conference: Proceedings of the Annual Conference on Intelligent User Interfaces (IUI)
+conference: Proceedings of the Annual Conference on Intelligent User Interfaces (IUI) 2022
 date: '2022-03-25'
 image: '/images/pubs/FitNibble.png'
 pdf: /pdfs/fitnibble.pdf

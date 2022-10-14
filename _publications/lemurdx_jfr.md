@@ -23,7 +23,7 @@ Jamie Feldman, and Jordan L. Harris},
 blurb: Differentiating children with ADHD (hyperactive/impulsive presentation) from children with typical levels of activity using a watch
 citation: "Oliver Lindhiem, Mayank Goel, Sam Shaaban, Kristie Mak, Prerna Chikersal, 
 Jamie Feldman, and Jordan L. Harris. 2022. Objective Measurement of Hyperactivity Using Mobile Sensing and Machine Learning: A Pilot Study. JMIR Formative Research (JFR), 2022."
-conference: JMIR Formative Research
+conference: JMIR Formative Research 2022
 date: '2022-4-10'
 image: /images/pubs/lemurdx_thumbnail.png
 name: "Objective Measurement of Hyperactivity Using Mobile Sensing and Machine Learning: A Pilot Study"

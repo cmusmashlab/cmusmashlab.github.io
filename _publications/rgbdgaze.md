@@ -9,7 +9,7 @@ authors:
 caption: ''
 citation: |-
   Riku Arakawa, Mayank Goel, Chris Harrison, Karan Ahuja. 2022. RGBDGaze: Gaze Tracking on Smartphones with RGB and Depth Data In Proceedings of the 2022 International Conference on Multimodal Interaction (ICMI '22). Association for Computing Machinery, New York, NY, USA.
-conference: Proceedings of the International Conference on Multimodal Interaction (ICMI)
+conference: Proceedings of the International Conference on Multimodal Interaction (ICMI) 2022.
 date: '2022-10-10'
 image: '/images/pubs/rgbdgaze.png'
 pdf: /pdfs/rgbd_gaze.pdf

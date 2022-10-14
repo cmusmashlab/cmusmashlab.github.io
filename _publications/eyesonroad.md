@@ -20,7 +20,7 @@ blurb: Detecting Phone Usage by Drivers Using On-Device Cameras
 citation: 'Rushil Khurana,Mayank Goel. 2020. Eyes on the Road: Detecting Phone Usage by Drivers Using On-Device Cameras. Proceedings of the Annual ACM Conference on Human
   Factors in Computing Systems.'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
-  Systems (CHI)
+  Systems (CHI) 2020
 date: '2020-04-13'
 image: /images/pubs/eyesroad.png
 name: Eyes on the Road

@@ -26,7 +26,7 @@ bibtex: '@inproceedings{chikersal2020detecting,
   }'
 blurb: Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing.
 citation: "Prerna Chikersal, Afsaneh Doryab, Michael Tumminia, Daniella K. Villalba, Janine M. Dutcher, Xinwen Liu, Sheldon Cohen, Kasey G. Creswell, Jennifer Mankoff, J. David Creswell, Mayank Goel, Anind Dey. 2020. Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection. ACM Transactions on Computer-Human Interaction (TOCHI), 2020."
-conference: ACM Transactions on Computer-Human Interaction (TOCHI)
+conference: ACM Transactions on Computer-Human Interaction (TOCHI) 2020
 date: '2020-12-10'
 image: /images/pubs/mh_depression_students_full.png
 name: "Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection."

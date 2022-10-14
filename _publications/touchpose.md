@@ -8,7 +8,7 @@ authors:
 caption: ''
 citation: |-
   Karan Ahuja, Paul Streli, and Christian Holz. 2021. TouchPose: Hand Pose Prediction, Depth Estimation, and Touch Classification from Capacitive Images. <i>The 34th Annual ACM Symposium on User Interface Software and Technology</i>. Association for Computing Machinery, New York, NY, USA, 997–1009. DOI:https://doi.org/10.1145/3472749.3474801
-conference: Proceedings of User Interface Software and Technology (UIST)
+conference: Proceedings of User Interface Software and Technology (UIST) 2021
 date: '2021-10-1'
 image: '/images/pubs/touchpose.png'
 pdf: /pdfs/touchpose.pdf

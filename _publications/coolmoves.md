@@ -10,7 +10,7 @@ authors:
 caption: ''
 citation: |-
   Karan Ahuja, Eyal Ofek, Mar Gonzalez-Franco, Christian Holz, and Andrew D. Wilson. 2021. CoolMoves: User Motion Accentuation in Virtual Reality. Proceedings ACM Interactive Mobile Wearable Ubiquitous Technologies 5, 2, Article 52 (June 2021), 23 pages. DOI:https://doi.org/10.1145/3463499/3379337.3415588
-conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) 2021
 date: '2021-1-1'
 image: '/images/pubs/coolmoves.png'
 pdf: /pdfs/coolmoves.pdf

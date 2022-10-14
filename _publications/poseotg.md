@@ -9,7 +9,7 @@ authors:
 caption: ''
 citation: |-
   Karan Ahuja, Sven Mayer, Mayank Goel, and Chris Harrison. 2021. Pose-on-the-Go: Approximating User Pose with Smartphone Sensor Fusion and Inverse Kinematics. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21). Association for Computing Machinery, New York, NY, USA, Article 9, 1–12. DOI:https://doi.org/10.1145/3411764.3445582
-conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)
+conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI) 2021
 date: '2021-05-10'
 image: '/images/pubs/poseotg.png'
 pdf: /pdfs/poseotg.pdf

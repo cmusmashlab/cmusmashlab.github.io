@@ -21,7 +21,7 @@ citation: 'Yasha Iravantchi,Mayank Goel,Chris Harrison. 2020. Digital Ventriloqu
   Giving Voice to Everyday Objects. Proceedings of the Annual ACM Conference on Human
   Factors in Computing Systems.'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
-  Systems (CHI)
+  Systems (CHI) 2020
 date: '2020-04-01'
 image: /images/pubs/dv.png
 name: Digital Ventriloquism

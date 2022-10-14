@@ -8,7 +8,7 @@ authors:
 caption: ''
 citation: |-
   Sejal Bhalla, Mayank Goel, Rushil Khurana. 2021. "IMU2Doppler: Cross-Modal Domain Adaptation for Doppler-based Activity Recognition Using IMU Data." Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 5.4 (2021): 1-20.
-conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) 2022
 date: '2021-12-21'
 image: '/images/pubs/imu2dop.png'
 pdf: /pdfs/imu2dop.pdf

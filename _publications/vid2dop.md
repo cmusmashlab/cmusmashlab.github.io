@@ -9,7 +9,7 @@ authors:
 caption: ''
 citation: |-
   Karan Ahuja, Yue Jiang, Mayank Goel, and Chris Harrison. 2021. Vid2Doppler: Synthesizing Doppler Radar Data from Videos for Training Privacy-Preserving Activity Recognition. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21). Association for Computing Machinery, New York, NY, USA, Article 292, 1–10. DOI:https://doi.org/10.1145/3411764.3445138
-conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI)
+conference: Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI) 2021
 date: '2021-05-10'
 image: '/images/pubs/vid2dop.png'
 pdf: /pdfs/vid2dop.pdf

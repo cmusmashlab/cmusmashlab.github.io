@@ -9,7 +9,7 @@ authors:
 caption: ''
 citation: |-
   Andy Kong, Karan Ahuja, Mayank Goel, and Chris Harrison. 2021. EyeMU Interactions: Gaze + IMU Gestures on Mobile Devices. In Proceedings of the 2021 International Conference on Multimodal Interaction (ICMI '21). Association for Computing Machinery, New York, NY, USA, 577–585. DOI: https://doi.org/10.1145/3462244.3479938
-conference: Proceedings of the International Conference on Multimodal Interaction (ICMI)
+conference: Proceedings of the International Conference on Multimodal Interaction (ICMI) 2021
 date: '2021-10-1'
 image: '/images/pubs/eyemu.png'
 pdf: /pdfs/eyemu.pdf
