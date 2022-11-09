@@ -1,5 +1,4 @@
 import yaml
-import ipdb
 
 # stream = file('../_publications/fitbyte.md','r')
 # data = yaml.load_all(stream)
@@ -34,7 +33,6 @@ def genBib():
 def genCite():
 	citeString = ''
 	count = 0
-	ipdb.set_trace()
 
 	for author in authorNames:
 		citeString = citeString+author
@@ -46,11 +44,11 @@ def genCite():
 		count=count+1
 	
 	citeString = citeString + pub_data['year'] + '. '+pub_data['title']+'. '+pub_data['conference']+'.'
-	print citeString
+	print (citeString)
 	return citeString
 
 def editPaperTitle():
-	return raw_input ('Enter full paper title: ')
+	return input ('Enter full paper title: ')
 
 def editPaperVenue():
 	conferences = {"IMWUT": "Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies (IMWUT)",
@@ -60,27 +58,27 @@ def editPaperVenue():
                }
 	print ('Enter the name of the conference or journal below. If it is one of the places in this list, then you can use the short name too. No need to add the year right now.\n')
 	for conference in conferences:
-		print conference
+		print (conference)
 	print('')
 
-	venue = raw_input()
+	venue = input()
 	if venue in conferences:
 		venue = conferences[venue]
 
 	pub_data['conference'] = venue 
 
 def editPaperYear():
-	pub_data['year'] = raw_input('Enter year (yyyy): ')
+	pub_data['year'] = input('Enter year (yyyy): ')
 
 def editPaperMonth():
-	return raw_input('Enter month of publication (mm): ')
+	return input('Enter month of publication (mm): ')
 
 
 def editPaperDay():
-	return raw_input('Enter the day of the month when this paper will be published (dd): ')
+	return input('Enter the day of the month when this paper will be published (dd): ')
 
 def editThumbnail():
-	thumbnail = raw_input('Enter the filename for the thumbnail (including extension).\nMake sure to also add the thumbnail file to /images/pubs/ folder: ')
+	thumbnail = input('Enter the filename for the thumbnail (including extension).\nMake sure to also add the thumbnail file to /images/pubs/ folder: ')
 	pub_data['thumbnail'] = '/images/pubs/'+thumbnail
 
 def editMainImg():
@@ -88,7 +86,7 @@ def editMainImg():
 	print('If you still want to use the thumbnail as the main pic, press <Enter>.')
 	print('Otherwise enter filename for the main image (include extension)')
 	print('Make sure to also add the thumbnail file to /images/pubs/ folder.')
-	imageFilename = raw_input()
+	imageFilename = input()
 	if imageFilename == '':
 		pub_data['image'] = pub_data['thumbnail']
 	else:
@@ -99,10 +97,10 @@ def editPaperName(title):
 
 
 	print ('\nIs this the correct project title for this paper?\n'+name)
-	isProjectNameFine = raw_input('(y/n): ')
+	isProjectNameFine = input('(y/n): ')
 
 	if isProjectNameFine == 'n':
-		name = raw_input ('Enter the name of the project (if no specific name, press <enter>): ')
+		name = input ('Enter the name of the project (if no specific name, press <enter>): ')
 
 	if name == '':
 		name = title
@@ -112,7 +110,7 @@ def editAuthorNames():
 	print('Add authors (in the correct order):\n')
 	name = 'blank'
 	#read lab member ids from members.yml
-	memberDataStream = file('../_data/members.yml')
+	memberDataStream = open('../_data/members.yml')
 	membersData = yaml.full_load(memberDataStream)
 	dash = '-'*30
 	authorCount = 1
@@ -128,7 +126,7 @@ def editAuthorNames():
 				print('{:<10}{:<20}'.format(member['id'],member['name']))
 		
 		authorMsg = '\nIf the author ' + str(authorCount) + ' is a member of Smash Lab and is in this list, enter their id, otherwise enter \'n\'?\nWhen done, press <enter> '
-		name = raw_input(authorMsg)
+		name = input(authorMsg)
 		isMatchFound = False
 		if (name != 'n'):
 			for tempMember in membersData:
@@ -139,10 +137,10 @@ def editAuthorNames():
 					currentAuthorNameList.append(tempMember['name'])
 
 			if name!= '' and isMatchFound == False:
-				print 'No Match Found'
+				print('No Match Found')
 				continue
 		if name == 'n':
-			name = raw_input('Enter full name: ')
+			name = input('Enter full name: ')
 			currentAuthorIDList.append(name)
 			currentAuthorNameList.append(name)
 
@@ -156,34 +154,34 @@ def editAuthorNames():
 
 	return currentAuthorIDList,currentAuthorNameList
 def editPDFLink():
-	pdflink = raw_input('Enter the filename for the paper PDF (including extension).\nMake sure to also add the PDF file to /pdfs/ folder: ')
+	pdflink = input('Enter the filename for the paper PDF (including extension).\nMake sure to also add the PDF file to /pdfs/ folder: ')
 	pub_data['pdf'] = '/pdfs/'+pdflink
 	return pdflink
 
 def editVideoID():
-	videoID = raw_input('Enter the video ID from YouTube. \nFor example, for BeamBand, the YouTube link is: https://www.youtube.com/embed/jhY4NsIW2kQ, \nbut all we need here is the suffix code (e.g., jhY4NsIW2kQ in this case).\nIf no video, press <Enter>: ')
+	videoID = input('Enter the video ID from YouTube. \nFor example, for BeamBand, the YouTube link is: https://www.youtube.com/embed/jhY4NsIW2kQ, \nbut all we need here is the suffix code (e.g., jhY4NsIW2kQ in this case).\nIf no video, press <Enter>: ')
 	if len(videoID) > 0:
 		pub_data['video'] = 'https://youtu.be/'+videoID
 		pub_data['video_embed'] = '<iframe width="560" height="315" src="https://www.youtube.com/embed/'+videoID+'" frameborder="0" allowfullscreen></iframe>'
 
 def editOneLiner():
-	oneliner = raw_input('Enter a one-liner about the paper.\nThis will be shown as a short blurb on the website. : ')
+	oneliner = input('Enter a one-liner about the paper.\nThis will be shown as a short blurb on the website. : ')
 	pub_data['blurb'] = oneliner
 
 def editHomepageStatus():
-	if raw_input('Do you want to display the paper on the homepage? (y/n) ') == 'y':
+	if input('Do you want to display the paper on the homepage? (y/n) ') == 'y':
 		pub_data['onhomepage'] = True
 	else:
 		pub_data['onhomepage'] = False
 
 def editAwardStatus():
-	award = raw_input('If this paper has won any awards, please enter the name of the award here (otherwise press <Enter>) : ')
+	award = input('If this paper has won any awards, please enter the name of the award here (otherwise press <Enter>) : ')
 	if len(award) > 0:
 		pub_data['award'] = award
 
 
 def editAbstract():
-	abstract = raw_input('Enter the paper abstract here. Make sure to remove all newlines from the text. The abstract should be a single paragraph:\n')
+	abstract = input('Enter the paper abstract here. Make sure to remove all newlines from the text. The abstract should be a single paragraph:\n')
 	pub_data['abstract'] = abstract
 
 def showChangeInterface():
@@ -202,7 +200,7 @@ def showChangeInterface():
 	print ('<12> Award status')
 	print ('<13> Abstract')
 
-	changeChoice = raw_input('')
+	changeChoice = input('')
 
 	if changeChoice == '1':
 		pub_data['title'] = editPaperTitle()
@@ -220,7 +218,7 @@ def showChangeInterface():
 	if changeChoice == '7':
 		editMainImg()
 	showAllInfo()
-	isAllFine = raw_input('Does everything look good here? (y/n): ')
+	isAllFine = input('Does everything look good here? (y/n): ')
 
 	if isAllFine == 'n':
 		showChangeInterface()
@@ -299,7 +297,7 @@ showAllInfo()
 
 
 
-isAllFine = raw_input('Does everything look good here? (y/n): ')
+isAllFine = input('Does everything look good here? (y/n): ')
 
 if isAllFine == 'n':
 	showChangeInterface()
@@ -311,7 +309,7 @@ pub_data['bibtex'] = genBib()
 pub_data['citation'] = genCite()
 
 mdFilePath = '../_publications/'+pdfname.split('.')[0]+'.md'
-stream = file(mdFilePath,'w')
+stream = open(mdFilePath,'w')
 stream.write('---\n')
 yaml.dump(pub_data,stream)
 stream.write('---')
