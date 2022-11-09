@@ -19,5 +19,15 @@ name: 'SAMoSA'
 title: 'SAMoSA: Sensing Activities with Motion and Subsampled Audio'
 onhomepage: true
 blurb: Practical and deployable activity recognition using motion and sound sensed on watches
+bibtex: '@article{mollyn2022samosa,
+  title={SAMoSA: Sensing Activities with Motion and Subsampled Audio},
+  author={Mollyn, Vimal and Ahuja, Karan and Verma, Dhruv and Harrison, Chris and Goel, Mayank},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={6},
+  number={3},
+  pages={1--19},
+  year={2022},
+  publisher={ACM New York, NY, USA}
+}'
 category: activity
 ---
