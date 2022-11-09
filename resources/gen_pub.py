@@ -77,6 +77,12 @@ def editPaperMonth():
 def editPaperDay():
 	return input('Enter the day of the month when this paper will be published (dd): ')
 
+def editPaperCategory():
+	category = input('Enter the broad category that this paper belongs to (options: health, activity, interaction, accessibility).\nIf a paper belongs to multiple categories, separate categories by comma: ')
+	category = "".join(category.split())
+	return category
+
+
 def editThumbnail():
 	thumbnail = input('Enter the filename for the thumbnail (including extension).\nMake sure to also add the thumbnail file to /images/pubs/ folder: ')
 	pub_data['thumbnail'] = '/images/pubs/'+thumbnail
@@ -125,22 +131,18 @@ def editAuthorNames():
 			if member['status'] == 'current' or member['status'] == 'shifu':
 				print('{:<10}{:<20}'.format(member['id'],member['name']))
 		
-		authorMsg = '\nIf the author ' + str(authorCount) + ' is a member of Smash Lab and is in this list, enter their id, otherwise enter \'n\'?\nWhen done, press <enter> '
+		authorMsg = '\nIf the author ' + str(authorCount) + ' is a member of Smash Lab and is in this list, enter their id, otherwise enter full name: '
 		name = input(authorMsg)
 		isMatchFound = False
-		if (name != 'n'):
-			for tempMember in membersData:
-				if tempMember['id']	== name:
-					isMatchFound = True
-					print('match Found')
-					currentAuthorIDList.append(tempMember['id'])
-					currentAuthorNameList.append(tempMember['name'])
+		for tempMember in membersData:
+			if tempMember['id']	== name:
+				isMatchFound = True
+				print('match Found')
+				currentAuthorIDList.append(tempMember['id'])
+				currentAuthorNameList.append(tempMember['name'])
+				
 
-			if name!= '' and isMatchFound == False:
-				print('No Match Found')
-				continue
-		if name == 'n':
-			name = input('Enter full name: ')
+		if isMatchFound == False:
 			currentAuthorIDList.append(name)
 			currentAuthorNameList.append(name)
 
@@ -245,6 +247,10 @@ pub_data['title'] = editPaperTitle()
 print('-------\nProject Name\n-------')
 pub_data['name'] = editPaperName(pub_data['title'])
 
+
+#paper category
+print('--------\n Category\n------')
+pub_data['category'] = editPaperCategory()
 
 #authors
 print('-------\nAuthors\n-------')
