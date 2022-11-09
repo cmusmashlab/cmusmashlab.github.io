@@ -37,4 +37,5 @@ pdf: /pdfs/semantic_ar.pdf
 thumbnail: /images/pubs/semantic_ar.png
 title: A semantic-based approach to digital content placement for immersive environments
 year: '2022'
+category: interaction
 ---
