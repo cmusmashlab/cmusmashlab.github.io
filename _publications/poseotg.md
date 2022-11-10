@@ -18,7 +18,7 @@ name: 'Pose-on-the-Go'
 title: 'Pose-on-the-Go: Approximating User Pose with Smartphone Sensor Fusion and Inverse Kinematics'
 video: 'https://youtu.be/msU1M8Z3mTU'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/msU1M8Z3mTU" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Approximating User Pose with Smartphone Sensor Fusion and Inverse Kinematics
 category: interaction
 ---
