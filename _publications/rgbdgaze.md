@@ -16,8 +16,8 @@ pdf: /pdfs/rgbd_gaze.pdf
 thumbnail: '/images/pubs/rgbdgaze.png'
 name: 'RGBD Gaze'
 title: 'RGBDGaze: Gaze Tracking on Smartphones with RGB and Depth Data'
-video: 'https://youtu.be/a-Uz9AkAL_8'
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/a-Uz9AkAL_8" frameborder="0" allowfullscreen></iframe>'
+video: 'https://youtu.be/c3-GoQQ-mds'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/c3-GoQQ-mds" frameborder="0" allowfullscreen></iframe>'
 onhomepage: true
 blurb: Gaze tracking with RGB and Depth Data
 category: interaction
