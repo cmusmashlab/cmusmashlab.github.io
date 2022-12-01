@@ -1,3 +1,6 @@
+- name: Snapchat Ph.D. Fellowship
+  people: [chikersal,arakawa]
+
 - name: Masason Foundation Scholarship
   people: [arakawa]     
 
@@ -9,9 +12,6 @@
   
 - name: Siebel Scholarship
   people: [ahuja]
-
-- name: Snapchat Ph.D. Fellowship
-  people: [chikersal,arakawa]
 
 - name: Microsoft Research Dissertation Grant
   people: [ramos]
