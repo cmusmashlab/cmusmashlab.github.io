@@ -49,7 +49,7 @@ citation: 'Riku Arakawa,Hiromu Yakura,Vimal Mollyn,Suzanne Nie,Emma Russell,Dust
   Technologies (IMWUT).'
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)
-date: '2022-12-30'
+date: '2023-1-1'
 image: /images/pubs/prism_tracker.png
 name: PrISM-Tracker
 onhomepage: true
@@ -58,6 +58,6 @@ thumbnail: /images/pubs/prism_tracker.png
 title: 'PrISM-Tracker: A Framework for Multimodal Procedure Tracking Using Wearable
   Sensors and State Transition Information with User-Driven Handling of Errors and
   Uncertainty'
-year: '2022'
+year: '2023'
 category: health,activity
 ---
