@@ -58,6 +58,6 @@ thumbnail: /images/pubs/prism_tracker.png
 title: 'PrISM-Tracker: A Framework for Multimodal Procedure Tracking Using Wearable
   Sensors and State Transition Information with User-Driven Handling of Errors and
   Uncertainty'
-year: '2023'
+year: '2022'
 category: health,activity
 ---
