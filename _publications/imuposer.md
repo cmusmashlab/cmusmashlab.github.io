@@ -38,7 +38,7 @@ citation: 'Vimal Mollyn,Riku Arakawa,Mayank Goel,Chris Harrison,Karan Ahuja,. 20
   IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and Earbuds..
   Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI).'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
-  Systems (CHI)
+  Systems (CHI) 2023
 date: 2023-4-23
 image: /images/pubs/imuposer.png
 name: IMUPoser
