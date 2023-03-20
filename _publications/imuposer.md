@@ -18,12 +18,11 @@ authors:
 - goel
 - Chris Harrison
 - ahuja
-- ''
 bibtex: '@inproceedings{Mollyn2023,
 
   title={IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and Earbuds.},
 
-  author={Vimal Mollyn, Riku Arakawa, Mayank Goel, Chris Harrison, Karan Ahuja, ,
+  author={Vimal Mollyn, Riku Arakawa, Mayank Goel, Chris Harrison, Karan Ahuja
   },
 
   booktitle={Proceedings of the Annual ACM Conference on Human Factors in Computing
