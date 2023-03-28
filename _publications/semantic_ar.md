@@ -32,7 +32,7 @@ conference: The Visual Computer 2022
 date: '2022-11-09'
 image: /images/pubs/semantic_ar.png
 name: Semantic AR
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/semantic_ar.pdf
 thumbnail: /images/pubs/semantic_ar.png
 title: A semantic-based approach to digital content placement for immersive environments
