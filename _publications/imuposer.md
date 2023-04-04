@@ -46,4 +46,5 @@ pdf: /pdfs/imuposer.pdf
 thumbnail: /images/pubs/imuposer.png
 title: 'IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and Earbuds.'
 year: '2023'
+award: Honorable Mention Award
 ---
