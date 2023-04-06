@@ -30,7 +30,7 @@ bibtex: '@inproceedings{Catherine2023,
 
   }'
 blurb: A Position-Aware Reconfigurable Machine-Knitted Wearable
-category: interaction
+category: interaction,health
 citation: 'Tianhong Catherine Yu,Riku Arakawa,James McCann,Mayank Goel,. 2023. uKnit:
   A Position-Aware Reconfigurable Machine-Knitted Wearable for Gestural Interaction
   and Passive Sensing using Electrical Impedance Tomography. Proceedings of the Annual
