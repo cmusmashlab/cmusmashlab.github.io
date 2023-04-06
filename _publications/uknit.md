@@ -15,7 +15,6 @@ authors:
 - arakawa
 - James McCann
 - goel
-- ''
 bibtex: '@inproceedings{Catherine2023,
 
   title={uKnit: A Position-Aware Reconfigurable Machine-Knitted Wearable for Gestural

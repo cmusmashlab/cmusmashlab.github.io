@@ -30,9 +30,8 @@ layout: default
 
 {% assign sorted_pubs = site.publications | sort: 'date'%}
 <div class="row">
-
 {% for pub in sorted_pubs reversed%}
-{% if pub.onhomepage==true %}
+{% if pub.onhomepage==true  and pub.category contains "health"%}
 <!-- {{pub.name}} -->
     <div class="project-badge col-md-4 col-sm-4 col-xs-4">
       <div class="image">
@@ -41,7 +40,7 @@ layout: default
         <div class = "coming_soon_overlay">
           <div class = "coming_soon_text">Coming Soon!</div>
           {% endif %}
-
+{% endif %}
 {% if pub.date > site.time %}   
 </div>
   {% endif %}
