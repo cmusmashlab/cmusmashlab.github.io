@@ -18,7 +18,7 @@ name: 'RGBD Gaze'
 title: 'RGBDGaze: Gaze Tracking on Smartphones with RGB and Depth Data'
 video: 'https://youtu.be/c3-GoQQ-mds'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/c3-GoQQ-mds" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Gaze tracking with RGB and Depth Data
 category: interaction
 ---
