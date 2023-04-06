@@ -1,0 +1,85 @@
+---
+layout: default
+
+---
+
+{% assign sorted_members = site.data.members | sort: 'id' %}
+{% assign current_members = sorted_members | where:"status","current" %}
+{% assign visiting = sorted_members | where:"status","visiting" %}
+{% assign alumni = sorted_members | where:"status","alumni" %}
+{% assign master_alumni = sorted_members | where:"status","master_alumni" %}
+{% assign ugrad_alumni = sorted_members | where:"status","ugrad_alumni" %}
+{% assign faculty = sorted_members | where:"status","shifu" %}
+{% assign goel = faculty | first %}
+
+<div class="row">
+  <div class="col-sm-12">
+    <h3>The Smart Sensing for Humans (SmaSH) Lab develops innovative sensing systems to solve problems of immediate impact related to health, accessibility, novel interactions, activity recognition, and technologies for the developing world. We are an interdisciplinary team of students who tackle challenging research problems and develop impactful solutions using our expertise in hardware development, signal processing, computer vision, and machine learning. We build and evaluate deployable solutions and test their utility in the real world.
+
+    </h3>
+
+    <h3>
+    	We are always looking to work with great students. If you are interested in contributing to research in our lab, fill this <a href="https://forms.gle/yCU88JFYAMZSsT8X8" target="_blank"> form</a> out. 
+    </h3>
+
+  </div>
+  
+</div>
+
+<h1>RESEARCH HIGHLIGHTS</h1>
+
+{% assign sorted_pubs = site.publications | sort: 'date'%}
+<div class="row">
+
+{% for pub in sorted_pubs reversed%}
+{% if pub.onhomepage==true %}
+<!-- {{pub.name}} -->
+    <div class="project-badge col-md-4 col-sm-4 col-xs-4">
+      <div class="image">
+        <img src="{{pub.image}}"/>
+        {% if pub.date > site.time %}
+        <div class = "coming_soon_overlay">
+          <div class = "coming_soon_text">Coming Soon!</div>
+          {% endif %}
+
+{% if pub.date > site.time %}   
+</div>
+  {% endif %}
+  <div class="overlay">
+          {% if pub.date < site.time %}
+          <a href="{{ pub.url }}">
+            {% endif %}
+          
+    <div class="pitch">
+    {{Text}}
+    {% if pub.blurb %}
+    {{pub.blurb}}
+    {% else %}
+    {{pub.title}}
+    {% endif %}
+  </div></a>
+  </div>
+      </div>
+      <div class="details">
+      <div class="name">{{pub.name}}</div>
+      </div>
+    </div>
+      {% endif %}
+{% endfor %}
+  
+  
+
+
+<script>
+$(document).ready(function(){
+
+  $('.bxslider').bxSlider({
+    adaptiveHeight: false,
+    speed: 500,
+    captions: true,
+    auto: true,
+    pause: 5000,
+    autoControls: true
+    });
+});
+</script>
