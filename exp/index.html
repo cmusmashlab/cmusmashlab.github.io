@@ -70,15 +70,13 @@ layout: default
 {% endfor %}
   
   <h2>Activity Recognition</h2>
-<h4>
 One of the primary building blocks for our behavioral sensing work is accurate and deployable activity recognition. In the last couple of years, we have built systems to identify a user's posture and actions using their watch's sensors while preserving their privacy and not draining the device's battery. We have also built techniques to generate synthetic training data for new sensors that are gaining prevalence on consumer devices. 
-</h4>
 {% assign sorted_pubs = site.publications | sort: 'date'%}
 <div class="row">
 {% for pub in sorted_pubs reversed%}
 {% if pub.onhomepage==true  and pub.category contains "activity"%}
 <!-- {{pub.name}} -->
-    <div class="project-badge col-md-4 col-sm-4 col-xs-4">
+    <div class="project-badge .col-sm-5 col-sm-4 col-xs-4">
       <div class="image">
         <img src="{{pub.image}}"/>
         {% if pub.date > site.time %}
