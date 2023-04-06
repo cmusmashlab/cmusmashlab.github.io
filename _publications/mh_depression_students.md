@@ -30,7 +30,7 @@ conference: ACM Transactions on Computer-Human Interaction (TOCHI) 2020
 date: '2020-12-10'
 image: /images/pubs/mh_depression_students_full.png
 name: "Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection."
-onhomepage: false
+onhomepage: true
 pdf: /pdfs/mh_depression_students.pdf
 thumbnail: /images/pubs/mh_depression_students_thumb.png
 title: "Detecting Depression and Predicting its Onset Using Longitudinal Symptoms Captured by Passive Sensing: A Machine Learning Approach With Robust Feature Selection."
