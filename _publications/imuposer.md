@@ -48,5 +48,7 @@ title: 'IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and E
 year: '2023'
 code: 'https://github.com/FIGLAB/IMUPoser'
 video: 'https://www.youtube.com/watch?v=hgpjbKv8XFY'
+video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/hgpjbKv8XFY"
+  frameborder="0" allowfullscreen></iframe>
 award: Honorable Mention Award
 ---
