@@ -38,7 +38,7 @@ citation: 'Vimal Mollyn,Riku Arakawa,Mayank Goel,Chris Harrison,Karan Ahuja,. 20
   Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI).'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
   Systems (CHI) 2023
-date: 2023-20-4
+date: 2023-4-4
 image: /images/pubs/imuposer.png
 name: IMUPoser
 onhomepage: true
