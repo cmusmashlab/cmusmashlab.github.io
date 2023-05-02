@@ -11,12 +11,11 @@ abstract: "Sound presents an invaluable signal source that enables computing sys
   \ study, where participants \u201Ceavesdropped\u201D on PrivacyMic\u2019s filtered\
   \ audio and found that none of our participants could transcribe speech. "
 authors:
-- Yasha Iravantchi
+- ysi
 - ahuja
 - goel
 - Chris Harrison
 - Alanson Sample
-- ''
 award: Honorable Mention Award
 bibtex: '@inproceedings{Iravantchi2021,
 

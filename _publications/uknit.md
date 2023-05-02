@@ -11,7 +11,7 @@ abstract: "A scarf is inherently reconfigurable: wearers often use it as a neck 
   \ exam- ple applications, and evaluate it with 10-participant user studies and a\
   \ washability test."
 authors:
-- Tianhong Catherine Yu
+- yu
 - arakawa
 - James McCann
 - goel
