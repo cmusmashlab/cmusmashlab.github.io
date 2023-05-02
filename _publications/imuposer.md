@@ -38,7 +38,7 @@ citation: 'Vimal Mollyn,Riku Arakawa,Mayank Goel,Chris Harrison,Karan Ahuja,. 20
   Proceedings of the Annual ACM Conference on Human Factors in Computing Systems (CHI).'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
   Systems (CHI) 2023
-date: 2023-4-23
+date: 2023-4-4
 image: /images/pubs/imuposer.png
 name: IMUPoser
 onhomepage: true
@@ -46,5 +46,9 @@ pdf: /pdfs/imuposer.pdf
 thumbnail: /images/pubs/imuposer.png
 title: 'IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and Earbuds.'
 year: '2023'
+code: 'https://github.com/FIGLAB/IMUPoser'
+video: 'https://www.youtube.com/watch?v=hgpjbKv8XFY'
+video_embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/hgpjbKv8XFY"
+  frameborder="0" allowfullscreen></iframe>
 award: Honorable Mention Award
 ---

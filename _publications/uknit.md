@@ -36,7 +36,7 @@ citation: 'Tianhong Catherine Yu,Riku Arakawa,James McCann,Mayank Goel,. 2023. u
   ACM Conference on Human Factors in Computing Systems (CHI).'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
   Systems (CHI)
-date: '2023-04-28'
+date: '2023-04-04'
 image: /images/pubs/uknit.png
 name: uKnit
 onhomepage: true
