@@ -30,26 +30,6 @@
   status: alumni
   dissertation: /pdfs/khurana_dissertation.pdf
 
-
-- id: chikersal
-  name: Prerna Chikersal
-  image: /images/members/chikersal.png
-  email: prerna@cmu.edu
-  website: http://prernac.com
-  degree: Ph.D. Student
-  affiliation: HCII
-  status: current
-
-
-- id: ahuja
-  name: Karan Ahuja
-  image: /images/members/ahuja.png
-  email: kahuja@cs.cmu.edu
-  website: https://karan-ahuja.com/
-  degree: Ph.D. Student
-  affiliation: HCII
-  status: current
-
 - id: arakawa
   name: Riku Arakawa
   image: /images/members/AD395DC6-194D-4070-B017-0C920E4EF8AB.jpeg
@@ -68,6 +48,23 @@
   affiliation: sc
   status: current
 
+- id: ahuja
+  name: Karan Ahuja
+  image: /images/members/ahuja.png
+  email: kahuja@cs.cmu.edu
+  website: https://karan-ahuja.com/
+  degree: Ph.D. Student
+  affiliation: Northwestern University
+  status: alumni
+
+- id: chikersal
+  name: Prerna Chikersal
+  image: /images/members/chikersal.png
+  email: prerna@cmu.edu
+  website: http://prernac.com
+  degree: Ph.D. Student
+  affiliation: TripAdvisor
+  status: alumni
 
 - id: ramos
   name: Julian Ramos

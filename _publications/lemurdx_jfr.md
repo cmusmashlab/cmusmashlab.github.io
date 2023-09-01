@@ -27,7 +27,7 @@ conference: JMIR Formative Research 2022
 date: '2022-4-10'
 image: /images/pubs/lemurdx_thumbnail.png
 name: "Objective Measurement of Hyperactivity Using Mobile Sensing and Machine Learning: A Pilot Study"
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/lemurdx_jfr.pdf
 thumbnail: /images/pubs/lemurdx_thumbnail.png
 title: "Objective Measurement of Hyperactivity Using Mobile Sensing and Machine Learning: A Pilot Study"

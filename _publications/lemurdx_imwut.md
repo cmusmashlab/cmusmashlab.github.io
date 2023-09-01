@@ -10,7 +10,7 @@ abstract: "Hyperactivity is the most dominant presentation of Attention-Deficit/
   \ Our ML models achieved 85.2% accuracy in detecting hyperactivity in children (using\
   \ parent-provided activity labels). We also built models that estimated children\u2019\
   s context from the sensor data and did not rely on activity labels to reduce parent\
-  \ burden.."
+  \ burden."
 authors:
 - arakawa
 - ahuja
@@ -19,14 +19,13 @@ authors:
 - Sam Shaaban
 - Oliver Lindhiem
 - goel
-- ''
 bibtex: '@inproceedings{Arakawa2023,
 
   title={LemurDx: Using Unconstrained Passive Sensing for an Objective Measurement
   of Hyperactivity in Children with no Parent Input},
 
   author={Riku Arakawa, Karan Ahuja, Kristie Mak, Gwendolyn Thompson, Sam Shaaban,
-  Oliver Lindhiem, Mayank Goel, , },
+  Oliver Lindhiem, Mayank Goel},
 
   booktitle={Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)},
