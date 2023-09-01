@@ -17,7 +17,7 @@ name: 'IMU2Doppler'
 title: 'IMU2Doppler: Cross-Modal Domain Adaptation for Doppler-based Activity Recognition Using IMU Data'
 video: 'https://youtu.be/3EbK2MT-fDk'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3EbK2MT-fDk" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Synthesizing Doppler Radar Data from Motion Sensors for Enabling Deployable Activity Recognition
 category: activity
 ---

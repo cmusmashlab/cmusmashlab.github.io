@@ -18,7 +18,7 @@ name: 'Vid2Doppler'
 title: 'Vid2Doppler: Synthesizing Doppler Radar Data from Videos for Training Privacy-Preserving Activity Recognition'
 video: 'https://youtu.be/v6fj7OL8gp0'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v6fj7OL8gp0" frameborder="0" allowfullscreen></iframe>'
-onhomepage: true
+onhomepage: false
 blurb: Synthesizing Doppler Radar Data from Videos for Training Privacy-Preserving Activity Recognition
 category: activity
 ---
