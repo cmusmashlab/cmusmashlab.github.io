@@ -39,7 +39,7 @@ citation: 'Prasoon Patidar,Mayank Goel,Yuvraj Agarwal,. 2023. VAX: Using Existin
   Technologies (IMWUT).'
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)
-date: 2023-10-1
+date: 2023-09-1
 image: /images/pubs/vax.png
 name: VAX
 onhomepage: true

@@ -40,7 +40,7 @@ citation: 'Riku Arakawa,Bing Zhou, Gurunandan Krishnan,Mayank Goel,Shree K. Naya
   Wearable, and Ubiquitous Technologies (IMWUT).'
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)
-date: 2023-10-1
+date: 2023-09-1
 image: /images/pubs/miposer.png
 name: MI-Poser
 onhomepage: true

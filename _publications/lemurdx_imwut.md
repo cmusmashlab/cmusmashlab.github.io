@@ -42,7 +42,7 @@ citation: 'Riku Arakawa,Karan Ahuja,Kristie Mak,Gwendolyn Thompson,Sam Shaaban,O
   of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies (IMWUT).'
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)
-date: '2023-10-01'
+date: '2023-09-01'
 image: /images/pubs/lemurdx.png
 name: LemurDx
 onhomepage: true
