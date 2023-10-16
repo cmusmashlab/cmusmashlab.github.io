@@ -65,6 +65,8 @@
   degree: Ph.D. Student
   affiliation: Northwestern University
   status: alumni
+  dissertation: /pdfs/ahuja_dissertation.pdf
+
 
 - id: chikersal
   name: Prerna Chikersal
@@ -74,6 +76,8 @@
   degree: Ph.D. Student
   affiliation: TripAdvisor
   status: alumni
+  dissertation: /pdfs/chikersal_dissertation.pdf
+
 
 - id: ramos
   name: Julian Ramos
