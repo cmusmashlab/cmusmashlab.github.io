@@ -22,7 +22,7 @@ layout: page
     <div class="panel-body">
       {% for award in site.data.fellowships %}
       {% if award.url.size > 0 %}<a href="{{ award.url }}">{% endif %}{{ award.name }}{% if award.url.size > 0 %}</a>{% endif %}
-      {% include author_list.html authors=award.people %}
+      <p>{% include author_list.html authors=award.people %}<br />
       {% endfor %}
     </div>
   </div>
