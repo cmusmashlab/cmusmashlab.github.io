@@ -21,7 +21,7 @@ layout: page
   <div id="fellowships" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="fellowshipsH">
     <div class="panel-body">
       {% for award in site.data.fellowships %}
-      {% if award.url.size > 0 %}<a href="{{ award.url }}">{% endif %}<h3>{{ award.name }}</h3>{% if award.url.size > 0 %}</a>{% endif %}
+      {% if award.url.size > 0 %}<a href="{{ award.url }}">{% endif %}{{ award.name }}{% if award.url.size > 0 %}</a>{% endif %}
       {% include author_list.html authors=award.people %}
       {% endfor %}
     </div>
