@@ -43,7 +43,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: 2023-09-1
 image: /images/pubs/miposer.png
 name: MI-Poser
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/miposer.pdf
 thumbnail: /images/pubs/miposer.png
 title: 'MI-Poser: Human Body Pose Tracking using Magnetic and Inertial Sensor Fusion
