@@ -17,7 +17,7 @@ authors:
 - goel
 - Yuvraj Agarwal
 
-- bibtex: '@inproceedings{Patidar2023,
+bibtex: '@inproceedings{Patidar2023,
 
   title={VAX: Using Existing Video and Audio-based Activity Recognition Models to
   Bootstrap Privacy-Sensitive Sensors},
