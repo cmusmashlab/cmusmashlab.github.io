@@ -14,17 +14,16 @@ abstract: 'Inside-out tracking of human body poses using wearable sensors holds 
 authors:
 - arakawa
 - Bing Zhou
-- ' Gurunandan Krishnan'
+- Gurunandan Krishnan
 - goel
 - Shree K. Nayar
-- ''
 bibtex: '@inproceedings{Arakawa2023,
 
   title={MI-Poser: Human Body Pose Tracking using Magnetic and Inertial Sensor Fusion
   with Metal Interference Mitigation},
 
   author={Riku Arakawa, Bing Zhou,  Gurunandan Krishnan, Mayank Goel, Shree K. Nayar,
-  , },
+  },
 
   booktitle={Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)},
@@ -34,7 +33,7 @@ bibtex: '@inproceedings{Arakawa2023,
   }'
 blurb: Human Body Pose Tracking Using Magnetic and Inertial Sensor Fusion
 category: interaction
-citation: 'Riku Arakawa,Bing Zhou, Gurunandan Krishnan,Mayank Goel,Shree K. Nayar,.
+citation: 'Riku Arakawa,Bing Zhou, Gurunandan Krishnan,Mayank Goel,Shree K. Nayar.
   2023. MI-Poser: Human Body Pose Tracking using Magnetic and Inertial Sensor Fusion
   with Metal Interference Mitigation. Proceedings of the ACM on Interactive, Mobile,
   Wearable, and Ubiquitous Technologies (IMWUT).'

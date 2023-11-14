@@ -16,13 +16,13 @@ authors:
 - Prasoon Patidar
 - goel
 - Yuvraj Agarwal
-- ''
-bibtex: '@inproceedings{Patidar2023,
+
+- bibtex: '@inproceedings{Patidar2023,
 
   title={VAX: Using Existing Video and Audio-based Activity Recognition Models to
   Bootstrap Privacy-Sensitive Sensors},
 
-  author={Prasoon Patidar, Mayank Goel, Yuvraj Agarwal, , },
+  author={Prasoon Patidar, Mayank Goel, Yuvraj Agarwal},
 
   booktitle={Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)},
@@ -33,7 +33,7 @@ bibtex: '@inproceedings{Patidar2023,
 blurb: Using Existing Video and Audio-based Activity Recognition Models to Bootstrap
   Privacy-Sensitive Sensors
 category: activity
-citation: 'Prasoon Patidar,Mayank Goel,Yuvraj Agarwal,. 2023. VAX: Using Existing
+citation: 'Prasoon Patidar,Mayank Goel,Yuvraj Agarwal. 2023. VAX: Using Existing
   Video and Audio-based Activity Recognition Models to Bootstrap Privacy-Sensitive
   Sensors. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT).'

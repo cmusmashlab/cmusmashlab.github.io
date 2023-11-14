@@ -5,7 +5,7 @@ authors:
 - Maite Sadeh
 - Nipun Batra
 - goel
-- ''
+
 bibtex: '@inproceedings{Adhikary2024,
 
   title={JoulesEye: Energy Expenditure Estimation and Respiration Sensing From Thermal
@@ -21,7 +21,7 @@ bibtex: '@inproceedings{Adhikary2024,
   }'
 blurb: Respiration sensing and energy expenditure estimation using thermal imaging
 category: health
-citation: 'Rishiraj Adhikary,Maite Sadeh,Nipun Batra,Mayank Goel,. 2024. JoulesEye:
+citation: 'Rishiraj Adhikary,Maite Sadeh,Nipun Batra,Mayank Goel. 2024. JoulesEye:
   Energy Expenditure Estimation and Respiration Sensing From Thermal Imagery While
   Exercising. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT).'
