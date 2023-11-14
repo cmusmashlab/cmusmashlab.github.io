@@ -11,7 +11,7 @@ bibtex: '@inproceedings{Adhikary2024,
   title={JoulesEye: Energy Expenditure Estimation and Respiration Sensing From Thermal
   Imagery While Exercising},
 
-  author={Rishiraj Adhikary, Maite Sadeh, Nipun Batra, Mayank Goel, , },
+  author={Rishiraj Adhikary, Maite Sadeh, Nipun Batra, Mayank Goel},
 
   booktitle={Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)},
