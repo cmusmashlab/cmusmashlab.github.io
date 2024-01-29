@@ -32,7 +32,7 @@ bibtex: '@inproceedings{Iravantchi2021,
 
   }'
 blurb: Privacy-preserving actiity recognition
-category: activity
+category: activity,privacy
 citation: 'Yasha Iravantchi,Karan Ahuja,Mayank Goel,Chris Harrison,Alanson Sample,.
   2021. PrivacyMic: Utilizing Inaudible Frequencies for Privacy Preserving Daily Activity
   Recognition. Proceedings of the Annual ACM Conference on Human Factors in Computing

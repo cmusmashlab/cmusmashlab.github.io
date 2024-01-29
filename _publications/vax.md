@@ -32,7 +32,7 @@ bibtex: '@inproceedings{Patidar2023,
   }'
 blurb: Using Existing Video and Audio-based Activity Recognition Models to Bootstrap
   Privacy-Sensitive Sensors
-category: activity
+category: activity,privacy
 citation: 'Prasoon Patidar,Mayank Goel,Yuvraj Agarwal. 2023. VAX: Using Existing
   Video and Audio-based Activity Recognition Models to Bootstrap Privacy-Sensitive
   Sensors. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous

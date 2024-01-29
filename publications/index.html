@@ -13,6 +13,7 @@ redirect_from:
     <li class="active"><a href="#all" data-toggle="tab">All</a></li>
     <li><a href="#health" data-toggle="tab">Health Sensing</a></li>
     <li><a href="#activity" data-toggle="tab">Activity Recognition</a></li>
+    <li><a href="#privacy" data-toggle="tab">Privacy-Aware Sensing</a></li>
     <li><a href="#interfaces" data-toggle="tab">New Interfaces</a></li>
     <li><a href="#accessibility" data-toggle="tab">Situational Impairments</a></li>
 </ul>
@@ -23,7 +24,7 @@ redirect_from:
 
   <div class="row">
   <div class="col-sm-12">
-    <h3>Our lab's work is very inter-disciplinary and often cuts across domains. Thus, it is often hard to put our work into discrete buckets. Still, in case you are interested in learning about our work in a particular area, we have tried to categorize our work into four broad categories: Health Sensing, Activity Recognition, New Interfaces, and Situational Impairments. Many publications are in overlapping areas and you will find those publications in multiple categories. 
+    <h3>Our lab's work is very inter-disciplinary and often cuts across domains. Thus, it is often hard to put our work into discrete buckets. Still, in case you are interested in learning about our work in a particular area, we have tried to categorize our work into four broad categories: Health Sensing, Activity Recognition, Privacy-aware Sensing, New Interfaces, and Situational Impairments. Many publications are in overlapping areas and you will find those publications in multiple categories. 
 
   </div>
   
@@ -126,11 +127,97 @@ redirect_from:
 
 
 
-<!-- <h2 id="{{ this_year }}-ref" style="padding-top: 15px"></h2> -->
-<!-- <hr/> -->
 
 
 {% if pub.category contains "health" %}
+<div class="row publication-badge">
+  <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
+    {% if pub.thumbnail.size > 0 %} {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %} <img src="{{ pub.thumbnail }}"/> </a>{% endif %}&nbsp;
+  </div>
+  <div class="publication-info col-md-10 col-sm-9 col-xs-12">
+    {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %}<h2>{{ pub.title }}</h2></a>
+
+    <p><span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
+      <ul>
+<!-- {% for item in pub.authors %}
+<li>{{item}}</li>
+{% endfor %} -->
+</ul>
+      <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
+      {% if pub.date <= site.time %}
+        {% if pub.pdf %}<a href="{{ site.url }}{{ pub.pdf }}" class="btn btn-default btn-xs" aria-label="Download PDF">
+          <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF
+        </a>{% endif %}
+        {% if pub.video.size > 0 %}<a href="{{ pub.video }}" class="btn btn-default btn-xs" aria-label="Video" target="_blank">
+          <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Video
+        </a> {% endif %}
+        {% if pub.citation %}<button type="button" class="btn btn-default btn-xs" aria-label="Citation" data-toggle="modal" data-target="#{{pub.title | slugify}}_citation">
+          <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citation
+        </button>{% endif %}
+        {% if pub.bibtex %}<button type="button" class="btn btn-default btn-xs" aria-label="BibTeX" data-toggle="modal" data-target="#{{pub.title | slugify}}_bibtex">
+          <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
+        </button>{% endif %}
+        {% if pub.dataset %}<a href="{{ pub.dataset }}" class="btn btn-default btn-xs" aria-label="Dataset" target="_blank">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Dataset
+        </a> {% endif %}
+        {% if pub.code %}<a href="{{ pub.code }}" class="btn btn-default btn-xs" aria-label="Code" target="_blank">
+          <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Code
+        </a> {% endif %}
+      {% endif %}
+    </p>
+  </div>
+
+
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_bibtex">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{{ pub.title }}</h4>
+      </div>
+      <div class="modal-body">
+        <code>{{ pub.bibtex }}</code>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_citation">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">{{ pub.title }}</h4>
+      </div>
+      <div class="modal-body">
+        <code>{{ pub.citation }}</code>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+{% endif %}
+{% endfor %}
+
+</div>
+
+<div role="tabpanel" class="tab-pane" id="privacy">
+    <h2>Privacy-Aware Sensing Publications</h2>
+<br><p>
+ {% for pub in sorted_pubs reversed %}
+
+
+
+
+
+{% if pub.category contains "privacy" %}
 <div class="row publication-badge">
   <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
     {% if pub.thumbnail.size > 0 %} {% if pub.date <= site.time %}<a href="{{ pub.url }}"> {% else %} <a href=""> {% endif %} <img src="{{ pub.thumbnail }}"/> </a>{% endif %}&nbsp;
