@@ -1,7 +1,7 @@
 ---
 abstract: ''
 authors:
-- rishiraj
+- adhikary
 - Maite Sadeh
 - Nipun Batra
 - goel
