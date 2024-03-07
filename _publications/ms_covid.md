@@ -26,7 +26,7 @@ conference: JMIR Mental Health 2022
 date: '2022-08-15'
 image: /images/pubs/ms_covid.png
 name: "Predicting M.S. Outcomes"
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/ms_covid.pdf
 thumbnail: /images/pubs/ms_covid_thumbnail.png
 title: "Predicting Multiple Sclerosis Outcomes during the COVID-19 Stay-at-Home Period: Observational Study Using Passively Sensed Behaviors and Digital Phenotyping."
