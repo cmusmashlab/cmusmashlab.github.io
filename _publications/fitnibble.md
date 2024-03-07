@@ -26,7 +26,7 @@ pdf: /pdfs/fitnibble.pdf
 thumbnail: '/images/pubs/FitNibble.png'
 name: 'FitNibble'
 title: 'FitNibble: A Field Study to Evaluate the Utility and Usability of Automatic Diet Monitoring in Food Journaling Using an Eyeglasses-based Wearable.'
-onhomepage: true
+onhomepage: false
 blurb: Field study of eyeglasses for monitoring diet
 code: 'https://github.com/cmusmashlab/FitNibble'
 video: 'https://youtu.be/B8CLSBrJjtk'
