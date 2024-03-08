@@ -69,7 +69,7 @@ layout: default
     <div class="row" style="padding-top: 15px">
       {% if page.video_embed %} 
 
-<div class="image col-md-8">
+<div class="image col-md-5">
         <div class="video-holder">
           {{page.video_embed}}
         </div>
@@ -77,14 +77,14 @@ layout: default
      
         {% else %}
       
-       <div class="image col-md-8">
+       <div class="image col-md-5">
         <div class="image-holder">
           <img src="{{ site.baseurl }}{{ page.image }}"/>
         </div>
       </div>
 
         {% endif %}
-      <div class="abstract col-md-4">
+      <div class="abstract col-md-6">
         {{ page.abstract }}
       </div>
     </div>
