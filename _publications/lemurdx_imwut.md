@@ -43,11 +43,11 @@ citation: 'Riku Arakawa,Karan Ahuja,Kristie Mak,Gwendolyn Thompson,Sam Shaaban,O
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)
 date: '2023-09-01'
-image: /images/pubs/lemurdx.png
+image: /images/pubs/lemurdx_imwut.png
 name: LemurDx
 onhomepage: true
 pdf: /pdfs/lemurdx_imwut.pdf
-thumbnail: /images/pubs/lemurdx.png
+thumbnail: /images/pubs/lemurdx_imwut.png
 title: 'LemurDx: Using Unconstrained Passive Sensing for an Objective Measurement
   of Hyperactivity in Children with no Parent Input'
 year: '2023'
