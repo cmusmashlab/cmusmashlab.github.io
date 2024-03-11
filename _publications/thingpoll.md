@@ -11,7 +11,7 @@ bibtex: '@inproceedings{Zhou2024,
   title={Bring Privacy To The Table: Interactive Negotiation for Privacy Settings
   of Shared Sensing Devices},
 
-  author={Haozhe Zhou, Mayank Goel, Yuvraj Agarwal, , },
+  author={Haozhe Zhou, Mayank Goel, Yuvraj Agarwal},
 
   booktitle={Proceedings of the Annual ACM Conference on Human Factors in Computing
   Systems (CHI)},
@@ -21,7 +21,7 @@ bibtex: '@inproceedings{Zhou2024,
   }'
 blurb: Interactive Negotiation for Privacy Settings of Shared Sensing Devices
 category: privacy
-citation: 'Haozhe Zhou,Mayank Goel,Yuvraj Agarwal,. 2024. Bring Privacy To The Table:
+citation: 'Haozhe Zhou,Mayank Goel,Yuvraj Agarwal. 2024. Bring Privacy To The Table:
   Interactive Negotiation for Privacy Settings of Shared Sensing Devices. Proceedings
   of the Annual ACM Conference on Human Factors in Computing Systems (CHI).'
 conference: Proceedings of the Annual ACM Conference on Human Factors in Computing
