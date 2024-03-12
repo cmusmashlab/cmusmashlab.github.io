@@ -23,6 +23,8 @@ bibtex: '@inproceedings{Kyu2024,
   }'
 blurb: Practical Electrical Impedance Tomography for Continuous Hand Pose Estimation
 category: interaction
+video: 'https://youtu.be/uDcSrOr0YPw'
+video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uDcSrOr0YPw" frameborder="0" allowfullscreen></iframe>'
 citation: 'Alexander Kyu,Hongyu Mao,Junyi Zhu,Mayank Goel,Karan Ahuja. 2024. EITPose:
   Wearable and Practical Electrical Impedance Tomography for Continuous Hand Pose
   Estimation. Proceedings of the Annual ACM Conference on Human Factors in Computing
