@@ -3,7 +3,7 @@ abstract: 'Real-time hand pose estimation has a wide range of applications spann
 '
 authors:
 - Alexander Kyu
-- Hongyu Mao
+- mao
 - Junyi Zhu
 - goel
 - ahuja

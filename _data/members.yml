@@ -57,6 +57,15 @@
   affiliation: HCII
   status: current
 
+- id: mao
+  name: Hongyu Mao
+  image: /images/members/mao.png
+  email: hongyum1219@gmail.com
+  website: http://hongymao.com
+  degree: Masters Student
+  affiliation: Computational Design
+  status: current
+
 - id: ahuja
   name: Karan Ahuja
   image: /images/members/ahuja.png
