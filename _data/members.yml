@@ -63,7 +63,7 @@
   email: hongyum1219@gmail.com
   website: http://hongymao.com
   degree: Masters Student
-  affiliation: Computational Design
+  affiliation: CD
   status: current
 
 - id: ahuja
@@ -106,7 +106,7 @@
 
 - id: adhikary
   name: Rishiraj Adhikary
-  image: /images/members/rishiraj.jpg
+  image: /images/members/rishiraj.png
   email: rishiraj.a@iitgn.ac.in
   website: https://rishi-a.github.io
   degree: Ph.D. Student
