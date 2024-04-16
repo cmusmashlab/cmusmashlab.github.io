@@ -66,6 +66,15 @@
   affiliation: CD
   status: current
 
+- id: patidar
+name: Prasoon Patidar
+image: /images/members/prasoon.png
+email: ppatida2@andrew.cmu.edu
+website: https://prasoonpatidar.com
+degree: Ph.D. Student (advised by Yuvraj Agarwal)
+affiliation: sc
+status: current
+
 - id: ahuja
   name: Karan Ahuja
   image: /images/members/ahuja.png
