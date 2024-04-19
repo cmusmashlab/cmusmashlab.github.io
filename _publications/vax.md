@@ -13,7 +13,7 @@ abstract: "The use of audio and video modalities for Human Activity Recognition 
   \ user\u2019s privacy better. We built and deployed VAX in ten participants\u2019\
   \ homes while they performed 17 common activities of daily living. "
 authors:
-- Prasoon Patidar
+- patidar
 - goel
 - Yuvraj Agarwal
 
