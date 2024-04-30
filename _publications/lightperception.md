@@ -35,7 +35,7 @@ citation: Niloofar Nikookar,Azadeh Omidfar Sawyer,Mayank Goel,Siobhan Rockcastle
   2024. Investigating the Impact of Combined Daylight and Electric Light on Human
   Perception of Indoor Spaces. Sustainability.
 conference: Sustainability
-date: '2024-05-29'
+date: '2024-05-01'
 image: /images/pubs/lightperception.png
 name: Investigating the Impact of Combined Daylight and Electric Light on Human Perception
   of Indoor Spaces
