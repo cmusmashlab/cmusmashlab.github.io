@@ -10,6 +10,9 @@
 - name: Gaetano Boriello Ph.D. Award Finalist
   people: [adhikary]
 
+- name: Center for Machine Learning and Health Fellowship
+  people: [chikersal,ramos,arakawa,zhou,patidar]
+
 - name: Snapchat Ph.D. Fellowship 
   people: [chikersal,arakawa]
 
@@ -30,9 +33,6 @@
 
 - name: Google Ph.D. Fellowship
   people: [bedri]
-
-- name: Center for Machine Learning and Health Fellowship
-  people: [chikersal,ramos,arakawa,zhou]
 
 - name: Qualcomm Innovation Fellowship
   people: [bedri]
