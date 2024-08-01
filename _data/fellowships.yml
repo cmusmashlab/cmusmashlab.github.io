@@ -1,3 +1,9 @@
+- name: Quad Fellowship
+  people: [arakawa]
+
+- name: Forbes 30 Under 30 of Asian Origin
+  people: [ahuja,arakawa]
+
 - name: SIGCHI Ph.D. Dissertation Award
   people: [ahuja]
   
