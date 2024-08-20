@@ -52,7 +52,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: '2023-1-1'
 image: /images/pubs/prism_tracker.png
 name: PrISM-Tracker
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/prism_tracker.pdf
 thumbnail: /images/pubs/prism_tracker.png
 title: 'PrISM-Tracker: A Framework for Multimodal Procedure Tracking Using Wearable
