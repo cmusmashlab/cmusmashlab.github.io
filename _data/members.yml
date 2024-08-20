@@ -10,26 +10,6 @@
 
 # Grad Students
 
-- id: bedri
-  name: Abdelkareem Bedri
-  image: /images/members/bedri.png
-  email: bedri@cmu.edu
-  website: https://sites.google.com/view/abdelkareembedri
-  degree: Ph.D. Student
-  affiliation: Apple
-  status: alumni
-  dissertation: /pdfs/bedri_dissertation.pdf
-
-- id: khurana
-  name: Rushil Khurana
-  image: /images/members/khurana.png
-  email: rushil@cmu.edu
-  website: http://rushil.fyi
-  degree: Ph.D. Student
-  affiliation: Allen Institute (AI2)
-  status: alumni
-  dissertation: /pdfs/khurana_dissertation.pdf
-
 - id: arakawa
   name: Riku Arakawa
   image: /images/members/AD395DC6-194D-4070-B017-0C920E4EF8AB.jpeg
@@ -57,15 +37,6 @@
   affiliation: HCII
   status: current
 
-- id: mao
-  name: Hongyu Mao
-  image: /images/members/mao.png
-  email: hongyum1219@gmail.com
-  website: http://hongymao.com
-  degree: Masters Student
-  affiliation: CD
-  status: current
-
 - id: patidar
   name: Prasoon Patidar
   image: /images/members/prasoon.png
@@ -74,6 +45,8 @@
   degree: Ph.D. Student (advised by Yuvraj Agarwal)
   affiliation: sc
   status: current
+
+# phd alums
 
 - id: ahuja
   name: Karan Ahuja
@@ -107,6 +80,27 @@
   status: alumni
   dissertation: /pdfs/ramos_dissertation.pdf
 
+- id: bedri
+  name: Abdelkareem Bedri
+  image: /images/members/bedri.png
+  email: bedri@cmu.edu
+  website: https://sites.google.com/view/abdelkareembedri
+  degree: Ph.D. Student
+  affiliation: Apple
+  status: alumni
+  dissertation: /pdfs/bedri_dissertation.pdf
+
+- id: khurana
+  name: Rushil Khurana
+  image: /images/members/khurana.png
+  email: rushil@cmu.edu
+  website: http://rushil.fyi
+  degree: Ph.D. Student
+  affiliation: Allen Institute (AI2)
+  status: alumni
+  dissertation: /pdfs/khurana_dissertation.pdf
+
+
 
 # Other Collaborators
 
@@ -123,6 +117,15 @@
   status: current
 
 # Past Collaborators
+
+- id: mao
+  name: Hongyu Mao
+  image: /images/members/mao.png
+  email: hongyum1219@gmail.com
+  website: http://hongymao.com
+  degree: Masters Student
+  affiliation: CD
+  status: past_collab
 
 - id: yu
   name: Catherine Tianhong Yu
