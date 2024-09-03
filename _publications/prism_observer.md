@@ -11,18 +11,15 @@ bibtex: '@inproceedings{Arakawa2024,
   author={Riku Arakawa, Hiromu Yakura, Mayank
   Goel},
 
-  booktitle={Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
-  Technologies (IMWUT)},
+  booktitle={Proceedings of User Interface Software and Technology (UIST)},
 
   year={2024}
 
   }'
 blurb: Intervention Agent to Help Users Perform Everyday Procedures Sensed using a Smartwatch
 citation: 'Riku Arakawa, Hiromu Yakura, Mayank Goel.
-  2024. PrISM-Observer: Intervention Agent to Help Users Perform Everyday Procedures Sensed using a Smartwatch. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
-  Technologies (IMWUT).'
-conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
-  Technologies (IMWUT)
+  2024. PrISM-Observer: Intervention Agent to Help Users Perform Everyday Procedures Sensed using a Smartwatch. Proceedings of User Interface Software and Technology (UIST).'
+conference: Proceedings of User Interface Software and Technology (UIST)
 date: '2024-10-8'
 image: /images/pubs/PrismObserver.png
 name: PrISM-Observer

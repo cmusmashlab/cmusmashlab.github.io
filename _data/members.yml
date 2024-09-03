@@ -37,6 +37,15 @@
   affiliation: HCII
   status: current
 
+- id: shrivastava
+  name: Ayush Shrivastava 
+  image: /images/members/ayush.jpg
+  email: shrivastavaayush@iitgn.ac.in
+  website: https://ayushshrivstava.github.io/
+  degree: Ph.D. Student
+  affiliation: IIT_Gandhinagar
+  status: current
+
 - id: patidar
   name: Prasoon Patidar
   image: /images/members/prasoon.png
