@@ -28,6 +28,15 @@
   affiliation: sc
   status: current
 
+- id: bali
+  name: Shreya Bali
+  image: /images/members/bali.jpeg
+  email: sbali@andrew.cmu.edu
+  website: https://sbali11.github.io/
+  degree: Ph.D. Student
+  affiliation: HCII
+  status: current
+
 - id: mollyn
   name: Vimal Mollyn
   image: /images/members/vimal.png
