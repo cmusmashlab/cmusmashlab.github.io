@@ -19,7 +19,7 @@ bibtex: '@inproceedings{Arakawa2024,
   }'
 blurb: Step-Aware Question Answering using LLMs Enabled by Multimodal Action and Procedure Tracking using a Smartwatch}
 citation: 'Riku Arakawa, Jill Lehman, Mayank Goel.
-  2024. PrISM-Q&A: IStep-Aware Question Answering with Large Language Models Enabled by Multimodal Procedure Tracking using a Smartwatch. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies (IMWUT),'
+  2024. PrISM-Q&A: Step-Aware Question Answering with Large Language Models Enabled by Multimodal Procedure Tracking using a Smartwatch. Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous Technologies (IMWUT),'
 conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquitous
   Technologies (IMWUT)
 date: '2024-12-31'
@@ -28,7 +28,7 @@ name: PrISM-Q&A
 onhomepage: true
 pdf: /pdfs/prism_qa.pdf
 thumbnail: /images/pubs/PrismQA.png
-title: 'PrISM-Q&A: IStep-Aware Question Answering with Large Language Models Enabled by Multimodal Procedure Tracking using a Smartwatch.'
+title: 'PrISM-Q&A: Step-Aware Question Answering with Large Language Models Enabled by Multimodal Procedure Tracking using a Smartwatch.'
 year: '2024'
 category: activity,interaction
 ---
