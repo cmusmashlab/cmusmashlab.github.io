@@ -39,7 +39,7 @@ conference: Proceedings of the Annual ACM Conference on Human Factors in Computi
 date: '2023-04-04'
 image: /images/pubs/uknit.png
 name: uKnit
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/uknit.pdf
 thumbnail: /images/pubs/uknit.png
 title: 'uKnit: A Position-Aware Reconfigurable Machine-Knitted Wearable for Gestural
