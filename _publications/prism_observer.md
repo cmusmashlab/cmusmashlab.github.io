@@ -20,10 +20,11 @@ blurb: Intervention Agent to Help Users Perform Everyday Procedures Sensed using
 citation: 'Riku Arakawa, Hiromu Yakura, Mayank Goel.
   2024. PrISM-Observer: Intervention Agent to Help Users Perform Everyday Procedures Sensed using a Smartwatch. Proceedings of User Interface Software and Technology (UIST).'
 conference: Proceedings of User Interface Software and Technology (UIST)
-date: '2024-1-9'
+date: '2024-10-10'
 image: /images/pubs/PrismObserver.png
 name: PrISM-Observer
 onhomepage: true
+video: 'https://youtu.be/4XWtT-DfBXY'
 pdf: /pdfs/prism_observer.pdf
 thumbnail: /images/pubs/PrismObserver.png
 title: 'PrISM-Observer: Intervention Agent to Help Users Perform Everyday Procedures Sensed using a Smartwatch'
