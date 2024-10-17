@@ -29,7 +29,7 @@ bibtex: '@inproceedings{Nikookar2024,
   year={2024}
 
   }'
-blurb: Investigating the impact of light on hperception of indoor spaces
+blurb: Investigating the impact of light on perception of indoor spaces
 category: misc
 citation: Niloofar Nikookar,Azadeh Omidfar Sawyer,Mayank Goel,Siobhan Rockcastle,.
   2024. Investigating the Impact of Combined Daylight and Electric Light on Human
