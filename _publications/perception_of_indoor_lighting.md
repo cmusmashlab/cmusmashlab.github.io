@@ -24,11 +24,11 @@ category: misc
 citation: 'Niloofar Nikookar, Azadeh O. Sawyer, Ankita Sinha, Riya Malhotra, Siobhan Rockcastle, Mayank Goel. 2024. Perception of Indoor Lighting: A Comparative Study in Physical and Virtual Environments. Proceedings of the 2024 Illuminating Engineering Society.'
 conference: Illuminating Engineering Society
 date: '2024-09-01'
-image: /images/pubs/vrperception.png
+image: /images/pubs/vr_perception.png
 name: 'Perception of Indoor Lighting: A Comparative Study in Physical and Virtual Environments'
 onhomepage: false
 pdf: /pdfs/PerceptionofIndoorLighting.pdf
-thumbnail: /images/pubs/vrperception.png
+thumbnail: /images/pubs/vr_perception.png
 title: 'Perception of Indoor Lighting: A Comparative Study in Physical and Virtual Environments'
 year: '2024'
 ---
