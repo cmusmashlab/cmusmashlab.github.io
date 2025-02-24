@@ -118,13 +118,6 @@
   status: alumni
   dissertation: /pdfs/khurana_dissertation.pdf
 
-
-
-# Other Collaborators
-
-
-
-
 - id: adhikary
   name: Rishiraj Adhikary
   image: /images/members/rishiraj.png
@@ -132,7 +125,14 @@
   website: https://rishi-a.github.io
   degree: Ph.D. Student
   affiliation: IIT_Gandhinagar
-  status: current
+  status: alumni
+
+# Other Collaborators
+
+
+
+
+
 
 # Past Collaborators
 
