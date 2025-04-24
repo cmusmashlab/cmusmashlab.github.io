@@ -1,4 +1,7 @@
-- name: Quad Fellowship
+- name: Heidelberg Laureate Forum Young Researcher
+  people: [ahuja,adhikary,arakawa]     
+
+- name: Quad Fellowship 
   people: [arakawa]
 
 - name: Forbes 30 Under 30 of Asian Origin
@@ -18,9 +21,6 @@
 
 - name: Masason Foundation Scholarship
   people: [arakawa]     
-
-- name: Heidelberg Laureate Forum Young Researcher
-  people: [ahuja,adhikary,arakawa]     
 
 - name: Google Faculty Research Award
   people: [goel]
