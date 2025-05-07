@@ -18,6 +18,7 @@
   degree: Ph.D. Student
   affiliation: HCII
   status: current
+  advisor: goel
 
 - id: zhou
   name: Haozhe Zhou
@@ -27,6 +28,7 @@
   degree: Ph.D. Student
   affiliation: sc
   status: current
+  advisor: goel
 
 - id: bali
   name: Shreya Bali
@@ -36,6 +38,7 @@
   degree: Ph.D. Student
   affiliation: HCII
   status: current
+  advisor: goel
 
 - id: mollyn
   name: Vimal Mollyn
@@ -45,6 +48,7 @@
   degree: Ph.D. Student (advised by Chris Harrison)
   affiliation: HCII
   status: current
+  advisor: Chris Harrison
 
 - id: shrivastava
   name: Ayush Shrivastava 
@@ -54,6 +58,7 @@
   degree: Ph.D. Student
   affiliation: IIT_Gandhinagar
   status: current
+  advisor: goel
 
 - id: patidar
   name: Prasoon Patidar
@@ -63,6 +68,7 @@
   degree: Ph.D. Student (advised by Yuvraj Agarwal)
   affiliation: sc
   status: current
+  advisor: Yuvraj Agarwal
 
 # phd alums
 
