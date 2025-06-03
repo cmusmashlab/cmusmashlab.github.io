@@ -23,7 +23,7 @@ citation: "Zongqi Xia, Prerna Chikersal, Shruthi Venkatesh, Elizabeth Walker, An
 conference: JMIR 2025
 date: '2025-06-6'
 image: /images/pubs/ms.png
-name: "Digital Phenotyping of Multiple Sclerosis Severity"
+name: "Phenotyping MS Severity"
 onhomepage: true
 pdf: /pdfs/ms.pdf
 thumbnail: /images/pubs/ms.png
