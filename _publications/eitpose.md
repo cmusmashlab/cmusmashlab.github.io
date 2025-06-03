@@ -34,7 +34,7 @@ conference: Proceedings of the Annual ACM Conference on Human Factors in Computi
 date: '2024-05-01'
 image: /images/pubs/eitpose.png
 name: EITPose
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/eitpose.pdf
 thumbnail: /images/pubs/eitpose_thumb.png
 title: 'EITPose: Wearable and Practical Electrical Impedance Tomography for Continuous
