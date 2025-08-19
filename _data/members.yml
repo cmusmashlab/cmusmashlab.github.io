@@ -70,7 +70,7 @@
   status: current
   advisor: Yuvraj Agarwal
 
-  - id: lee
+- id: lee
   name: Seungjoo Lee
   image: /images/members/lee.jpg
   email: seungjoolee@cmu.edu
@@ -80,7 +80,7 @@
   status: current
   advisor: goel
 
-  - id: zhang
+- id: zhang
   name: Siqi Zhang
   image: /images/members/zhang.jpg
   email: siqiz2@andrew.cmu.edu
