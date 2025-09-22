@@ -45,7 +45,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: '2023-09-01'
 image: /images/pubs/lemurdx_imwut.png
 name: LemurDx
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/lemurdx_imwut.pdf
 thumbnail: /images/pubs/lemurdx_imwut.png
 title: 'LemurDx: Using Unconstrained Passive Sensing for an Objective Measurement

@@ -42,7 +42,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: 2023-09-1
 image: /images/pubs/vax.png
 name: VAX
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/vax.pdf
 thumbnail: /images/pubs/vax.png
 title: 'VAX: Using Existing Video and Audio-based Activity Recognition Models to Bootstrap

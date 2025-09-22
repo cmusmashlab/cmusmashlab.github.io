@@ -41,7 +41,7 @@ conference: Proceedings of the Annual ACM Conference on Human Factors in Computi
 date: 2023-4-4
 image: /images/pubs/imuposer.png
 name: IMUPoser
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/imuposer.pdf
 thumbnail: /images/pubs/imuposer.png
 title: 'IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and Earbuds.'
