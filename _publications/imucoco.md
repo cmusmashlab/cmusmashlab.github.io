@@ -9,13 +9,13 @@ authors:
 bibtex: '@article{zhou2025imucoco,
   title={IMUCoCo: Enabling Flexible On-Body IMU Placement for Human Pose Estimation and Activity Recognition},
   author={Haozhe Zhou, Riku Arakawa, Yuvraj Agarwal, and Mayank Goel},
-  journal={UIST 2025},
+  journal={Proceedings of User Interface Software and Technology (UIST)},
   year={2025},
   publisher={ACM}
 }'
 blurb: "Flexible On-Body IMU Placement for Pose Sensing"
 citation: "Zhou, H., Arakawa, R., Agarwal, Y., & Goel, M. (2025). IMUCoCo: Enabling Flexible On-Body IMU Placement for Human Pose Estimation and Activity Recognition. UIST 2025."
-conference: UIST
+conference: Proceedings of User Interface Software and Technology (UIST)
 date: '2025-09-01'
 image: /images/pubs/imucoco.png
 name: "IMUCoCo"
