@@ -1,28 +1,28 @@
 ---
-abstract: 'Major barriers to accessible healthcare include the high cost of medical devices and limited healthcare facilities. Mobile computing technologies, such as smartphones and smart watches, include high-quality hardware, such as microphones, speakers and cameras, which can be leveraged for the design of low-cost mobile medical systems intended to be remotely applied to monitor health and disease. In this Review, we discuss low-cost and accessible hardware — in particular, mobile phones — that can be used in mobile medical systems to aid in medical diagnostics and monitoring. Specifically, we outline acoustic-based systems, vision-based systems and sensor fusion systems that allow different levels of health and disease assessment, relying on the speakers, microphones and sensors of smart mobile devices. We highlight the challenges related to the deployment of mobile medical systems in the clinical continuum, including scaling, generalizability, bias, trust and privacy. Finally, we examine clinical integration and regulatory considerations with regard to mobile medical devices as well as future applications.'
+abstract: 'IMUs are regularly used to sense human motion, recognize activities, and estimate full-body pose. 
+Users are typically required to place sensors in predefined locations that are often dictated by common wearable form factors and the machine learning training process.  Consequently, despite the increasing number of everyday devices equipped with IMUs, the limited adaptability has significantly constrained the user experience to only using a few well-explored device placements (e.g., wrist and ears). In this paper, we rethink IMU-based motion sensing by acknowledging that signals can be captured from any point on the human body. We introduce IMU over Continuous Coordinates (IMUCoCo), a novel framework that maps signals from a variable number of IMUs placed on the body surface into a unified feature space based on their spatial coordinates.  These features can be plugged into downstream models for pose estimation and activity recognition. Our evaluations demonstrate that IMUCoCo supports accurate pose estimation in a wide range of typical and atypical sensor placements. Overall,IMUCoCo supports significantly more flexible use of IMUs for motion sensing than the state-of-the-art, allowing users to place their sensors-laden devices according to their needs and preferences.  The framework also supports the ability to change device locations depending on the context and suggests placement depending on the use case.'
 authors:
-- Justin Chan
+- zhou
+- arakawa
+- Yuvraj Agarwal
 - goel
-- Shyamnath Gollakota
-- Rajalakshmi Nandakumar
-bibtex: '@article{chan2025mobile,
-  title={Mobile medical systems for equitable healthcare},
-  author={Chan, Justin and Goel, Mayank and Gollakota, Shyamnath and Nandakumar, Rajalakshmi},
-  journal={Nature Reviews Bioengineering},
-  pages={1--20},
+bibtex: '@article{zhou2025imucoco,
+  title={IMUCoCo: Enabling Flexible On-Body IMU Placement for Human Pose Estimation and Activity Recognition},
+  author={Haozhe Zhou, Riku Arakawa, Yuvraj Agarwal, and Mayank Goel},
+  journal={UIST 2025},
   year={2025},
-  publisher={Nature Publishing Group UK London}
+  publisher={ACM}
 }'
-blurb: "Mobile medical systems for equitable healthcare"
-citation: "Chan, J., Goel, M., Gollakota, S. et al. Mobile medical systems for equitable healthcare. Nat Rev Bioeng (2025). https://doi.org/10.1038/s44222-025-00330-5"
-conference: Nature Reviews Bioengineering
-date: '2025-08-01'
-image: /images/pubs/equitable_healthcare.png
-name: "Equitable Healthcare"
+blurb: "Flexible On-Body IMU Placement for Pose Sensing"
+citation: "Zhou, H., Arakawa, R., Agarwal, Y., & Goel, M. (2025). IMUCoCo: Enabling Flexible On-Body IMU Placement for Human Pose Estimation and Activity Recognition. UIST 2025."
+conference: UIST
+date: '2025-09-01'
+image: /images/pubs/imucoco.png
+name: "IMUCoCo"
 onhomepage: true
-pdf: /pdfs/equitable_healthcare.pdf
-thumbnail: /images/pubs/equitable_healthcare.png
-title: "Mobile medical systems for equitable healthcare"
+pdf: /pdfs/imucoco.pdf
+thumbnail: /images/pubs/imucoco.png
+title: "IMUCoCo: Enabling Flexible On-Body IMU Placement for Human Pose Estimation and Activity Recognition"
 year: '2025'
-category: health
+category: activity,interaction
 ---
