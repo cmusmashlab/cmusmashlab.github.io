@@ -43,6 +43,7 @@ image: /images/pubs/fish_sounds.png
 name: "Deep learning models for detecting soniferous fish"
 onhomepage: false
 thumbnail: /images/pubs/fish_sounds.png
+pdf: /pdfs/fish_sounds.pdf
 title: "Deep Learning Based Frameworks for the Detection and Classification of Soniferous Fish"
 year: '2025'
 ---
