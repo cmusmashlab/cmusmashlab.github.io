@@ -29,7 +29,7 @@ conference: Proceedings of the Annual ACM Conference on Human Factors in Computi
 date: '2024-05-01'
 image: /images/pubs/thingpoll.png
 name: ThingPoll
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/thingpoll.pdf
 thumbnail: /images/pubs/thingpoll.png
 title: 'Bring Privacy To The Table: Interactive Negotiation for Privacy Settings of
