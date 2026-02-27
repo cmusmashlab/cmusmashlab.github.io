@@ -27,7 +27,7 @@ thumbnail: /images/pubs/calmreminder.png
 pdf: /pdfs/calmreminder.pdf
 title: 'CalmReminder: A Design Probe for Parental Engagement with Children with Hyperactivity, Augmented by Real-Time Motion Sensing with a Watch'
 name: CalmReminder
-category: health
+category: health,interaction
 year: '2026'
 onhomepage: true
 ---
