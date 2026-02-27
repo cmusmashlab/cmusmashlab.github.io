@@ -24,7 +24,7 @@ conference: JMIR 2025
 date: '2025-06-01'
 image: /images/pubs/ms.png
 name: "Phenotyping MS Severity"
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/ms.pdf
 thumbnail: /images/pubs/ms.png
 title: "Longitudinal Digital Phenotyping of Multiple Sclerosis Severity Using Passively Sensed Behaviors and Ecological Momentary Assessments: Real-World Evaluation"

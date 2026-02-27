@@ -23,7 +23,7 @@ conference: Proceedings of User Interface Software and Technology (UIST)
 date: '2024-10-10'
 image: /images/pubs/PrismObserver.png
 name: PrISM-Observer
-onhomepage: true
+onhomepage: false
 video: 'https://youtu.be/4XWtT-DfBXY'
 pdf: /pdfs/prism_observer.pdf
 thumbnail: /images/pubs/PrismObserver.png

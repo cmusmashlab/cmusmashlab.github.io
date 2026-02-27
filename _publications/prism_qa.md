@@ -25,7 +25,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: '2024-12-12'
 image: /images/pubs/PrismQA.png
 name: PrISM-Q&A
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/prism_qa.pdf
 thumbnail: /images/pubs/PrismQA.png
 title: 'PrISM-Q&A: Step-Aware Question Answering with Large Language Models Enabled by Multimodal Procedure Tracking using a Smartwatch.'
