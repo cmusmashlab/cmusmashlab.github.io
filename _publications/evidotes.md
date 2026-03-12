@@ -27,4 +27,6 @@ name: Evidotes
 category: health
 year: '2026'
 onhomepage: true
+award: Honorable Mention Award
+
 ---
