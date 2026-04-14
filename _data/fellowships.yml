@@ -1,5 +1,6 @@
--name: Vaibhav Fellowship
- people: [goel]
+- name: Vaibhav Fellowship
+  people: [goel]
+
 - name: Gaetano Boriello Ph.D. Award
   people: [arakawa]
 
