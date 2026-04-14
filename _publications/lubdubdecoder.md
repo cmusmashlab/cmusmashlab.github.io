@@ -31,4 +31,5 @@ name: LubDubDecoder
 category: health
 year: '2026'
 onhomepage: true
+video: https://www.youtube.com/watch?v=_73TTL4x3Fo
 ---
