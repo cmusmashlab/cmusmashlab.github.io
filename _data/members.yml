@@ -60,15 +60,6 @@
   status: current
   advisor: goel
 
-- id: patidar
-  name: Prasoon Patidar
-  image: /images/members/prasoon.png
-  email: ppatida2@andrew.cmu.edu
-  website: https://prasoonpatidar.com
-  degree: Ph.D. Student (advised by Yuvraj Agarwal)
-  affiliation: sc
-  status: current
-  advisor: Yuvraj Agarwal
 
 - id: lee
   name: Seungjoo Lee
@@ -160,13 +151,21 @@
 
 # Past Collaborators
 
+- id: patidar
+  name: Prasoon Patidar
+  image: /images/members/prasoon.png
+  email: ppatida2@andrew.cmu.edu
+  website: https://prasoonpatidar.com
+  degree: Ph.D. Student (advised by Yuvraj Agarwal)
+  affiliation: sc
+  status: past_collab
+  advisor: Yuvraj Agarwal
+
 - id: mao
   name: Hongyu Mao
   image: /images/members/mao.png
   email: hongyum1219@gmail.com
   website: http://hongymao.com
-  degree: Masters Student
-  affiliation: CD
   status: past_collab
 
 - id: yu
