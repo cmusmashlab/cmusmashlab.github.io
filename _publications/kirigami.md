@@ -33,7 +33,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: '2024-03-03'
 image: /images/pubs/kirigami.png
 name: Kirigami
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/kirigami.pdf
 thumbnail: /images/pubs/kirigami_thumb.png
 title: 'Kirigami: Lightweight Speech Filtering for Privacy-Preserving Activity Recognition
