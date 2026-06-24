@@ -29,7 +29,7 @@ pdf: /pdfs/thermeval.pdf
 title: 'ThermEval: A Structured Benchmark for Evaluation of Vision-Language Models on Thermal Imagery'
 name: ThermEval
 year: '2026'
-onhomepage: false
+onhomepage: true
 code: https://github.com/AyushShrivstava/ThermEval_KDD
 dataset: https://www.kaggle.com/datasets/shriayush/thermeval
 ---
