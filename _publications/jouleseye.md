@@ -30,7 +30,7 @@ conference: Proceedings of the ACM on Interactive, Mobile, Wearable, and Ubiquit
 date: '2024-01-01'
 image: /images/pubs/jouleseye.png
 name: JoulesEye
-onhomepage: true
+onhomepage: false
 pdf: /pdfs/jouleseye.pdf
 video: 'https://youtu.be/5J9KqrDnj20'
 video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5J9KqrDnj20" frameborder="0" allowfullscreen></iframe>'
