@@ -154,67 +154,44 @@
 - id: patidar
   name: Prasoon Patidar
   image: /images/members/prasoon.png
-  email: ppatida2@andrew.cmu.edu
   website: https://prasoonpatidar.com
-  degree: Ph.D. Student (advised by Yuvraj Agarwal)
-  affiliation: sc
   status: past_collab
-  advisor: Yuvraj Agarwal
-
+  
 - id: mao
   name: Hongyu Mao
   image: /images/members/mao.png
-  email: hongyum1219@gmail.com
   website: http://hongymao.com
   status: past_collab
 
 - id: yu
   name: Catherine Tianhong Yu
   image: /images/members/catherine.png
-  email: tianhony@andrew.cmu.edu
   website: https://catherineyu.com
-  degree: Ph.D. Student
-  affiliation: Cornell University
   status: past_collab
 
 - id: ysi
   name: Yasha Iravantchi
   image: /images/members/iravantchi.png
-  email: yasha@yasha.xyz
   website: https://yasha.xyz/
-  degree: Ph.D. student
-  affiliation: University of Michigan
   status: past_collab
 
 - id: zac
   name: Zac Yu
   image: /images/members/zac.png
-  affiliation: Engineer at Duolingo
-  email: me@zacyu.com
   website: https://zacyu.com
   status: past_collab
 
 - id: dhruv
   name: Dhruv Verma
   image: /images/members/verma.jpeg
-  email: dhruv17046@iiitd.ac.in 
-  degree: Ph.D. Student
-  affiliation: Univ. of Toronto
   website: https://dhruv-verma.com
   status: past_collab
 
 - id: sejal
   name: Sejal Bhalla
   image: /images/members/bhalla.jpeg
-  email: sejal17100@iiitd.ac.in
-  degree: Ph.D. Student
-  affiliation: Univ. of Toronto
   status: past_collab  
-# Visiting
 
-
-
-# Alumni
 
 
 # Past masters
