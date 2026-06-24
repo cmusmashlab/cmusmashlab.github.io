@@ -23,8 +23,8 @@ blurb: A structured benchmark for evaluating vision-language models on thermal i
 citation: 'Ayush Shrivastava, Kirtan Gangani, Laksh Jain, Mayank Goel, and Nipun Batra. 2026. ThermEval: A Structured Benchmark for Evaluation of Vision-Language Models on Thermal Imagery. arXiv preprint arXiv:2602.14989. https://doi.org/10.48550/arXiv.2602.14989'
 conference: KDD 2026, The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 date: '2026-06-16'
-image: /images/pubs/thermeval.png
-thumbnail: /images/pubs/thermeval.png
+image: /images/pubs/thermeval.jpg
+thumbnail: /images/pubs/thermeval.jpg
 pdf: /pdfs/thermeval.pdf
 title: 'ThermEval: A Structured Benchmark for Evaluation of Vision-Language Models on Thermal Imagery'
 name: ThermEval
